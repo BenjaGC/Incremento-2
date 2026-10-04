@@ -1,0 +1,488 @@
+<mxfile host="Electron">
+  <diagram id="seq" name="Página-1">
+    <mxGraphModel dx="2160" dy="1029" grid="0" gridSize="10" guides="0" tooltips="0" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1700" pageHeight="2200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d0_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°45- caso de éxito" vertex="1">
+          <mxGeometry height="30" width="723" x="38" y="3" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°45— Excepción 3" vertex="1">
+          <mxGeometry height="30" width="723" x="213" y="1781" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-135" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°45— Excepción 2" vertex="1">
+          <mxGeometry height="30" width="723" x="85" y="1204" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-136" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Administrador" vertex="1">
+          <mxGeometry height="60" width="31" x="1" y="1888" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-137" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="16" y="1978" as="sourcePoint" />
+            <mxPoint x="16" y="2364.45" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-139" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="1928" as="sourcePoint" />
+            <mxPoint x="435" y="2363.96" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-141" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="966" y="1929" as="sourcePoint" />
+            <mxPoint x="966" y="2348.78" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-142" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1439" y="1886" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-143" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1523" y="1926" as="sourcePoint" />
+            <mxPoint x="1523" y="2343.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-144" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="366" width="10" x="11" y="1982" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-146" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.04;exitY=0.027;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.104;entryY=0.032;entryDx=0;entryDy=0;entryPerimeter=0;" target="wFOkH16AzG85qfpYjNFM-14" value="1. Confirma y pulsa &quot;Guardar Calendario&quot;">
+          <mxGeometry relative="1" x="0.0005" y="6" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="20.40000000000009" y="1996.3860000000004" as="sourcePoint" />
+            <mxPoint x="620.93" y="1998.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-149" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.009;entryY=0.104;entryDx=0;entryDy=0;entryPerimeter=0;" target="3BWQC0XcRVjewWSFNIE1-67" value="3. START TRANSACTION; INSERT INTO holiday_calendar ...;">
+          <mxGeometry relative="1" x="-0.0065" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="972" y="2024" as="sourcePoint" />
+            <mxPoint x="1676.7799999999997" y="2024.156" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-150" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="246" width="10" x="961" y="1978" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-20" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Administrador" vertex="1">
+          <mxGeometry height="60" width="30" x="30" y="849" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-21" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="939" as="sourcePoint" />
+            <mxPoint x="45.79000000000002" y="1124.57" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-23" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="900" as="sourcePoint" />
+            <mxPoint x="690" y="1123.05" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_CalendarioController" vertex="1">
+          <mxGeometry height="40" width="143" x="1058" y="859" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-25" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1141" y="899" as="sourcePoint" />
+            <mxPoint x="1141" y="1139.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1207" y="859" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-27" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="899" as="sourcePoint" />
+            <mxPoint x="1290" y="1139.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="172" width="10" x="40" y="943" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="169" width="10" x="686" y="942" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-30" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.072;entryY=0.084;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-29" value="1. Hace clic en fecha duplicada (ej. &quot;18/09/2026&quot;) o fecha pasada en el almanaque">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="50.39999999999998" y="958.8499999999999" as="sourcePoint" />
+            <mxPoint x="503.12" y="956.22" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-31" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-29" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.04;exitY=0.968;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.075;entryY=0.953;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-28" value="4. Despliega aviso en tooltip/toast: &quot;La fecha seleccionada ya está configurada como día inhábil o corresponde a un día pasado&quot;">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="507.4699999999998" y="1105.5149999999999" as="sourcePoint" />
+            <mxPoint x="49" y="1105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-32" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="3. Cancela la selección, desmarca la celda y mantiene inactivo el botón de guardado">
+          <mxGeometry relative="1" x="-0.623" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="747" y="1050" />
+              <mxPoint x="747" y="1072" />
+            </Array>
+            <mxPoint x="697" y="1050" as="sourcePoint" />
+            <mxPoint x="697" y="1072" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-33" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="2. Evalúa regla en Alpine.js: isAlreadyHoliday(date) || date &amp;lt; currentDate (true)">
+          <mxGeometry relative="1" x="-0.623" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="747" y="985" />
+              <mxPoint x="747" y="1007" />
+            </Array>
+            <mxPoint x="697" y="985" as="sourcePoint" />
+            <mxPoint x="697" y="1007" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-54" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Administrador" vertex="1">
+          <mxGeometry height="60" width="30" x="-104" y="153" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-55" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-89" y="243" as="sourcePoint" />
+            <mxPoint x="-88.21" y="729.97" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_CalendarioOperativo" vertex="1">
+          <mxGeometry height="40" width="159" x="164" y="166" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-57" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="242" y="206" as="sourcePoint" />
+            <mxPoint x="242.90999999999997" y="726.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_CalendarioController" vertex="1">
+          <mxGeometry height="40" width="152" x="642" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-59" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="716" y="210" as="sourcePoint" />
+            <mxPoint x="716" y="722.21" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1173" y="169" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-61" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1257" y="209" as="sourcePoint" />
+            <mxPoint x="1257" y="722.6258272879464" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="463" width="10" x="-94" y="247" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="445" width="10" x="238" y="248" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-64" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.054;entryY=0.061;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.001;exitY=0.053;exitDx=0;exitDy=0;exitPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-63" value="1. Accede a &quot;Calendario Operativo&quot;, selecciona fechas&amp;nbsp;&lt;div&gt;(ej. &quot;18/09/2026&quot;, &quot;19/09/2026&quot;) y marca &quot;Feriado o Inhábil&quot;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-83.99999999999979" y="275.0010000000001" as="sourcePoint" />
+            <mxPoint x="234.45000000000005" y="275.19499999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-65" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-63" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.097;exitY=0.973;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.884;entryY=0.947;entryDx=0;entryDy=0;entryPerimeter=0;" value="13. Despliega confirmación: &quot;Calendario actualizado y&amp;nbsp;&lt;div&gt;cronómetros de tickets recalculados con éxito&quot;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="336.96999999999997" y="680.996" as="sourcePoint" />
+            <mxPoint x="-85.99999999999986" y="681.8290000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-67" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.984;exitY=0.156;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.026;entryY=0.04;entryDx=0;entryDy=0;entryPerimeter=0;" value="4. INSERT INTO holiday_calendar (holiday_date, description, is_active, created_at) VALUES&amp;nbsp;&lt;div&gt;(&#39;2026-09-18&#39;, &#39;Feriado Nacional&#39;, 1, NOW()), (&#39;2026-09-19&#39;, &#39;Feriado Nacional&#39;, 1, NOW())&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0009" y="7" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="720.8400000000001" y="371.86799999999994" as="sourcePoint" />
+            <mxPoint x="1251.7399999999998" y="372.03999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-68" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.124;exitY=0.137;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.984;entryY=0.219;entryDx=0;entryDy=0;entryPerimeter=0;" value="5. Retorna { affectedRows: 2 }">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1249.7600000000002" y="406.087" as="sourcePoint" />
+            <mxPoint x="719.8400000000001" y="402.90200000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="310" width="10" x="711" y="309" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="242" width="10" x="1252" y="358" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-74" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_CalendarioOperativo" vertex="1">
+          <mxGeometry height="40" width="132" x="625" y="859" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-96" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_CalendarioOperativo" vertex="1">
+          <mxGeometry height="40" width="132" x="371" y="1888" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-101" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.016;entryY=0.042;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.924;exitY=0.176;exitDx=0;exitDy=0;exitPerimeter=0;" value="3. POST /api/configuracion/calendario/feriados { holidays: [{ date: &#39;2026-09-18&#39;, description:&amp;nbsp;&lt;div&gt;&#39;Feriado Nacional&#39; }, { date: &#39;2026-09-19&#39;, description: &#39;Feriado Nacional&#39; }] }&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="246.23999999999978" y="326.32000000000016" as="sourcePoint" />
+            <mxPoint x="709.8400000000001" y="325.92599999999993" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-107" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Administrador" vertex="1">
+          <mxGeometry height="60" width="30" x="59" y="1315" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-108" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="74" y="1405" as="sourcePoint" />
+            <mxPoint x="74.79" y="1652.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-109" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="656" y="1367" as="sourcePoint" />
+            <mxPoint x="657.2" y="1692.57" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-114" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="226" width="10" x="69" y="1409" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-115" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="244" width="10" x="652" y="1409" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-116" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.023;entryY=0.057;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-115" value="1. Pulsa &quot;Guardar Calendario&quot; con las fechas seleccionadas">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="79.40000000000009" y="1424.85" as="sourcePoint" />
+            <mxPoint x="613.42" y="1422.85" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-15" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1.062;exitY=0.336;exitDx=0;exitDy=0;exitPerimeter=0;" value="6. SELECT ticket_id, max_resolution_date FROM ticket WHERE status IN&amp;nbsp;&lt;div&gt;(&#39;ABIERTO&#39;, &#39;EN_PROCESO&#39;) AND max_resolution_date &amp;gt;= &#39;2026-09-18 00:00:00&#39;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="722.6200000000003" y="444.40800000000013" as="sourcePoint" />
+            <mxPoint x="1253" y="445.7500000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-16" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.048;exitY=0.344;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.883;entryY=0.464;entryDx=0;entryDy=0;entryPerimeter=0;" value="7. Retorna listado de tickets activos cruzados por los días inhábiles">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1250.5200000000004" y="478.74400000000014" as="sourcePoint" />
+            <mxPoint x="718.8300000000004" y="478.46200000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-23" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.085;exitY=0.897;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.023;entryY=0.575;entryDx=0;entryDy=0;entryPerimeter=0;" value="9. UPDATE ticket SET max_resolution_date =&amp;nbsp;&lt;div&gt;recalculated_date, updated_at = NOW() WHERE ticket_id IN (...)&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="720.8499999999999" y="558.3859999999999" as="sourcePoint" />
+            <mxPoint x="1250.7700000000004" y="559.825" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-39" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.042;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" target="3BWQC0XcRVjewWSFNIE1-50" value="2. POST /api/configuracion/calendario/feriados { holidays: [{ date: &#39;2026-09-18&#39;, description: &#39;Fiestas Patrias&#39; }] }">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="661.0000000000001" y="1453.85" as="sourcePoint" />
+            <mxPoint x="1310.5899999999997" y="1450.514" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_CalendarioController" vertex="1">
+          <mxGeometry height="40" width="147" x="1150" y="1324" as="geometry" />
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-41" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1223" y="1364" as="sourcePoint" />
+            <mxPoint x="1222.11" y="1655.48" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1625" y="1331" as="geometry" />
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-43" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1709" y="1371" as="sourcePoint" />
+            <mxPoint x="1709" y="1661.99" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="195" width="10" x="1218" y="1443" as="geometry" />
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="137" width="10" x="1704" y="1446" as="geometry" />
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-59" edge="1" parent="1" source="3BWQC0XcRVjewWSFNIE1-50" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.033;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.002;exitY=0.529;exitDx=0;exitDy=0;exitPerimeter=0;" value="6. 409 Conflict { success: false, error: &quot;La fecha 2026-09-18 ya se encuentra registrada en la base de datos&quot; }">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1302.13" y="1546" as="sourcePoint" />
+            <mxPoint x="662.9999999999999" y="1548.8799999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_CalendarioOperativo" vertex="1">
+          <mxGeometry height="40" width="132" x="591" y="1327" as="geometry" />
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-67" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="194" width="10" x="1518" y="2004" as="geometry" />
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-1" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.001;exitY=0.053;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.084;entryY=0.13;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-63" value="2. Pulsa botón &quot;Guardar Calendario&quot;">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-83" y="305" as="sourcePoint" />
+            <mxPoint x="330.79" y="306" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-2" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="8. Recalcula cronómetros: adiciona las 48h hábiles de prórroga al max_resolution_date de cada ticket">
+          <mxGeometry relative="1" x="-0.623" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="771" y="506" />
+              <mxPoint x="771" y="528" />
+            </Array>
+            <mxPoint x="721" y="506" as="sourcePoint" />
+            <mxPoint x="721" y="528" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-3" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.023;exitY=0.665;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.883;entryY=0.464;entryDx=0;entryDy=0;entryPerimeter=0;" value="10. Confirma actualización de plazos en tickets activos">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1250.7700000000004" y="591.415" as="sourcePoint" />
+            <mxPoint x="719.0000000000003" y="591.462" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-4" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.048;exitY=0.759;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.931;entryY=0.819;entryDx=0;entryDy=0;entryPerimeter=0;" value="11. 200 OK { success: true, addedHolidays: 2, ticketsRecalculated: 14 }">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="709.52" y="612.6000000000001" as="sourcePoint" />
+            <mxPoint x="246.30999999999995" y="612.4549999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-5" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="12. Actualiza reactivamente la cuadrícula del almanaque&amp;nbsp;&lt;div&gt;en Alpine.js con las fechas bloqueadas&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0134" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="298" y="641" />
+              <mxPoint x="298" y="663" />
+            </Array>
+            <mxPoint x="248" y="641" as="sourcePoint" />
+            <mxPoint x="248" y="663" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_CalendarioController" vertex="1">
+          <mxGeometry height="40" width="147" x="892" y="1888" as="geometry" />
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-9" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.112;entryY=0.11;entryDx=0;entryDy=0;entryPerimeter=0;" target="3BWQC0XcRVjewWSFNIE1-51" value="3. INSERT INTO holiday_calendar (holiday_date, description, is_active, created_at)&lt;div&gt;&amp;nbsp;VALUES (&#39;2026-09-18&#39;, &#39;Fiestas Patrias&#39;, 1, NOW())&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1229" y="1458.34" as="sourcePoint" />
+            <mxPoint x="1700.14" y="1460.42" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-10" edge="1" parent="1" source="3BWQC0XcRVjewWSFNIE1-51" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.081;entryY=0.216;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.141;exitY=0.293;exitDx=0;exitDy=0;exitPerimeter=0;" target="3BWQC0XcRVjewWSFNIE1-50" value="4. Error: ER_DUP_ENTRY &#39;2026-09-18&#39; for key &#39;holiday_calendar.unique_date&#39;">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1689.61" y="1480.53" as="sourcePoint" />
+            <mxPoint x="1227" y="1479.02" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-11" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="5. Captura excepción (.catch), cancela recálculo de cronómetros y estructura respuesta de error">
+          <mxGeometry relative="1" x="-0.9552" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1278" y="1510" />
+              <mxPoint x="1278" y="1532" />
+            </Array>
+            <mxPoint x="1228" y="1510" as="sourcePoint" />
+            <mxPoint x="1228" y="1532" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-12" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="7. Oculta estado de carga y mantiene seleccionadas las fechas para corrección manual">
+          <mxGeometry relative="1" x="-0.9552" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="713" y="1578" />
+              <mxPoint x="713" y="1600" />
+            </Array>
+            <mxPoint x="663" y="1578" as="sourcePoint" />
+            <mxPoint x="663" y="1600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-13" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-115" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.03;exitY=0.883;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.164;entryY=0.962;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-114" value="8. Despliega alerta: &quot;Error al guardar: una o más fechas ya se encuentran registradas en el calendario del sistema&quot;">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="616.0200000000004" y="1623" as="sourcePoint" />
+            <mxPoint x="86.27" y="1625.88" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="319" width="10" x="430" y="1988" as="geometry" />
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-15" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.043;entryY=0.148;entryDx=0;entryDy=0;entryPerimeter=0;" target="c90vbPPHIPy1liW-Zpxw-150" value="2. POST /api/configuracion/calendario/feriados { holidays: [{ date: &#39;2026-09-18&#39; }, { date: &#39;2026-09-19&#39; }] }">
+          <mxGeometry relative="1" x="-0.0065" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="439" y="2013" as="sourcePoint" />
+            <mxPoint x="959.2200000000003" y="2014.2999999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-16" edge="1" parent="1" source="3BWQC0XcRVjewWSFNIE1-67" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.103;entryY=0.9;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.052;exitY=0.277;exitDx=0;exitDy=0;exitPerimeter=0;" value="4. Inserción de feriados confirmada temporalmente en transacción">
+          <mxGeometry relative="1" x="-0.0001" y="-1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1677" y="2053.9999999999995" as="sourcePoint" />
+            <mxPoint x="972" y="2058" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-17" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.005;entryY=0.475;entryDx=0;entryDy=0;entryPerimeter=0;" target="3BWQC0XcRVjewWSFNIE1-67" value="5. UPDATE ticket SET max_resolution_date = recalculated_date WHERE status IN&amp;nbsp;&lt;div&gt;(&#39;ABIERTO&#39;, &#39;EN_PROCESO&#39;) AND max_resolution_date &amp;gt;= &#39;2026-09-18&#39;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0065" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="972" y="2096" as="sourcePoint" />
+            <mxPoint x="1676.7799999999997" y="2096.156" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-18" edge="1" parent="1" source="3BWQC0XcRVjewWSFNIE1-67" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.103;entryY=0.9;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.002;exitY=0.618;exitDx=0;exitDy=0;exitPerimeter=0;" value="6. Error: ER_LOCK_WAIT_TIMEOUT (Tiempo de espera de bloqueo excedido durante el recálculo masivo)">
+          <mxGeometry relative="1" x="-0.0001" y="-1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1676" y="2124" as="sourcePoint" />
+            <mxPoint x="971" y="2124" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-19" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.002;entryY=0.816;entryDx=0;entryDy=0;entryPerimeter=0;" target="3BWQC0XcRVjewWSFNIE1-67" value="7. ROLLBACK; INSERT INTO system_error_log (scope, message, created_at) VALUES&amp;nbsp;&lt;div&gt;(&#39;RECALCULATE_SLA&#39;, &#39;Fallo al desplazar tiempos por feriado&#39;, NOW());&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0065" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="971" y="2162" as="sourcePoint" />
+            <mxPoint x="1675.7799999999997" y="2162.156" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-20" edge="1" parent="1" source="3BWQC0XcRVjewWSFNIE1-67" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.103;entryY=0.9;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.094;exitY=0.958;exitDx=0;exitDy=0;exitPerimeter=0;" value="8. Confirma reversión de cambios y persistencia del registro de error">
+          <mxGeometry relative="1" x="-0.0001" y="-1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1663.58" y="2191" as="sourcePoint" />
+            <mxPoint x="971" y="2195" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-22" edge="1" parent="1" source="c90vbPPHIPy1liW-Zpxw-150" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.257;entryY=0.712;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.008;exitY=0.971;exitDx=0;exitDy=0;exitPerimeter=0;" target="wFOkH16AzG85qfpYjNFM-14" value="9. 500 Internal Server Error { success: false, error: &quot;Feriados no aplicados: error&amp;nbsp;&lt;div&gt;transaccional al recalcular los cronómetros de tickets activos&quot; }&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0001" y="-1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="958.75" y="2216.7999999999997" as="sourcePoint" />
+            <mxPoint x="441.75" y="2213.498" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-23" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="10. Captura excepción, desbloquea controles y activa indicador de advertencia">
+          <mxGeometry relative="1" x="-0.7185" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="489" y="2247" />
+              <mxPoint x="489" y="2269" />
+            </Array>
+            <mxPoint x="439" y="2247" as="sourcePoint" />
+            <mxPoint x="439" y="2269" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-25" edge="1" parent="1" source="wFOkH16AzG85qfpYjNFM-14" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.053;exitY=0.978;exitDx=0;exitDy=0;entryX=1.175;entryY=0.826;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" value="11. Despliega alerta: &quot;No se pudieron actualizar los feriados debido a un&amp;nbsp;&lt;div&gt;conflicto al recalcular los plazos de los tickets en curso. Intente nuevamente.&quot;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0001" y="-1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="651.25" y="2298.9999999999995" as="sourcePoint" />
+            <mxPoint x="21" y="2301.498" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q1U48XeUNQ2L6yPFTEZu-1" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 13px; font-style: italic; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Caso de Uso N°45— Excepción 1&lt;/span&gt;" vertex="1">
+          <mxGeometry height="38" width="223" x="559.7058823529414" y="803.6470588235295" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

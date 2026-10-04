@@ -1,0 +1,463 @@
+<mxfile host="Electron">
+  <diagram id="seq" name="Página-1">
+    <mxGraphModel dx="2537" dy="1250" grid="0" gridSize="10" guides="0" tooltips="0" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1700" pageHeight="2200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d0_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°52- caso de éxito" vertex="1">
+          <mxGeometry height="30" width="723" x="38" y="3" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°52— Excepción 3" vertex="1">
+          <mxGeometry height="30" width="723" x="213" y="1781" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-135" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°52— Excepción 2" vertex="1">
+          <mxGeometry height="30" width="723" x="85" y="1204" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-136" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Administrador" vertex="1">
+          <mxGeometry height="60" width="31" x="1" y="1888" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-137" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="16" y="1978" as="sourcePoint" />
+            <mxPoint x="16" y="2263.65" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-139" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="1927" as="sourcePoint" />
+            <mxPoint x="535" y="2252.28" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-141" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1066" y="1928" as="sourcePoint" />
+            <mxPoint x="1066" y="2255.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-142" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1264" y="1886" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-143" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1348" y="1926" as="sourcePoint" />
+            <mxPoint x="1348" y="2255.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-144" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="264" width="10" x="11" y="1982" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-146" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.04;exitY=0.027;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.053;entryY=0.041;entryDx=0;entryDy=0;entryPerimeter=0;" target="wFOkH16AzG85qfpYjNFM-14" value="1. Inicia requerimiento de interoperabilidad: validateExternalMedicalData({ ticketId: 2115, patientRun: &#39;12345678-9&#39; })">
+          <mxGeometry relative="1" x="0.0005" y="6" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="19.40000000000009" y="1996.3860000000004" as="sourcePoint" />
+            <mxPoint x="527.96" y="1997.208" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-150" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="44" width="10" x="1061" y="2004" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-20" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Administrador" vertex="1">
+          <mxGeometry height="60" width="30" x="30" y="849" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-21" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="939" as="sourcePoint" />
+            <mxPoint x="45.79" y="1164.45" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-23" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="900" as="sourcePoint" />
+            <mxPoint x="690" y="1148.91" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-25" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1215" y="899" as="sourcePoint" />
+            <mxPoint x="1213.41" y="1213.98" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1669" y="858" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-27" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1752" y="898" as="sourcePoint" />
+            <mxPoint x="1752" y="1203.65" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="207" width="10" x="40" y="943" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="198" width="10" x="686" y="942" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-30" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.072;entryY=0.084;entryDx=0;entryDy=0;entryPerimeter=0;" value="1. Digita datos de nuevo repuesto con SKU existente (ej. &quot;SKU-MEM-DDR4-8G&quot;) y pulsa &quot;Crear Repuesto&quot;">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="49.39999999999998" y="958.8499999999999" as="sourcePoint" />
+            <mxPoint x="684.2800000000002" y="956.1960000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-54" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Administrador" vertex="1">
+          <mxGeometry height="60" width="30" x="-104" y="153" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-55" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-89" y="243" as="sourcePoint" />
+            <mxPoint x="-88.21" y="590.16" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_InventarioRepuestos" vertex="1">
+          <mxGeometry height="40" width="159" x="309" y="169" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-57" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="387" y="209" as="sourcePoint" />
+            <mxPoint x="387.91" y="591.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_InventarioController" vertex="1">
+          <mxGeometry height="40" width="152" x="946" y="169" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-59" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1019" y="210" as="sourcePoint" />
+            <mxPoint x="1019" y="590.52" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1678" y="167" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-61" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1762" y="207" as="sourcePoint" />
+            <mxPoint x="1762" y="594.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="322" width="10" x="-94" y="247" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="307" width="10" x="383" y="251" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-64" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.053;entryY=0.086;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.005;exitY=0.113;exitDx=0;exitDy=0;exitPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-63" value="1. Ingresa a &quot;Inventario&quot;, selecciona repuesto (ID: 34), digita cantidad&lt;div&gt;(+10) y número de factura (&quot;FAC-88412&quot;)&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-84.94999999999982" y="278.30099999999993" as="sourcePoint" />
+            <mxPoint x="306.69999999999936" y="277.19999999999993" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="168" width="10" x="1014" y="319" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="116" width="10" x="1757" y="353" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-107" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Administrador" vertex="1">
+          <mxGeometry height="60" width="30" x="59" y="1315" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-108" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="74" y="1405" as="sourcePoint" />
+            <mxPoint x="74.79" y="1589.4" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-109" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="656" y="1367" as="sourcePoint" />
+            <mxPoint x="657.2" y="1593.19" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-114" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="166" width="10" x="69" y="1409" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-115" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="166" width="10" x="652" y="1409" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-116" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.023;entryY=0.057;entryDx=0;entryDy=0;entryPerimeter=0;" value="1. Digita cantidad inválida (0 o negativa) o deja el número de factura vacío y presiona &quot;Actualizar Stock&quot;">
+          <mxGeometry relative="1" x="-0.0047" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="78.40000000000009" y="1424.85" as="sourcePoint" />
+            <mxPoint x="650.77" y="1422.9080000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-41" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1223" y="1364" as="sourcePoint" />
+            <mxPoint x="1222.11" y="1579.55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1562" y="1318" as="geometry" />
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-43" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1646" y="1358" as="sourcePoint" />
+            <mxPoint x="1646" y="1582.59" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="82" width="10" x="1218" y="1433" as="geometry" />
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-67" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="84" width="10" x="1343" y="2114" as="geometry" />
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-9" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.23;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" value="2. POST /api/inventario/movimientos { partId: 34, quantity: 0, invoiceNumber: &#39;&#39; }">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="662" y="1442.87" as="sourcePoint" />
+            <mxPoint x="1218.3000000000002" y="1439.995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="251" width="10" x="530" y="1987" as="geometry" />
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-15" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.043;entryY=0.148;entryDx=0;entryDy=0;entryPerimeter=0;" value="2. POST [https://api.imer.cl/v1/clinical/validate](https://api.imer.cl/v1/clinical/validate) { run: &#39;12345678-9&#39; }">
+          <mxGeometry relative="1" x="-0.0057" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="538" y="2012" as="sourcePoint" />
+            <mxPoint x="1059.5700000000002" y="2013.2600000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-23" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="7. Captura excepción (.catch), escribe traza de rescate en log local de contingencia (stderr)">
+          <mxGeometry relative="1" x="-0.7185" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="592" y="2183" />
+              <mxPoint x="592" y="2205" />
+            </Array>
+            <mxPoint x="542" y="2183" as="sourcePoint" />
+            <mxPoint x="542" y="2205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-25" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.053;exitY=0.978;exitDx=0;exitDy=0;entryX=1.175;entryY=0.826;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" value="8. Retorna { success: false, error: &quot;AUDIT_LOG_PERSISTENCE_FAILED&quot;, detail: &quot;Validación externa&amp;nbsp;&lt;div&gt;completada pero fallo el guardado de la auditoría regulatoria&quot; }&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0001" y="-1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="528.4700000000003" y="2229.002" as="sourcePoint" />
+            <mxPoint x="20" y="2231.518" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-27" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.001;exitY=0.053;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.011;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-71" value="3. POST /api/inventario/movimientos { partId: 34, type: &#39;INGRESO_COMPRA&#39;, quantity: 10, invoiceNumber: &#39;FAC-88412&#39; }">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="394.0000000000002" y="337.0010000000001" as="sourcePoint" />
+            <mxPoint x="852.35" y="338.68" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-30" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-71" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.109;exitY=0.288;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.276;entryY=0.098;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-72" value="4. START TRANSACTION; INSERT INTO inventory_movement (spare_part_id, movement_type, quantity, invoice_number, user_id, created_at)&lt;div&gt;&amp;nbsp;VALUES (34, &#39;INGRESO_COMPRA&#39;, 10, &#39;FAC-88412&#39;, 1, NOW());&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1024.9999999999995" y="357.9999999999999" as="sourcePoint" />
+            <mxPoint x="1831.75" y="358.26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="212" width="10" x="1210" y="965" as="geometry" />
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-35" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.04;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.041;exitY=0.379;exitDx=0;exitDy=0;exitPerimeter=0;" value="2. POST /api/inventario/repuestos&amp;nbsp;&lt;div&gt;{ sku: &#39;SKU-MEM-DDR4-8G&#39;, name: &#39;Memoria RAM 8GB DDR4&#39;, category: &#39;HARDWARE&#39; }&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0025" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="697.9999999999999" y="973.0009999999997" as="sourcePoint" />
+            <mxPoint x="1211.1899999999998" y="972" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="55" width="10" x="1747" y="963" as="geometry" />
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-45" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-29" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.166;entryY=0.947;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.066;exitY=0.982;exitDx=0;exitDy=0;exitPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-28" value="8. Despliega alerta: &quot;Error: El SKU &#39;SKU-MEM-DDR4-8G&#39; ya existe en el sistema. Ingrese un código único.&quot;">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="679.28" y="1136.06" as="sourcePoint" />
+            <mxPoint x="57.37" y="1138.38" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-51" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.103;entryY=0.9;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" value="3. 200 OK { valid: true, medicalRecordId: &#39;REC-9988&#39; }">
+          <mxGeometry relative="1" x="-0.0001" y="-1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1060" y="2038.25" as="sourcePoint" />
+            <mxPoint x="537" y="2040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-52" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="4. Registra latencia (110ms) y estructura registro para auditoría">
+          <mxGeometry relative="1" x="-0.7185" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="591" y="2067" />
+              <mxPoint x="591" y="2089" />
+            </Array>
+            <mxPoint x="541" y="2067" as="sourcePoint" />
+            <mxPoint x="541" y="2089" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-53" edge="1" parent="1" source="wFOkH16AzG85qfpYjNFM-14" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.016;entryY=0.051;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.9;exitY=0.537;exitDx=0;exitDy=0;exitPerimeter=0;" target="3BWQC0XcRVjewWSFNIE1-67" value="5. INSERT INTO integration_audit_log (system_target, endpoint, method, http_status, latency_ms, response_summary, created_at)&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;VALUES&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;(&#39;IMER&#39;, &#39;/v1/clinical/validate&#39;, &#39;POST&#39;, 200, 110, &#39;VALID_RECORD&#39;, NOW())&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0057" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="539" y="2116" as="sourcePoint" />
+            <mxPoint x="1613.09" y="2117.26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-56" edge="1" parent="1" source="3BWQC0XcRVjewWSFNIE1-67" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.287;entryY=0.53;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.101;exitY=0.431;exitDx=0;exitDy=0;exitPerimeter=0;" value="6. Error: PROTOCOL_CONNECTION_LOST / ER_OUT_OF_RESOURCES (Fallo al escribir en base de datos)">
+          <mxGeometry relative="1" x="-0.0001" y="-1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1340.2399999999998" y="2150.624" as="sourcePoint" />
+            <mxPoint x="539.9999999999999" y="2156.07" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-1" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.005;exitY=0.113;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.053;entryY=0.208;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-63" value="2. Pulsa &quot;Actualizar Stock&quot;">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-82" y="315" as="sourcePoint" />
+            <mxPoint x="306.43" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-6" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-72" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.014;exitY=0.323;exitDx=0;exitDy=0;exitPerimeter=0;" value="5. Confirma inserción de movimiento en bitácora { movementId: 512 }">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1832.4800000000005" y="391.48800000000006" as="sourcePoint" />
+            <mxPoint x="1028.52" y="394.4" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-7" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.119;exitY=0.79;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.204;entryY=0.629;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-72" value="6. UPDATE spare_part SET stock_quantity = stock_quantity + 10, updated_at = NOW() WHERE id = 34; COMMIT;">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1024.9999999999995" y="430.9999999999999" as="sourcePoint" />
+            <mxPoint x="1827.06" y="427.01" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-8" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-72" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.234;entryY=0.377;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.014;exitY=0.919;exitDx=0;exitDy=0;exitPerimeter=0;" value="7. Retorna { affectedRows: 1, currentStock: 25 }">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1832" y="460.5" as="sourcePoint" />
+            <mxPoint x="1023" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-14" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="9. Actualiza reactivamente el contador de stock en la tabla de repuestos (Alpine.js)">
+          <mxGeometry relative="1" x="-0.623" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="444" y="512" />
+              <mxPoint x="444" y="534" />
+            </Array>
+            <mxPoint x="394" y="512" as="sourcePoint" />
+            <mxPoint x="394" y="534" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-15" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-71" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.997;entryY=0.86;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.042;exitY=0.967;exitDx=0;exitDy=0;exitPerimeter=0;" value="8. 200 OK { success: true, partId: 34, newStock: 25, message: &quot;Existencias consolidadas exitosamente&quot; }">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="852.25" y="483.52" as="sourcePoint" />
+            <mxPoint x="393.9699999999998" y="484.05999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-16" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-63" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.997;entryY=0.86;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.084;exitY=0.962;exitDx=0;exitDy=0;exitPerimeter=0;" value="10. Despliega notificación: &quot;Stock consolidado: 25 unidades disponibles para repuesto #34&quot;">
+          <mxGeometry relative="1" x="0.0074" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="305.72" y="546.21" as="sourcePoint" />
+            <mxPoint x="-84.00000000000023" y="546.2099999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_InventarioRepuestos" vertex="1">
+          <mxGeometry height="40" width="159" x="612" y="856" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_InventarioRepuestos" vertex="1">
+          <mxGeometry height="40" width="159" x="576" y="1326" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_InventarioRepuestos" vertex="1">
+          <mxGeometry height="40" width="159" x="457" y="1888" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_InventarioController" vertex="1">
+          <mxGeometry height="40" width="152" x="1141" y="856" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_InventarioController" vertex="1">
+          <mxGeometry height="40" width="152" x="1148" y="1318" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_InventarioController" vertex="1">
+          <mxGeometry height="40" width="152" x="989" y="1887" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-27" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1.041;exitY=0.379;exitDx=0;exitDy=0;exitPerimeter=0;" target="wFOkH16AzG85qfpYjNFM-37" value="3. SELECT id FROM spare_part WHERE sku = &#39;SKU-MEM-DDR4-8G&#39; LIMIT 1">
+          <mxGeometry relative="1" x="0.0024" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1220" y="980.0009999999997" as="sourcePoint" />
+            <mxPoint x="1733.1899999999998" y="979" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-28" edge="1" parent="1" source="wFOkH16AzG85qfpYjNFM-37" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.028;entryY=0.197;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.097;exitY=0.694;exitDx=0;exitDy=0;exitPerimeter=0;" target="wFOkH16AzG85qfpYjNFM-34" value="4. Retorna { id: 18 } (Coincidencia encontrada: SKU ya en uso)">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1733.21" y="1003.64" as="sourcePoint" />
+            <mxPoint x="1220" y="1003.64" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-29" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="5. Bloquea creación para evitar registros duplicados en catálogo">
+          <mxGeometry relative="1" x="-0.623" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1271" y="1029" />
+              <mxPoint x="1271" y="1051" />
+            </Array>
+            <mxPoint x="1221" y="1029" as="sourcePoint" />
+            <mxPoint x="1221" y="1051" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-30" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.075;entryY=0.953;entryDx=0;entryDy=0;entryPerimeter=0;" value="6. 409 Conflict { success: false, error: &quot;El código SKU&amp;nbsp;&lt;div&gt;ingresado ya se encuentra registrado en el inventario&quot; }&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0024" y="-4" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1209.21" y="1071" as="sourcePoint" />
+            <mxPoint x="696" y="1071" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-31" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="7. Resalta el campo SKU en color rojo y reactiva el formulario (Alpine.js)">
+          <mxGeometry relative="1" x="-0.623" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="746" y="1094" />
+              <mxPoint x="746" y="1116" />
+            </Array>
+            <mxPoint x="696" y="1094" as="sourcePoint" />
+            <mxPoint x="696" y="1116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-33" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="3. Valida payload en middleware: quantity &amp;lt;= 0 || invoiceNumber.length === 0 (true)">
+          <mxGeometry relative="1" x="-0.9552" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1279" y="1455" />
+              <mxPoint x="1279" y="1477" />
+            </Array>
+            <mxPoint x="1229" y="1455" as="sourcePoint" />
+            <mxPoint x="1229" y="1477" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-34" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.123;entryY=0.388;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.271;exitY=0.604;exitDx=0;exitDy=0;exitPerimeter=0;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;4. 422 Unprocessable Entity { success: false, errors: [{ field: &#39;quantity&#39;, msg: &#39;Debe ingresar una cantidad mayor a 0&#39; },&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&amp;nbsp;{ field: &#39;invoiceNumber&#39;, msg: &#39;El número de factura es obligatorio&#39; }] }&lt;/font&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1214.2900000000004" y="1508.5" as="sourcePoint" />
+            <mxPoint x="661" y="1508.4919999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-36" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="5. Intercepta error 422 en Alpine.js y marca en rojo los inputs de cantidad y factura">
+          <mxGeometry relative="1" x="-0.9552" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="712" y="1536" />
+              <mxPoint x="712" y="1558" />
+            </Array>
+            <mxPoint x="662" y="1536" as="sourcePoint" />
+            <mxPoint x="662" y="1558" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-37" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.123;entryY=0.388;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.19;exitY=0.652;exitDx=0;exitDy=0;exitPerimeter=0;" value="6. Despliega mensaje en pantalla:&amp;nbsp;&lt;div&gt;&quot;Datos incompletos: ingrese una cantidad válida y el número de factura de respaldo&quot;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="649.0999999999999" y="1568.088" as="sourcePoint" />
+            <mxPoint x="79" y="1567.0019999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UNLBz21vw-gAzxjg6Bsd-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°52— Excepción 1" vertex="1">
+          <mxGeometry height="30" width="723" x="314" y="755" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

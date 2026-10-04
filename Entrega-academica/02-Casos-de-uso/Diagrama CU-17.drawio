@@ -1,0 +1,70 @@
+<mxfile host="Electron">
+  <diagram name="Página-1" id="KbZlgLzuUm-QKbrNQSFl">
+    <mxGraphModel dx="1223" dy="806" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#ffffff, #121212)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="" plantUmlData="{&#xa;  &quot;data&quot;: &quot;@startuml\nleft to right direction\nskinparam packageStyle rectangle\nactor \&quot;Técnico / Administrador\&quot; as Tec\npackage \&quot;Módulo de Gestión Operativa\&quot; {\n    usecase \&quot;CU-17: Registrando notas técnicas privadas\&quot; as CU17\n    usecase \&quot;E-1: Validando casilla de nota interna deshabilitada\&quot; as E1\n    usecase \&quot;E-2: Validando límite de caracteres excedido\&quot; as E2\n    usecase \&quot;E-3: Gestionando fallo en cifrado de datos\&quot; as E3\n    \n    E1 ..&gt; CU17 : &lt;&lt;extend&gt;&gt;\n    E2 ..&gt; CU17 : &lt;&lt;extend&gt;&gt;\n    E3 ..&gt; CU17 : &lt;&lt;extend&gt;&gt;\n}\nTec --&gt; CU17\n@enduml&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="89LFPHsyxSLK9LkJjt9q-85">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;" vertex="1">
+            <mxGeometry as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Módulo de Gestión Operativa" plantUmlId="rect_0" plantUmlBaseStyle="shape=folder;tabWidth=252;tabHeight=22;tabPosition=left;html=1;fillColor=none;strokeColor=#181818;fontColor=#000000;fontSize=13;fontStyle=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=1;container=1;collapsible=0;" plantUmlBaseValue="Módulo de Gestión Operativa" id="89LFPHsyxSLK9LkJjt9q-86">
+          <mxCell parent="89LFPHsyxSLK9LkJjt9q-85" style="shape=folder;tabWidth=252;tabHeight=22;tabPosition=left;html=1;fillColor=none;strokeColor=#181818;fontColor=#000000;fontSize=13;fontStyle=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=1;container=1;collapsible=0;" vertex="1">
+            <mxGeometry height="384" width="757" x="62" y="19" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="E-1: Validando casilla de nota interna deshabilitada" plantUmlId="uc_1" plantUmlBaseStyle="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="E-1: Validando casilla de nota interna deshabilitada" id="89LFPHsyxSLK9LkJjt9q-87">
+          <mxCell parent="89LFPHsyxSLK9LkJjt9q-86" style="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="79" width="371" x="20" y="68" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="E-2: Validando límite de caracteres excedido" plantUmlId="uc_2" plantUmlBaseStyle="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="E-2: Validando límite de caracteres excedido" id="89LFPHsyxSLK9LkJjt9q-88">
+          <mxCell parent="89LFPHsyxSLK9LkJjt9q-86" style="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="71" width="331" x="40" y="187" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="E-3: Gestionando fallo en cifrado de datos" plantUmlId="uc_3" plantUmlBaseStyle="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="E-3: Gestionando fallo en cifrado de datos" id="89LFPHsyxSLK9LkJjt9q-89">
+          <mxCell parent="89LFPHsyxSLK9LkJjt9q-86" style="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="66" width="308" x="51.5" y="298" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="CU-17: Registrando notas técnicas privadas" plantUmlId="uc_4" plantUmlBaseStyle="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="CU-17: Registrando notas técnicas privadas" id="89LFPHsyxSLK9LkJjt9q-90">
+          <mxCell parent="89LFPHsyxSLK9LkJjt9q-86" style="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="67" width="311" x="426" y="182.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«extend»" plantUmlId="rel_7" plantUmlBaseStyle="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="«extend»" id="89LFPHsyxSLK9LkJjt9q-93">
+          <mxCell edge="1" parent="89LFPHsyxSLK9LkJjt9q-86" source="89LFPHsyxSLK9LkJjt9q-87" style="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="89LFPHsyxSLK9LkJjt9q-90">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«extend»" plantUmlId="rel_8" plantUmlBaseStyle="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="«extend»" id="89LFPHsyxSLK9LkJjt9q-94">
+          <mxCell edge="1" parent="89LFPHsyxSLK9LkJjt9q-86" source="89LFPHsyxSLK9LkJjt9q-88" style="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="89LFPHsyxSLK9LkJjt9q-90">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«extend»" plantUmlId="rel_9" plantUmlBaseStyle="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="«extend»" id="89LFPHsyxSLK9LkJjt9q-95">
+          <mxCell edge="1" parent="89LFPHsyxSLK9LkJjt9q-86" source="89LFPHsyxSLK9LkJjt9q-89" style="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="89LFPHsyxSLK9LkJjt9q-90">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="actor_5" plantUmlBaseStyle="shape=umlActor;html=1;fillColor=#F1F1F1;strokeColor=#181818;fontColor=#000000;fontSize=14;" plantUmlBaseValue="" id="89LFPHsyxSLK9LkJjt9q-91">
+          <mxCell parent="89LFPHsyxSLK9LkJjt9q-85" style="shape=umlActor;html=1;fillColor=#F1F1F1;strokeColor=#181818;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="60" width="40" x="872" y="208.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Técnico / Administrador" plantUmlId="actorlbl_6" plantUmlBaseStyle="text;html=1;align=center;verticalAlign=top;fontColor=#000000;fontSize=14;" plantUmlBaseValue="Técnico / Administrador" id="89LFPHsyxSLK9LkJjt9q-92">
+          <mxCell parent="89LFPHsyxSLK9LkJjt9q-85" style="text;html=1;align=center;verticalAlign=top;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="17" width="174" x="814" y="282" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="rel_10" plantUmlBaseStyle="endArrow=block;endFill=1;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="89LFPHsyxSLK9LkJjt9q-96">
+          <mxCell edge="1" parent="89LFPHsyxSLK9LkJjt9q-85" source="89LFPHsyxSLK9LkJjt9q-91" style="endArrow=block;endFill=1;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="89LFPHsyxSLK9LkJjt9q-90">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,22 @@
+{
+  "checks": [
+    "Login funcionario y permisos de navegación",
+    "Validación, creación y actualización automática de Mis tickets",
+    "Consulta, búsqueda y filtros",
+    "Historial vacío, retorno a activos y manuales según permisos",
+    "Filtros rápidos de soporte",
+    "15 herramientas administrativas abren y cierran",
+    "Carga y consulta de manual PDF en carpeta temporal",
+    "Historial con ticket resuelto real en base temporal",
+    "Error de conexión y reintento",
+    "Navegación móvil y detalle sin desbordamiento",
+    "15 herramientas administrativas comprobadas a 390 px",
+    "Rol técnico crítico conserva accesos específicos",
+    "Creación y persistencia MySQL en las seis categorías, con y sin activo"
+  ],
+  "pageErrors": [],
+  "expectedHttpErrors": [
+    "Failed to load resource: the server responded with a status of 400 (Bad Request)"
+  ],
+  "isolatedDatabase": true
+}

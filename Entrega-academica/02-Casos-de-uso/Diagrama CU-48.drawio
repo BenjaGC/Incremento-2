@@ -1,0 +1,70 @@
+<mxfile host="Electron">
+  <diagram name="Página-1" id="KbZlgLzuUm-QKbrNQSFl">
+    <mxGraphModel dx="1508" dy="1388" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#ffffff, #121212)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="" plantUmlData="{&#xa;  &quot;data&quot;: &quot;@startuml\nleft to right direction\nskinparam packageStyle rectangle\nactor \&quot;Técnico TI\&quot; as Tec\npackage \&quot;Módulo de Gestión Operativa\&quot; {\n    usecase \&quot;CU-48: Generando identificación física de hardware\&quot; as CU48\n    usecase \&quot;E-1: Gestionando error de generador QR\&quot; as E1\n    usecase \&quot;E-2: Gestionando bloqueo de vista previa\&quot; as E2\n    usecase \&quot;E-3: Validando formato incompatible con impresora\&quot; as E3\n    \n    E1 ..&gt; CU48 : &lt;&lt;extend&gt;&gt;\n    E2 ..&gt; CU48 : &lt;&lt;extend&gt;&gt;\n    E3 ..&gt; CU48 : &lt;&lt;extend&gt;&gt;\n}\nTec --&gt; CU48\n@enduml&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="89LFPHsyxSLK9LkJjt9q-267">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;" vertex="1">
+            <mxGeometry as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Módulo de Gestión Operativa" plantUmlId="rect_0" plantUmlBaseStyle="shape=folder;tabWidth=252;tabHeight=22;tabPosition=left;html=1;fillColor=none;strokeColor=#181818;fontColor=#000000;fontSize=13;fontStyle=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=1;container=1;collapsible=0;" plantUmlBaseValue="Módulo de Gestión Operativa" id="89LFPHsyxSLK9LkJjt9q-268">
+          <mxCell parent="89LFPHsyxSLK9LkJjt9q-267" style="shape=folder;tabWidth=252;tabHeight=22;tabPosition=left;html=1;fillColor=none;strokeColor=#181818;fontColor=#000000;fontSize=13;fontStyle=1;align=left;verticalAlign=top;spacingLeft=6;spacingTop=1;container=1;collapsible=0;" vertex="1">
+            <mxGeometry height="375" width="820" x="10" y="10" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="E-1: Gestionando error de generador QR" plantUmlId="uc_1" plantUmlBaseStyle="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="E-1: Gestionando error de generador QR" id="89LFPHsyxSLK9LkJjt9q-269">
+          <mxCell parent="89LFPHsyxSLK9LkJjt9q-268" style="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="63" width="292" x="59.5" y="68" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="E-2: Gestionando bloqueo de vista previa" plantUmlId="uc_2" plantUmlBaseStyle="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="E-2: Gestionando bloqueo de vista previa" id="89LFPHsyxSLK9LkJjt9q-270">
+          <mxCell parent="89LFPHsyxSLK9LkJjt9q-268" style="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="65" width="300" x="55.5" y="171" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="E-3: Validando formato incompatible con impresora" plantUmlId="uc_3" plantUmlBaseStyle="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="E-3: Validando formato incompatible con impresora" id="89LFPHsyxSLK9LkJjt9q-271">
+          <mxCell parent="89LFPHsyxSLK9LkJjt9q-268" style="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="79" width="371" x="20" y="276" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="CU-48: Generando identificación física de hardware" plantUmlId="uc_4" plantUmlBaseStyle="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" plantUmlBaseValue="CU-48: Generando identificación física de hardware" id="89LFPHsyxSLK9LkJjt9q-272">
+          <mxCell parent="89LFPHsyxSLK9LkJjt9q-268" style="ellipse;html=1;fillColor=#F1F1F1;strokeColor=#181818;whiteSpace=wrap;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="80" width="374" x="426" y="171.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«extend»" plantUmlId="rel_7" plantUmlBaseStyle="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="«extend»" id="89LFPHsyxSLK9LkJjt9q-275">
+          <mxCell edge="1" parent="89LFPHsyxSLK9LkJjt9q-268" source="89LFPHsyxSLK9LkJjt9q-269" style="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="89LFPHsyxSLK9LkJjt9q-272">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«extend»" plantUmlId="rel_8" plantUmlBaseStyle="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="«extend»" id="89LFPHsyxSLK9LkJjt9q-276">
+          <mxCell edge="1" parent="89LFPHsyxSLK9LkJjt9q-268" source="89LFPHsyxSLK9LkJjt9q-270" style="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="89LFPHsyxSLK9LkJjt9q-272">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«extend»" plantUmlId="rel_9" plantUmlBaseStyle="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="«extend»" id="89LFPHsyxSLK9LkJjt9q-277">
+          <mxCell edge="1" parent="89LFPHsyxSLK9LkJjt9q-268" source="89LFPHsyxSLK9LkJjt9q-271" style="endArrow=open;dashed=1;dashPattern=5 5;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="89LFPHsyxSLK9LkJjt9q-272">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="actor_5" plantUmlBaseStyle="shape=umlActor;html=1;fillColor=#F1F1F1;strokeColor=#181818;fontColor=#000000;fontSize=14;" plantUmlBaseValue="" id="89LFPHsyxSLK9LkJjt9q-273">
+          <mxCell parent="89LFPHsyxSLK9LkJjt9q-267" style="shape=umlActor;html=1;fillColor=#F1F1F1;strokeColor=#181818;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="60" width="40" x="873" y="191.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Técnico TI" plantUmlId="actorlbl_6" plantUmlBaseStyle="text;html=1;align=center;verticalAlign=top;fontColor=#000000;fontSize=14;" plantUmlBaseValue="Técnico TI" id="89LFPHsyxSLK9LkJjt9q-274">
+          <mxCell parent="89LFPHsyxSLK9LkJjt9q-267" style="text;html=1;align=center;verticalAlign=top;fontColor=#000000;fontSize=14;" vertex="1">
+            <mxGeometry height="17" width="82" x="852" y="265" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="rel_10" plantUmlBaseStyle="endArrow=block;endFill=1;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="" id="89LFPHsyxSLK9LkJjt9q-278">
+          <mxCell edge="1" parent="89LFPHsyxSLK9LkJjt9q-267" source="89LFPHsyxSLK9LkJjt9q-273" style="endArrow=block;endFill=1;strokeColor=#181818;fontColor=#000000;fontSize=11;edgeStyle=none;rounded=0;html=1;curved=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="89LFPHsyxSLK9LkJjt9q-272">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

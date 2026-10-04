@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-13T15:38:24.583Z",
+  "isolated": true,
+  "results": [
+    {
+      "id": "P-26",
+      "name": "Reasignación entre técnicos",
+      "result": "Verificada",
+      "evidence": "Asignación persistida de técnico 1 a técnico 3."
+    },
+    {
+      "id": "P-27",
+      "name": "Escalamiento a jefatura",
+      "result": "Verificada",
+      "evidence": "Ticket Urgente escalado a administrador seleccionado; auditoría persistida. Correo simulado."
+    },
+    {
+      "id": "P-28",
+      "name": "Repuesto disponible",
+      "result": "Verificada",
+      "evidence": "Consumo de 2 unidades; stock 2 → 0; movimiento guardado. Prueba de integración."
+    },
+    {
+      "id": "P-29",
+      "name": "Rechazo sin stock",
+      "result": "Verificada",
+      "evidence": "HTTP 400 esperado; sin segundo movimiento ni stock negativo. Prueba de integración."
+    },
+    {
+      "id": "P-30",
+      "name": "Pausa SLA por proveedor",
+      "result": "Verificada",
+      "evidence": "Pausa repetida conserva inicio; reanudación recupera al menos 120 segundos."
+    },
+    {
+      "id": "P-31",
+      "name": "Webhook IMER simulado",
+      "result": "Verificada",
+      "evidence": "Contrato provisional: recepción HTTP 201 y duplicado ignorado. Integración IMER real pendiente."
+    },
+    {
+      "id": "P-32",
+      "name": "CSV válido",
+      "result": "Verificada",
+      "evidence": "RUT módulo 11 válido; un usuario importado con rol Usuario."
+    },
+    {
+      "id": "P-33",
+      "name": "CSV con RUT corrupto",
+      "result": "Verificada",
+      "evidence": "HTTP 400 esperado; ninguna fila agregada."
+    },
+    {
+      "id": "P-34",
+      "name": "Reporte consolidado",
+      "result": "Verificada",
+      "evidence": "Excel leído y contrastado: ticket, 2 unidades y costo total 200."
+    },
+    {
+      "id": "P-35",
+      "name": "Respaldo manual",
+      "result": "Verificada",
+      "evidence": "Descarga autenticada; SQL restaurado en otra base y registros contrastados. Prueba de integración."
+    }
+  ]
+}

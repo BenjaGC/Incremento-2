@@ -1,0 +1,537 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="seq" name="Página-1">
+    <mxGraphModel dx="2279" dy="1758" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1700" pageHeight="2200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d0_a" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Administrador" vertex="1">
+          <mxGeometry height="60" width="30" x="29" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_ll_a" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="44" y="147" as="sourcePoint" />
+            <mxPoint x="44" y="459" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0_v" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_ConfigSLA" vertex="1">
+          <mxGeometry height="40" width="120" x="428" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_ll_v" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="488" y="110" as="sourcePoint" />
+            <mxPoint x="488" y="463" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0_s" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_Servidor" vertex="1">
+          <mxGeometry height="40" width="120" x="871" y="73" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_ll_s" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="931" y="113" as="sourcePoint" />
+            <mxPoint x="931" y="458" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0_db" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1406" y="73" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_ll_db" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1490" y="113" as="sourcePoint" />
+            <mxPoint x="1490" y="458" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0_bar_a" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="290" width="10" x="39" y="151" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_bar_v" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="290" width="10" x="483" y="152" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_bar_s" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="210" width="10" x="926" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_bar_db" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="59" width="10" x="1485" y="243" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_m0" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.114;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;" target="d0_bar_v" value="1. Accede a la sección &quot;Configuración de SLA&quot;">
+          <mxGeometry relative="1" x="-0.0015" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="49" y="157" as="sourcePoint" />
+            <mxPoint x="194" y="157" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0_m1" edge="1" parent="1" source="d0_bar_v" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.067;exitY=0.175;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.113;entryY=0.064;entryDx=0;entryDy=0;entryPerimeter=0;" target="d0_bar_s" value="2. GET /api/sla/politicas">
+          <mxGeometry relative="1" x="0.004" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="496" y="204" as="sourcePoint" />
+            <mxPoint x="916.5" y="203.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0_m2" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.129;entryY=0.098;entryDx=0;entryDy=0;entryPerimeter=0;" target="d0_bar_db" value="3. SELECT priority_id, name, resolution_hours, color_hex FROM sla_policy ORDER BY priority_id ASC">
+          <mxGeometry relative="1" x="-0.0016" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="936" y="253" as="sourcePoint" />
+            <mxPoint x="1320.57" y="251.81" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0_m3" edge="1" parent="1" source="d0_bar_db" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0;exitY=0.87;exitDx=0;exitDy=0;exitPerimeter=0;" value="4. Error de conexión / consulta fallida (ECONNREFUSED o Query Error)">
+          <mxGeometry relative="1" x="0.0002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1309.62" y="299" as="sourcePoint" />
+            <mxPoint x="936" y="299" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0_m4" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="5. Captura excepción (.catch) y registra error en log">
+          <mxGeometry relative="1" x="-0.0027" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="986" y="345" />
+              <mxPoint x="986" y="367" />
+            </Array>
+            <mxPoint x="936" y="345" as="sourcePoint" />
+            <mxPoint x="936" y="367" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0_m7" edge="1" parent="1" source="d0_bar_s" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.996;entryY=0.817;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.019;exitY=0.943;exitDx=0;exitDy=0;exitPerimeter=0;" target="d0_bar_v" value="6. 500 Internal Server Error { success: false, error: &quot;Error al cargar la matriz de SLA&quot; }">
+          <mxGeometry relative="1" x="-0.0008" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="908.71" y="391" as="sourcePoint" />
+            <mxPoint x="494" y="389.01" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0_m8" edge="1" parent="1" source="d0_bar_v" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.04;entryY=0.937;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.019;exitY=0.935;exitDx=0;exitDy=0;exitPerimeter=0;" target="d0_bar_a" value="7. Despliega alerta: &quot;Error al cargar la matriz de SLA. Por favor, reintente más tarde&quot;">
+          <mxGeometry relative="1" x="-0.0015" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="393.19" y="423" as="sourcePoint" />
+            <mxPoint x="51" y="423" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0_src" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#000000;" value="Fuente: Elaborado por el estudiante de acuerdo con el proyecto." vertex="1">
+          <mxGeometry height="24" width="723" x="40" y="602" as="geometry" />
+        </mxCell>
+        <mxCell id="d1_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°5 — Excepción 1" vertex="1">
+          <mxGeometry height="30" width="723" x="28" y="17" as="geometry" />
+        </mxCell>
+        <mxCell id="d1_a" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Administrador" vertex="1">
+          <mxGeometry height="60" width="30" x="-24" y="-465" as="geometry" />
+        </mxCell>
+        <mxCell id="d1_ll_a" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-9" y="-379" as="sourcePoint" />
+            <mxPoint x="-9" y="7" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d1_v" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_ConfigSLA" vertex="1">
+          <mxGeometry height="40" width="120" x="442" y="-459" as="geometry" />
+        </mxCell>
+        <mxCell id="d1_ll_v" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="502" y="-419" as="sourcePoint" />
+            <mxPoint x="502" y="-29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d1_s" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_Servidor" vertex="1">
+          <mxGeometry height="40" width="120" x="925" y="-458" as="geometry" />
+        </mxCell>
+        <mxCell id="d1_ll_s" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="985" y="-418" as="sourcePoint" />
+            <mxPoint x="985" y="-28" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d1_db" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1517" y="-461" as="geometry" />
+        </mxCell>
+        <mxCell id="d1_ll_db" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1601" y="-421" as="sourcePoint" />
+            <mxPoint x="1601" y="-31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d1_bar_a" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="367" width="10" x="-14" y="-375" as="geometry" />
+        </mxCell>
+        <mxCell id="d1_bar_v" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="339" width="10" x="497" y="-377" as="geometry" />
+        </mxCell>
+        <mxCell id="d1_bar_s" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="288" width="10" x="980" y="-330" as="geometry" />
+        </mxCell>
+        <mxCell id="d1_bar_db" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="231" width="10" x="1596" y="-287" as="geometry" />
+        </mxCell>
+        <mxCell id="d1_m0" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.035;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;" target="d1_bar_v" value="1. Accede a la sección &quot;Configuración de SLA&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-4" y="-369" as="sourcePoint" />
+            <mxPoint x="141" y="-369" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d1_m1" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;" target="d1_bar_s" value="2. GET /api/sla/politicas">
+          <mxGeometry relative="1" x="-0.0008" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="507" y="-325" as="sourcePoint" />
+            <mxPoint x="697" y="-325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d1_m2" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.06;entryY=0.044;entryDx=0;entryDy=0;entryPerimeter=0;" target="d1_bar_db" value="3. SELECT priority_id, name, resolution_hours, color_hex FROM sla_policy ORDER BY priority_id ASC">
+          <mxGeometry relative="1" x="-0.0091" y="7" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="990" y="-278" as="sourcePoint" />
+            <mxPoint x="1244" y="-278.79999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d1_m3" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.039;exitY=0.238;exitDx=0;exitDy=0;exitPerimeter=0;" value="4. Retorna matriz de prioridades, tiempos y colores actuales">
+          <mxGeometry relative="1" x="0.0007" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1595.6100000000001" y="-241.00199999999995" as="sourcePoint" />
+            <mxPoint x="990" y="-240.98000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d1_m4" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="9. Valida formato: resolution_hours &amp;gt; 0 &amp;amp;&amp;amp; Number.isInteger(resolution_hours) &amp;amp;&amp;amp; /^#[0-9A-Fa-f]{6}$/.test(color_hex)">
+          <mxGeometry relative="1" x="-0.853" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1040" y="-133" />
+              <mxPoint x="1040" y="-111" />
+            </Array>
+            <mxPoint x="990" y="-133" as="sourcePoint" />
+            <mxPoint x="990" y="-111" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d1_m5" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.002;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;" value="5. 200 OK { success: true, slas: [ { priority_id, name, resolution_hours, color_hex }, ... ] }">
+          <mxGeometry relative="1" x="0.0023" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="979.98" y="-221.80000000000018" as="sourcePoint" />
+            <mxPoint x="508" y="-223" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d1_m6" edge="1" parent="1" source="d1_bar_v" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.004;exitY=0.525;exitDx=0;exitDy=0;exitPerimeter=0;" value="6. Despliega la matriz normativa con los campos de nombre, tiempo y selector de color">
+          <mxGeometry relative="1" x="0.0005" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="330.8299999999999" y="-196.99800000000005" as="sourcePoint" />
+            <mxPoint x="-5" y="-195.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°5 — Excepción 2" vertex="1">
+          <mxGeometry height="30" width="723" x="10" y="687" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_a" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Administrador" vertex="1">
+          <mxGeometry height="60" width="30" x="16" y="749" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_ll_a" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="31" y="839" as="sourcePoint" />
+            <mxPoint x="31" y="1014.6700000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_v" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_ConfigSLA" vertex="1">
+          <mxGeometry height="40" width="120" x="397" y="759" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_ll_v" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="457" y="799" as="sourcePoint" />
+            <mxPoint x="457" y="1006.3299999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_s" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_Servidor" vertex="1">
+          <mxGeometry height="40" width="120" x="838" y="759" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_ll_s" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="898" y="799" as="sourcePoint" />
+            <mxPoint x="898" y="993.8299999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_db" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="972" y="759" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_ll_db" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1056" y="799" as="sourcePoint" />
+            <mxPoint x="1056" y="993" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_bar_a" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="148" width="10" x="26" y="843" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_bar_v" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="153" width="10" x="452" y="841" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_bar_s" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="72" width="10" x="893" y="887" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_m0" edge="1" parent="1" source="d2_bar_a" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0;entryY=0.029;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.04;exitY=0.027;exitDx=0;exitDy=0;exitPerimeter=0;" target="d2_bar_v" value="1. Ingresa contraseña actual incorrecta, nueva clave y clic en &quot;Guardar Cambios&quot;">
+          <mxGeometry relative="1" x="-0.0014" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="36" y="849" as="sourcePoint" />
+            <mxPoint x="181" y="849" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_m1" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;" value="&lt;p&gt;2. Valida campos en cliente (Alpine.js) → !name.trim() || !color_hex&lt;/p&gt;&lt;p id=&quot;p-rc_bf3b6ec7a5d36f6a-1287&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/p&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="462" y="893" as="sourcePoint" />
+            <mxPoint x="891.03" y="895.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_m5" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.103;exitY=0.924;exitDx=0;exitDy=0;exitPerimeter=0;" value="3. Bloquea el envío (preventDefault) y resalta los campos incompletos en rojo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="893.9700000000003" y="945.0039999999999" as="sourcePoint" />
+            <mxPoint x="464" y="945.4200000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_m6" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.21;exitY=0.954;exitDx=0;exitDy=0;exitPerimeter=0;" value="4. Despliega alerta: &quot;Todos los campos (nombre, tiempo y color) son obligatorios&quot;">
+          <mxGeometry relative="1" x="-0.0014" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="449.9000000000001" y="970.002" as="sourcePoint" />
+            <mxPoint x="36" y="972.69" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-4" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.023;entryY=0.628;entryDx=0;entryDy=0;entryPerimeter=0;" target="d1_bar_v" value="7. Modifica nombre, tiempo en horas y color de la prioridad, y pulsa &quot;Guardar Cambios&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-2" y="-162" as="sourcePoint" />
+            <mxPoint x="332" y="-162" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-5" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.047;entryY=0.635;entryDx=0;entryDy=0;entryPerimeter=0;" target="d1_bar_s" value="8. PUT /api/sla/politicas { priority_id, name, resolution_hours, color_hex }">
+          <mxGeometry relative="1" x="-0.0008" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="511" y="-145" as="sourcePoint" />
+            <mxPoint x="949" y="-145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-7" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.06;entryY=0.816;entryDx=0;entryDy=0;entryPerimeter=0;" value="10. UPDATE sla_policy SET name = ?, resolution_hours = ?, color_hex = ?, updated_at = NOW() WHERE priority_id = ?">
+          <mxGeometry relative="1" x="-0.0091" y="7" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="992" y="-85.5" as="sourcePoint" />
+            <mxPoint x="1596.4" y="-86.0039999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-8" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.06;exitY=0.924;exitDx=0;exitDy=0;exitPerimeter=0;" value="11. Confirma actualización de la matriz normativa (affectedRows: 1)">
+          <mxGeometry relative="1" x="0.0007" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1596.6" y="-61.55599999999981" as="sourcePoint" />
+            <mxPoint x="992" y="-62" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-11" edge="1" parent="1" source="d1_bar_s" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.003;exitY=0.949;exitDx=0;exitDy=0;exitPerimeter=0;" value="12. 200 OK { success: true, message: &quot;Matriz normativa de SLA actualizada correctamente&quot; }">
+          <mxGeometry relative="1" x="0.0023" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="948" y="-57.76800000000003" as="sourcePoint" />
+            <mxPoint x="507" y="-58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-14" edge="1" parent="1" source="d1_bar_v" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.016;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;" value="13. Despliega notificación de éxito y actualiza los indicadores visuales y temporizadores del sistema">
+          <mxGeometry relative="1" x="0.0005" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="331.8299999999999" y="-39.99800000000005" as="sourcePoint" />
+            <mxPoint x="-4" y="-38.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-15" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°5 — CASO DE EXITO" vertex="1">
+          <mxGeometry height="30" width="723" x="298" y="-518" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-18" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Administrador" vertex="1">
+          <mxGeometry height="60" width="30" x="17" y="1079" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-19" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="32" y="1169" as="sourcePoint" />
+            <mxPoint x="32" y="1344.67" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_ConfigSLA" vertex="1">
+          <mxGeometry height="40" width="120" x="465" y="1088" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-21" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="1128" as="sourcePoint" />
+            <mxPoint x="525" y="1335.33" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_Servidor" vertex="1">
+          <mxGeometry height="40" width="120" x="906" y="1088" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-23" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="966" y="1128" as="sourcePoint" />
+            <mxPoint x="966" y="1322.83" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1385" y="1088" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-25" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1469" y="1128" as="sourcePoint" />
+            <mxPoint x="1469" y="1322" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="148" width="10" x="27" y="1173" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="153" width="10" x="520" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="101" width="10" x="961" y="1187" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-29" edge="1" parent="1" source="vKKM3-TbCHTrURHrKO0S-26" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.022;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.04;exitY=0.027;exitDx=0;exitDy=0;exitPerimeter=0;" target="vKKM3-TbCHTrURHrKO0S-27" value="1. Ingresa un tiempo de resolución negativo o no entero (e.g., -8) y pulsa &quot;Guardar Cambios&quot;">
+          <mxGeometry relative="1" x="0.001" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="37" y="1179" as="sourcePoint" />
+            <mxPoint x="182" y="1179" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-30" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.022;entryY=0.122;entryDx=0;entryDy=0;entryPerimeter=0;" target="vKKM3-TbCHTrURHrKO0S-28" value="&lt;p&gt;2. PUT /api/sla/politicas { priority_id, name, resolution_hours: -8, color_hex }&lt;/p&gt;&lt;p id=&quot;p-rc_bf3b6ec7a5d36f6a-1287&quot;&gt;&lt;sup class=&quot;superscript&quot;&gt;&lt;/sup&gt;&lt;/p&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="531" y="1202" as="sourcePoint" />
+            <mxPoint x="957.16" y="1199.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-31" edge="1" parent="1" source="vKKM3-TbCHTrURHrKO0S-28" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.022;exitY=0.859;exitDx=0;exitDy=0;exitPerimeter=0;" value="4. 400 Bad Request { success: false, error: &quot;Valores deben ser mayores a 0 y enteros&quot; }">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="961.9700000000003" y="1274.004" as="sourcePoint" />
+            <mxPoint x="532" y="1274.42" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-32" edge="1" parent="1" source="vKKM3-TbCHTrURHrKO0S-27" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.05;exitY=0.854;exitDx=0;exitDy=0;exitPerimeter=0;" value="5. Despliega alerta: &quot;Valores deben ser mayores a 0&quot; y resalta el campo de tiempo en rojo">
+          <mxGeometry relative="1" x="-0.0003" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="450.9000000000001" y="1300.002" as="sourcePoint" />
+            <mxPoint x="37" y="1302.69" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-33" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="3. Valida formato: !(Number.isInteger(resolution_hours) &amp;amp;&amp;amp; resolution_hours &amp;gt; 0) → false">
+          <mxGeometry relative="1" x="-0.3018" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1021" y="1223" />
+              <mxPoint x="1021" y="1245" />
+            </Array>
+            <mxPoint x="971" y="1223" as="sourcePoint" />
+            <mxPoint x="971" y="1245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-35" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°5 — Excepción 3" vertex="1">
+          <mxGeometry height="30" width="723" x="131" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-36" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Administrador" vertex="1">
+          <mxGeometry height="60" width="30" x="25" y="1473" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-37" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="1562" as="sourcePoint" />
+            <mxPoint x="40" y="1874" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_ConfigSLA" vertex="1">
+          <mxGeometry height="40" width="120" x="424" y="1485" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-39" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="484" y="1525" as="sourcePoint" />
+            <mxPoint x="484" y="1878" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_Servidor" vertex="1">
+          <mxGeometry height="40" width="120" x="994" y="1486" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-41" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1054" y="1526" as="sourcePoint" />
+            <mxPoint x="1054" y="1871" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1584" y="1485" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-43" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1668" y="1525" as="sourcePoint" />
+            <mxPoint x="1668" y="1870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="290" width="10" x="35" y="1566" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="290" width="10" x="479" y="1567" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="210" width="10" x="1049" y="1603" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="64" width="10" x="1663" y="1655" as="geometry" />
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-48" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.114;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;" target="vKKM3-TbCHTrURHrKO0S-45" value="1. Modifica nombre, tiempo y color de la prioridad y pulsa &quot;Guardar Cambios&quot;">
+          <mxGeometry relative="1" x="0.0002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="45" y="1572" as="sourcePoint" />
+            <mxPoint x="190" y="1572" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-49" edge="1" parent="1" source="vKKM3-TbCHTrURHrKO0S-45" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.067;exitY=0.175;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.113;entryY=0.064;entryDx=0;entryDy=0;entryPerimeter=0;" target="vKKM3-TbCHTrURHrKO0S-46" value="2. PUT /api/sla/politicas { priority_id, name, resolution_hours, color_hex }">
+          <mxGeometry relative="1" x="0.004" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="492" y="1619" as="sourcePoint" />
+            <mxPoint x="912.5" y="1618.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-50" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.067;entryY=0.344;entryDx=0;entryDy=0;entryPerimeter=0;" target="vKKM3-TbCHTrURHrKO0S-47" value="4. UPDATE sla_policy SET name = ?, resolution_hours = ?, color_hex = ?, updated_at = NOW() WHERE priority_id = ?">
+          <mxGeometry relative="1" x="-0.0016" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1059" y="1677.22" as="sourcePoint" />
+            <mxPoint x="1607.51" y="1675.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-51" edge="1" parent="1" source="vKKM3-TbCHTrURHrKO0S-47" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0;exitY=0.908;exitDx=0;exitDy=0;exitPerimeter=0;" value="5. Error de base de datos (Lock wait timeout / Transaction failure)">
+          <mxGeometry relative="1" x="0.0002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1607" y="1711" as="sourcePoint" />
+            <mxPoint x="1058" y="1715.67" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-52" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="3. Valida formato: resolution_hours &amp;gt; 0 &amp;amp;&amp;amp; Number.isInteger(resolution_hours) (true)">
+          <mxGeometry relative="1" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1107" y="1627" />
+              <mxPoint x="1107" y="1649" />
+            </Array>
+            <mxPoint x="1057" y="1627" as="sourcePoint" />
+            <mxPoint x="1057" y="1649" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-53" edge="1" parent="1" source="vKKM3-TbCHTrURHrKO0S-46" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.996;entryY=0.817;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.01;exitY=0.959;exitDx=0;exitDy=0;exitPerimeter=0;" target="vKKM3-TbCHTrURHrKO0S-45" value="7. 500 Internal Server Error { success: false, error: &quot;No se pudieron guardar los cambios en la matriz normativa&quot; }">
+          <mxGeometry relative="1" x="0.0011" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="904.71" y="1806" as="sourcePoint" />
+            <mxPoint x="490" y="1804.01" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-54" edge="1" parent="1" source="vKKM3-TbCHTrURHrKO0S-45" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.04;entryY=0.937;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.015;exitY=0.937;exitDx=0;exitDy=0;exitPerimeter=0;" target="vKKM3-TbCHTrURHrKO0S-44" value="8. Despliega alerta: &quot;Error al guardar la configuración de SLA. Intente nuevamente&quot;">
+          <mxGeometry relative="1" x="-0.0002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="389.19" y="1838" as="sourcePoint" />
+            <mxPoint x="47" y="1838" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-55" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="6. Captura excepción (.catch) y registra incidente en bitácora de errores">
+          <mxGeometry relative="1" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1110" y="1746" />
+              <mxPoint x="1110" y="1768" />
+            </Array>
+            <mxPoint x="1060" y="1746" as="sourcePoint" />
+            <mxPoint x="1060" y="1768" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vKKM3-TbCHTrURHrKO0S-56" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°5 — Excepción 4" vertex="1">
+          <mxGeometry height="30" width="723" x="170" y="1433" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

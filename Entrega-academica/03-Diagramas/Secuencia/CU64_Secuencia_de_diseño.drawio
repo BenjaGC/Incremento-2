@@ -1,0 +1,520 @@
+<mxfile host="Electron">
+  <diagram id="seq" name="Página-1">
+    <mxGraphModel dx="2624" dy="1416" grid="0" gridSize="10" guides="0" tooltips="0" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1700" pageHeight="2200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d0_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°64- caso de éxito" vertex="1">
+          <mxGeometry height="30" width="723" x="38" y="3" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-134" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°64— Excepción 1" vertex="1">
+          <mxGeometry height="30" width="723" x="91" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-135" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°64— Excepción 2" vertex="1">
+          <mxGeometry height="30" width="723" x="85" y="1204" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-54" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Usuario" vertex="1">
+          <mxGeometry height="60" width="30" x="-105" y="159" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-55" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-90" y="249" as="sourcePoint" />
+            <mxPoint x="-89.21" y="529.12" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="LectorQR_Camara" vertex="1">
+          <mxGeometry height="40" width="159" x="107" y="163" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-57" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185" y="203" as="sourcePoint" />
+            <mxPoint x="185" y="489.48" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_TicketController" vertex="1">
+          <mxGeometry height="40" width="152" x="1090" y="151" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-59" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1163" y="192" as="sourcePoint" />
+            <mxPoint x="1163" y="524.68" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1705" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-61" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1789" y="185" as="sourcePoint" />
+            <mxPoint x="1789" y="502.34" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="257" width="10" x="-95" y="253" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="49" width="10" x="181" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-64" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-62" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.149;exitY=0.046;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.003;entryY=0.368;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-63" value="1. Escanea código QR adherido al equipo físico">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-82.99999999999989" y="266.81500000000005" as="sourcePoint" />
+            <mxPoint x="280.73000000000013" y="266.00199999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="232" width="10" x="1158" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="190" width="10" x="1783" y="277" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-242" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_NuevoTicket" vertex="1">
+          <mxGeometry height="40" width="159" x="456" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-243" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="534" y="198" as="sourcePoint" />
+            <mxPoint x="535.52" y="515.08" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-244" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="251" width="10" x="530" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-246" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.149;exitY=0.046;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.067;entryY=0.139;entryDx=0;entryDy=0;entryPerimeter=0;" target="_GTyyC4WrynW7VN_rIGC-244" value="2. Abre navegador móvil: GET /tickets/nuevo?qr=EQ-CLINIC-7741">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="191" y="275.55" as="sourcePoint" />
+            <mxPoint x="582.1000000000004" y="274.00399999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-247" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.149;exitY=0.046;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.175;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-71" value="3. GET /api/assets/prefill/EQ-CLINIC-7741 [Headers: Bearer JWT]">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="541" y="283.8" as="sourcePoint" />
+            <mxPoint x="898.4100000000001" y="282" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-250" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.077;entryY=0.084;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-72" value="4. SELECT a.id, a.code, a.category_id, c.name AS category_name, l.name AS location_name FROM asset a INNER&amp;nbsp;&lt;div&gt;JOIN category c ON a.category_id = c.id INNER JOIN location l ON a.location_id = l.id&amp;nbsp;&lt;/div&gt;&lt;div&gt;WHERE a.code = &#39;EQ-CLINIC-7741&#39; AND a.status = &#39;ACTIVO&#39;;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1168.86" y="292.31" as="sourcePoint" />
+            <mxPoint x="1778.18" y="290.16" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-251" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-72" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.978;entryY=0.308;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.025;exitY=0.215;exitDx=0;exitDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-71" value="5. Retorna { code: &#39;EQ-CLINIC-7741&#39;, category: &#39;Impresoras Térmicas&#39;, location: &#39;Box Dental 3&#39; }">
+          <mxGeometry relative="1" x="0.0074" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1782.25" y="319.06200000000007" as="sourcePoint" />
+            <mxPoint x="1168.88" y="316.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-253" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-71" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.086;exitY=0.391;exitDx=0;exitDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitPerimeter=0;" value="6. 200 OK { success: true, asset: { code: &#39;EQ-CLINIC-7741&#39;, category: &#39;Impresoras Térmicas&#39;, location: &#39;Box Dental 3&#39; } }">
+          <mxGeometry relative="1" x="0.0074" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1156.12" y="319" as="sourcePoint" />
+            <mxPoint x="543.19" y="343.13" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-254" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="7. Alpine.js enlaza variables reactivas: bloquea inputs autocompletados y posiciona foco en &quot;Descripción&quot;">
+          <mxGeometry relative="1" x="0.6148" y="-6" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="591" y="362" />
+              <mxPoint x="591" y="384" />
+            </Array>
+            <mxPoint x="541" y="362" as="sourcePoint" />
+            <mxPoint x="541" y="384" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-255" edge="1" parent="1" source="_GTyyC4WrynW7VN_rIGC-244" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.211;entryY=0.585;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=0.038;exitY=0.637;exitDx=0;exitDy=0;entryPerimeter=0;exitPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-62" value="8. Muestra formulario con equipo, categoría y ubicación pre-llenados">
+          <mxGeometry relative="1" x="0.0074" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="539.65" y="403" as="sourcePoint" />
+            <mxPoint x="245" y="406" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-256" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-62" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.263;exitY=0.684;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.038;entryY=0.734;entryDx=0;entryDy=0;entryPerimeter=0;" target="_GTyyC4WrynW7VN_rIGC-244" value="9. Escribe síntoma (&quot;Atasco constante en bandeja&quot;) y pulsa &quot;Enviar Ticket&quot;">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-85" y="434.55" as="sourcePoint" />
+            <mxPoint x="306.10000000000036" y="433.00399999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-257" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.149;exitY=0.046;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.175;entryY=0.781;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-71" value="10. POST /api/tickets { assetCode: &#39;EQ-CLINIC-7741&#39;, categoryId: 4, locationId: 2, description: &#39;Atasco constante en bandeja&#39; }">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="540" y="435.8" as="sourcePoint" />
+            <mxPoint x="900.32" y="433.22" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-258" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-71" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.072;exitY=0.823;exitDx=0;exitDy=0;exitPerimeter=0;" value="11. INSERT INTO ticket (requester_id, asset_id, category_id, location_id,&amp;nbsp;&lt;div&gt;description, status, created_at) VALUES (85, 102, 4, 2, &#39;Atasco constante...&#39;, &#39;ABIERTO&#39;, NOW());&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1169" y="441.31" as="sourcePoint" />
+            <mxPoint x="1784.14" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-259" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-72" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.9;entryY=0.947;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=1;exitDx=0;exitDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="5ev1qbUODsz5gDep_e_I-71" value="12. Retorna inserción exitosa { insertId: 5021 }">
+          <mxGeometry relative="1" x="0.0074" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1781" y="459" as="sourcePoint" />
+            <mxPoint x="1167" y="467" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-260" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-71" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.086;exitY=0.972;exitDx=0;exitDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;entryX=0.921;entryY=0.949;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" target="_GTyyC4WrynW7VN_rIGC-244" value="13. 201 Created { success: true, ticketId: 5021, message: &quot;Ticket creado satisfactoriamente&quot; }">
+          <mxGeometry relative="1" x="0.0074" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="901" y="481" as="sourcePoint" />
+            <mxPoint x="549.15" y="478.97" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-261" edge="1" parent="1" source="_GTyyC4WrynW7VN_rIGC-244" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0;exitY=1;exitDx=0;exitDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;entryX=1.367;entryY=0.929;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-62" value="14. Despliega pantalla de éxito con número de radicación #5021 y estado &quot;Abierto&quot;">
+          <mxGeometry relative="1" x="0.0074" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="277" y="504" as="sourcePoint" />
+            <mxPoint x="-79.25" y="501" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-262" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Usuario" vertex="1">
+          <mxGeometry height="60" width="30" x="-62" y="772" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-263" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-47" y="862" as="sourcePoint" />
+            <mxPoint x="-46.21" y="1005.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-264" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="LectorQR_Camara" vertex="1">
+          <mxGeometry height="40" width="159" x="585" y="779" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-265" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="663" y="819" as="sourcePoint" />
+            <mxPoint x="663" y="1011.34" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-266" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_TicketController" vertex="1">
+          <mxGeometry height="40" width="152" x="1435" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-267" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1508" y="821" as="sourcePoint" />
+            <mxPoint x="1508" y="1006.54" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-268" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1606" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-269" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1690" y="820" as="sourcePoint" />
+            <mxPoint x="1690" y="1010.43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-270" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="125" width="10" x="-52" y="866" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-271" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="131" width="10" x="659" y="861" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-272" edge="1" parent="1" source="_GTyyC4WrynW7VN_rIGC-270" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.143;exitY=0.116;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.18;entryY=0.172;entryDx=0;entryDy=0;entryPerimeter=0;" target="_GTyyC4WrynW7VN_rIGC-271" value="&lt;br&gt;1. Apunta cámara hacia el código QR impreso en el equipo averiado">
+          <mxGeometry relative="1" x="0.0049" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-40" y="879.815" as="sourcePoint" />
+            <mxPoint x="323.73" y="879.002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-275" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_NuevoTicket" vertex="1">
+          <mxGeometry height="40" width="159" x="1170" y="783" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-276" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1248" y="823" as="sourcePoint" />
+            <mxPoint x="1249.52" y="1002.16" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-291" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="2. Intenta localizar patrones de alineación y ejecutar corrección Reed-Solomon">
+          <mxGeometry relative="1" x="-0.4111" y="-8" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="720" y="891" />
+              <mxPoint x="720" y="913" />
+            </Array>
+            <mxPoint x="670" y="891" as="sourcePoint" />
+            <mxPoint x="670" y="913" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-292" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="3. Falla de lectura: matriz distorsionada / baja luminosidad -&amp;gt; Timeout de decodificación (QR_UNREADABLE)">
+          <mxGeometry relative="1" x="-0.4111" y="-8" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="720" y="936" />
+              <mxPoint x="720" y="958" />
+            </Array>
+            <mxPoint x="670" y="936" as="sourcePoint" />
+            <mxPoint x="670" y="958" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-293" edge="1" parent="1" source="_GTyyC4WrynW7VN_rIGC-271" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.1;entryY=0.885;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.232;exitY=0.887;exitDx=0;exitDy=0;exitPerimeter=0;" target="_GTyyC4WrynW7VN_rIGC-270" value="4. Muestra aviso en visor óptico: &quot;Código QR ilegible o deteriorado. Ajuste el enfoque o ingrese al portal para digitar el código manualmente.&quot;">
+          <mxGeometry relative="1" x="0.0074" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="198.19" y="968.95" as="sourcePoint" />
+            <mxPoint x="-47" y="972" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-294" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Usuario" vertex="1">
+          <mxGeometry height="60" width="30" x="-74" y="1335" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-295" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-59" y="1425" as="sourcePoint" />
+            <mxPoint x="-58.21" y="1680.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-296" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="LectorQR_Camara" vertex="1">
+          <mxGeometry height="40" width="159" x="575" y="1334" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-297" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="653" y="1374" as="sourcePoint" />
+            <mxPoint x="653" y="1566.3400000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-298" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_TicketController" vertex="1">
+          <mxGeometry height="40" width="152" x="1499" y="1332" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-299" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1572" y="1373" as="sourcePoint" />
+            <mxPoint x="1572" y="1558.54" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-300" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1670" y="1332" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-301" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1754" y="1372" as="sourcePoint" />
+            <mxPoint x="1754" y="1562.4299999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-302" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="204" width="10" x="-64" y="1429" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-303" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="131" width="10" x="649" y="1416" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-304" edge="1" parent="1" source="_GTyyC4WrynW7VN_rIGC-302" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.937;exitY=0.049;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.18;entryY=0.172;entryDx=0;entryDy=0;entryPerimeter=0;" target="_GTyyC4WrynW7VN_rIGC-303" value="1. Escanea código QR del equipo físico">
+          <mxGeometry relative="1" x="0.0049" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-50" y="1434.815" as="sourcePoint" />
+            <mxPoint x="313.73" y="1434.002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-305" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_NuevoTicket" vertex="1">
+          <mxGeometry height="40" width="159" x="915" y="1335" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-306" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="993" y="1375" as="sourcePoint" />
+            <mxPoint x="991.2" y="1698.62" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-309" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="_GTyyC4WrynW7VN_rIGC-302" value="4. Muestra aviso en visor óptico: &quot;Código QR ilegible o deteriorado. Ajuste el enfoque o ingrese al portal para digitar el código manualmente.&quot;">
+          <mxGeometry relative="1" x="0.0074" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="646.68" y="1536.81" as="sourcePoint" />
+            <mxPoint x="-57" y="1527" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-310" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.143;exitY=0.116;exitDx=0;exitDy=0;exitPerimeter=0;" value="2. Abre navegador móvil: GET /tickets/nuevo?qr=EQ-CLINIC-7741">
+          <mxGeometry relative="1" x="0.0049" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="659" y="1448" as="sourcePoint" />
+            <mxPoint x="984.24" y="1448" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-311" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="176" width="10" x="987" y="1438" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-312" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="7. Alpine.js activa modo manual: desbloquea selectores de Categoría y Ubicación y limpia campo Código">
+          <mxGeometry relative="1" x="-0.5505" y="-1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1035" y="2041" />
+              <mxPoint x="1035" y="2063" />
+            </Array>
+            <mxPoint x="985" y="2041" as="sourcePoint" />
+            <mxPoint x="985" y="2063" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-313" edge="1" parent="1" source="_GTyyC4WrynW7VN_rIGC-311" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.852;exitY=0.105;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitPerimeter=0;" value="3. GET /api/assets/prefill/EQ-CLINIC-7741 [Headers: Bearer &amp;lt;token_invalido_o_vacio&amp;gt;]">
+          <mxGeometry relative="1" x="0.0049" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="998" y="1462.75" as="sourcePoint" />
+            <mxPoint x="1568" y="1463.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-314" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="99" width="10" x="1567" y="1439" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-315" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.04;entryY=0.387;entryDx=0;entryDy=0;entryPerimeter=0;" target="_GTyyC4WrynW7VN_rIGC-311" value="5. 401 Unauthorized { success: false, error: &quot;Sesión no válida o expirada&quot; }">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1568" y="1513.25" as="sourcePoint" />
+            <mxPoint x="998.9299999999998" y="1515.616" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-316" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.852;exitY=0.105;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="_GTyyC4WrynW7VN_rIGC-320" value="3. GET /api/assets/prefill/EQ-CLINIC-7741 [Headers: Bearer &amp;lt;token_invalido_o_vacio&amp;gt;]">
+          <mxGeometry relative="1" x="0.0049" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="997" y="1594" as="sourcePoint" />
+            <mxPoint x="1202.42" y="1594" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-317" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_Login" vertex="1">
+          <mxGeometry height="40" width="152" x="1192" y="1324" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-318" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1265" y="1365" as="sourcePoint" />
+            <mxPoint x="1263.23" y="1714.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-320" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="47" width="10" x="1258" y="1594" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-322" edge="1" parent="1" source="_GTyyC4WrynW7VN_rIGC-320" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.125;entryY=0.977;entryDx=0;entryDy=0;entryPerimeter=0;" target="_GTyyC4WrynW7VN_rIGC-302" value="7. Despliega pantalla de inicio de sesión con aviso: &quot;Debe iniciar sesión para registrar una solicitud asociada a este equipo&quot;">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1258" y="1637.25" as="sourcePoint" />
+            <mxPoint x="-43.35" y="1620.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-324" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Usuario" vertex="1">
+          <mxGeometry height="60" width="30" x="-86" y="1847" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-325" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-71" y="1937" as="sourcePoint" />
+            <mxPoint x="-70.21000000000001" y="2192.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-326" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="LectorQR_Camara" vertex="1">
+          <mxGeometry height="40" width="159" x="563" y="1846" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-327" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="641" y="1886" as="sourcePoint" />
+            <mxPoint x="641" y="2203.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-328" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_TicketController" vertex="1">
+          <mxGeometry height="40" width="152" x="1410" y="1846" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-329" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1483" y="1887" as="sourcePoint" />
+            <mxPoint x="1483" y="2198.77" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-330" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1822" y="1846" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-331" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1906" y="1886" as="sourcePoint" />
+            <mxPoint x="1906" y="2076.43" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-332" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="204" width="10" x="-76" y="1941" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-333" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="131" width="10" x="637" y="1928" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-334" edge="1" parent="1" source="_GTyyC4WrynW7VN_rIGC-332" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.937;exitY=0.049;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.18;entryY=0.172;entryDx=0;entryDy=0;entryPerimeter=0;" target="_GTyyC4WrynW7VN_rIGC-333" value="1. Escanea código QR adherido al equipo físico">
+          <mxGeometry relative="1" x="0.0049" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-62" y="1946.815" as="sourcePoint" />
+            <mxPoint x="301.73" y="1946.002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-335" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_NuevoTicket" vertex="1">
+          <mxGeometry height="40" width="159" x="903" y="1847" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-336" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="981" y="1887" as="sourcePoint" />
+            <mxPoint x="979.2" y="2210.62" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-337" edge="1" parent="1" source="_GTyyC4WrynW7VN_rIGC-339" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.162;exitY=0.874;exitDx=0;exitDy=0;exitPerimeter=0;" value="8. Muestra formulario en blanco con alerta: &quot;Equipo no reconocido en inventario. Por favor seleccione la Categoría y Ubicación manualmente para continuar.&quot;">
+          <mxGeometry relative="1" x="0.0074" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="634.68" y="2106.81" as="sourcePoint" />
+            <mxPoint x="-66" y="2101" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-338" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.143;exitY=0.116;exitDx=0;exitDy=0;exitPerimeter=0;" value="2. Abre navegador móvil: GET /tickets/nuevo?qr=EQ-CLINIC-9999">
+          <mxGeometry relative="1" x="0.0049" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="647" y="1960" as="sourcePoint" />
+            <mxPoint x="972.24" y="1960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-339" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="176" width="10" x="975" y="1950" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-341" edge="1" parent="1" source="_GTyyC4WrynW7VN_rIGC-339" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.852;exitY=0.105;exitDx=0;exitDy=0;entryX=0.102;entryY=0.111;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" target="_GTyyC4WrynW7VN_rIGC-342" value="3. GET /api/assets/prefill/EQ-CLINIC-9999 [Headers: Bearer JWT]">
+          <mxGeometry relative="1" x="0.0049" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="986" y="1974.75" as="sourcePoint" />
+            <mxPoint x="1556" y="1975.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-342" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="99" width="10" x="1478" y="1953" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-343" edge="1" parent="1" source="_GTyyC4WrynW7VN_rIGC-342" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.04;exitY=0.623;exitDx=0;exitDy=0;entryX=1.04;entryY=0.387;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" target="_GTyyC4WrynW7VN_rIGC-339" value="6. 404 Not Found { success: false, error: &quot;Activo no encontrado o fuera de servicio en inventario&quot; }">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1556" y="2025.25" as="sourcePoint" />
+            <mxPoint x="986.9299999999998" y="2027.616" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-349" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.852;exitY=0.105;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.027;entryY=0.048;entryDx=0;entryDy=0;entryPerimeter=0;" target="_GTyyC4WrynW7VN_rIGC-350" value="4. SELECT a.id, a.code, a.category_id, a.location_id FROM asset a&amp;nbsp;&lt;div&gt;WHERE a.code = &#39;EQ-CLINIC-9999&#39; AND a.status = &#39;ACTIVO&#39;;&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0049" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1489" y="1971" as="sourcePoint" />
+            <mxPoint x="1719.01" y="1972.48" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-350" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="99" width="10" x="1901" y="1963" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-351" edge="1" parent="1" source="_GTyyC4WrynW7VN_rIGC-350" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.04;entryY=0.387;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.049;exitY=0.363;exitDx=0;exitDy=0;exitPerimeter=0;" value="5. Retorna Empty set (0 filas coincidentes / activo no registrado o inactivo)">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1823.33" y="2001" as="sourcePoint" />
+            <mxPoint x="1487" y="2002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-352" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="4. authMiddleware ejecuta verifyToken(): token no proporcionado o firma JWT expirada">
+          <mxGeometry relative="1" x="-0.5505" y="-1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1637" y="1485" />
+              <mxPoint x="1637" y="1507" />
+            </Array>
+            <mxPoint x="1587" y="1485" as="sourcePoint" />
+            <mxPoint x="1587" y="1507" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pcoom4x8Rsz3uuIBxpa4-2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°64— Excepción 3" vertex="1">
+          <mxGeometry height="30" width="723" x="318" y="1760" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
