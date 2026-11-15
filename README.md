@@ -1,5 +1,13 @@
 # Incremento 2 — Ticketera Clínica Aconcagua
 
+<!-- FINAL-20261115 -->
+## Entrega académica final actualizada
+
+**15 de noviembre de 2026:** [documentos, diagramas, planillas, evidencias y presentación finales](Entrega-academica/Final-20261115/). [Videos finales y descargas](https://github.com/BenjaGC/Incremento-2/releases/tag/entrega-final-20261115). Esta entrega reemplaza la documentación académica anterior como referencia vigente; el código y la instalación revisados se conservan.
+
+- [Presentación Incremento 2 - Grupo 11\Presentación Incremento II.mp4](https://github.com/BenjaGC/Incremento-2/releases/download/entrega-final-20261115/I2-Presentacion-Incremento-2---Grupo-11-Presentacion-Incremento-II.mp4)
+<!-- /FINAL-20261115 -->
+
 Entrega académica del Grupo 11, organizada a partir del ZIP recibido el 4 de octubre de 2026. Este repositorio conserva el código y los documentos de ese incremento.
 
 ## Contenido

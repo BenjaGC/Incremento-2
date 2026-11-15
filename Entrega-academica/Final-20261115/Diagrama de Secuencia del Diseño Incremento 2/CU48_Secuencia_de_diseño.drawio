@@ -1,0 +1,587 @@
+<mxfile host="Electron">
+  <diagram id="seq" name="Página-1">
+    <mxGraphModel dx="2893" dy="1458" grid="0" gridSize="10" guides="0" tooltips="0" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1700" pageHeight="2200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d0_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°48- caso de éxito" vertex="1">
+          <mxGeometry height="30" width="723" x="626" y="38" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-134" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°48— Excepción 1" vertex="1">
+          <mxGeometry height="30" width="723" x="501" y="744" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-135" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°48— Excepción 2" vertex="1">
+          <mxGeometry height="30" width="723" x="544" y="1326" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-54" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="tecnico" vertex="1">
+          <mxGeometry height="60" width="30" x="-124" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_detalleEquipo" vertex="1">
+          <mxGeometry height="40" width="159" x="235" y="169" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-57" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="313" y="209" as="sourcePoint" />
+            <mxPoint x="313.91" y="684.82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_QRcodeController" vertex="1">
+          <mxGeometry height="40" width="152" x="794" y="171" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-59" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="868" y="213" as="sourcePoint" />
+            <mxPoint x="868" y="559" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1352" y="171" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-61" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1442" y="211" as="sourcePoint" />
+            <mxPoint x="1442" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="417" width="10" x="309" y="251" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-64" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" value="1. Accede al detalle del equipo (id: 108 y pulsa &quot;generar etiqueta qr&quot;">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-83" y="273.25" as="sourcePoint" />
+            <mxPoint x="308.7" y="273.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="258" width="10" x="863" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="67" width="10" x="1437" y="299" as="geometry" />
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-26" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="X2ql7rGoPxpTexpDeyX1-19" value="2. GET /api/108/qr-label&amp;nbsp;">
+          <mxGeometry relative="1" x="-0.623" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="370" y="294" />
+            </Array>
+            <mxPoint x="320" y="294" as="sourcePoint" />
+            <mxPoint x="787" y="294.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-32" edge="1" parent="1" source="X2ql7rGoPxpTexpDeyX1-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontColor=#393C56;fillColor=#F2CC8F;dashed=1;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="557" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_QRcodegenerator" vertex="1">
+          <mxGeometry height="40" width="168" x="1563" y="174" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3.Select asset_tag, serial_number,model FROM assets WHERE id = 108 AND status = &#39;ACTIVE&#39;" vertex="1">
+          <mxGeometry height="30" width="549" x="864" y="287" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4.Retorna { asset_tag: &#39;EQ-CLIN-00108&#39;, serial_number: &#39;SN-998822&#39;,model :&#39;monitor Multiparametro&#39;}" vertex="1">
+          <mxGeometry height="30" width="566" x="874" y="332" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-26" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="5ev1qbUODsz5gDep_e_I-72" value="">
+          <mxGeometry relative="1" x="-0.623" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="924" y="316" />
+            </Array>
+            <mxPoint x="874" y="316" as="sourcePoint" />
+            <mxPoint x="1423" y="312.67" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#393C56;" value="6.generate label ({url:&#39;[https://sistema.clinica.cl/activos/108](https://sistema.clinica.cl/activos/108&#39;), labeltext:&#39;EQ-CLIN-00108&#39;,dpi:&#39;203&#39;,format:&#39;png&#39;})" vertex="1">
+          <mxGeometry height="30" width="538" x="879" y="439" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="72" width="10" x="1641" y="448" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-43" edge="1" parent="1" source="X2ql7rGoPxpTexpDeyX1-20" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.982;exitY=0.939;exitDx=0;exitDy=0;entryX=0.931;entryY=0.819;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" value="">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1416.000000000001" y="366" as="sourcePoint" />
+            <mxPoint x="876" y="363" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-50" edge="1" parent="1" source="X2ql7rGoPxpTexpDeyX1-37" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.812;entryY=0.801;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.376;exitY=0.888;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1748" y="512" as="sourcePoint" />
+            <mxPoint x="869.9999999999999" y="516.22" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-53" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#393C56;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 11px; text-align: left; white-space: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;8. 20O OK { &#39;success:true,qrImage/imagepng:base64,...&#39;, assetsTag:&#39;EQ-CLIN-00108&#39;,printable:&#39;True&#39;)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="85" x="529" y="501" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-54" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.982;exitY=0.939;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="860.67" y="526" as="sourcePoint" />
+            <mxPoint x="319" y="526" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-64" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-71" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;exitX=1.1;exitY=0.717;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="X2ql7rGoPxpTexpDeyX1-37" value="">
+          <mxGeometry relative="1" x="-0.623" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="924" y="470" />
+            </Array>
+            <mxPoint x="874" y="470" as="sourcePoint" />
+            <mxPoint x="1868.71" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-65" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#393C56;" value="5.Construye URL canonica:[htpps://sistema.clinica.cl/activos/108](https://sistema.clinica.cl/activos/108)" vertex="1">
+          <mxGeometry height="30" width="847" x="735" y="376" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-66" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="">
+          <mxGeometry relative="1" x="-0.623" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="924" y="400" />
+              <mxPoint x="924" y="422" />
+            </Array>
+            <mxPoint x="874" y="400" as="sourcePoint" />
+            <mxPoint x="874" y="422" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-68" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#393C56;" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;7.retorna imagen optimizada en buffer binario (DataURL:image/png;base64...)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="582" x="1114" y="487" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-70" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#393C56;" value="9.Renderiza modal en alpine.js con previsualizacion para&amp;nbsp; impresion termina" vertex="1">
+          <mxGeometry height="30" width="560" x="254" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-71" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="">
+          <mxGeometry relative="1" x="-0.623" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="371" y="576" />
+              <mxPoint x="371" y="598" />
+            </Array>
+            <mxPoint x="321" y="576" as="sourcePoint" />
+            <mxPoint x="321" y="598" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-77" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#393C56;" value="10.Despliega etiqueta&amp;nbsp; lista para descargar&amp;nbsp; directa&amp;nbsp; o envio&amp;nbsp; a impresora&amp;nbsp; termica" vertex="1">
+          <mxGeometry height="30" width="411" x="-98" y="611" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-78" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.982;exitY=0.939;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="306.6700000000001" y="639" as="sourcePoint" />
+            <mxPoint x="-92.47" y="639" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-135" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="tecnico" vertex="1">
+          <mxGeometry height="60" width="30" x="-187" y="779" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-137" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_detalleEquipo" vertex="1">
+          <mxGeometry height="40" width="159" x="155" y="799" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-138" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="233" y="839" as="sourcePoint" />
+            <mxPoint x="233.91" y="1246.33" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-139" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_QRcodeController" vertex="1">
+          <mxGeometry height="40" width="152" x="714" y="801" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-140" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="788" y="843" as="sourcePoint" />
+            <mxPoint x="788" y="1189" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-141" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1272" y="801" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-142" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1362" y="841" as="sourcePoint" />
+            <mxPoint x="1362" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-144" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="320" width="10" x="229" y="881" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-145" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" value="1. Pulsar &quot;Generar Etiqueta QR&quot; en un registro con identificador valido">
+          <mxGeometry relative="1" x="-0.0043" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-163" y="903.25" as="sourcePoint" />
+            <mxPoint x="228.70000000000005" y="903.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-146" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="258" width="10" x="783" y="915" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-147" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="67" width="10" x="1357" y="929" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-148" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="X2ql7rGoPxpTexpDeyX1-151" value="2. GET /api/equipos/9999/qr-label&amp;nbsp;">
+          <mxGeometry relative="1" x="-0.623" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="290" y="924" />
+            </Array>
+            <mxPoint x="240" y="924" as="sourcePoint" />
+            <mxPoint x="707" y="924.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-149" edge="1" parent="1" source="X2ql7rGoPxpTexpDeyX1-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontColor=#393C56;fillColor=#F2CC8F;dashed=1;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1567" y="1187" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-150" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_QRcodegenerator" vertex="1">
+          <mxGeometry height="40" width="168" x="1483" y="804" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-151" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3.SELECT asset_tag, status From asset WHERE id = 9999" vertex="1">
+          <mxGeometry height="30" width="549" x="784" y="917" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-152" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4. Retorna NULL / Empty&amp;nbsp; result set" vertex="1">
+          <mxGeometry height="30" width="566" x="794" y="962" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-153" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="X2ql7rGoPxpTexpDeyX1-147" value="">
+          <mxGeometry relative="1" x="-0.623" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="844" y="946" />
+            </Array>
+            <mxPoint x="794" y="946" as="sourcePoint" />
+            <mxPoint x="1343" y="942.6700000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-154" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#393C56;" value="6. 404 Not Found {succsess: false error: &quot;El activo solicitado no existe o no se encuentra disponible&quot;}" vertex="1">
+          <mxGeometry height="30" width="551" x="241" y="1078" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-156" edge="1" parent="1" source="X2ql7rGoPxpTexpDeyX1-152" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.982;exitY=0.939;exitDx=0;exitDy=0;entryX=0.931;entryY=0.819;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" value="">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1336.000000000001" y="996" as="sourcePoint" />
+            <mxPoint x="796" y="993" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-161" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#393C56;" value="5.Comprueba ausencia de datos y cancela llamada a S_QRCodeGenerator" vertex="1">
+          <mxGeometry height="30" width="847" x="583" y="1007" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-162" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="">
+          <mxGeometry relative="1" x="-0.623" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="844" y="1030" />
+              <mxPoint x="844" y="1052" />
+            </Array>
+            <mxPoint x="794" y="1030" as="sourcePoint" />
+            <mxPoint x="794" y="1052" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-168" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.376;exitY=0.888;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="784" y="1109" as="sourcePoint" />
+            <mxPoint x="245.59" y="1113.22" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-169" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.376;exitY=0.888;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="227.40999999999997" y="1171" as="sourcePoint" />
+            <mxPoint x="-169.71" y="1175.22" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-170" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#393C56;" value="7.Despliega aviso en pantalla: &quot;No se puede generar&amp;nbsp; la etiqueta: el equipo no fue encontrado" vertex="1">
+          <mxGeometry height="30" width="409" x="-172" y="1139" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-234" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="tecnico" vertex="1">
+          <mxGeometry height="60" width="30" x="-180" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-236" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_detalleEquipo" vertex="1">
+          <mxGeometry height="40" width="159" x="172" y="1374" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-237" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="1414" as="sourcePoint" />
+            <mxPoint x="250.91000000000008" y="1889.8200000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-238" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_QRcodeController" vertex="1">
+          <mxGeometry height="40" width="152" x="731" y="1376" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-239" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="805" y="1418" as="sourcePoint" />
+            <mxPoint x="805" y="1826" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-240" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1289" y="1376" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-241" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1379" y="1416" as="sourcePoint" />
+            <mxPoint x="1379" y="1775" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-243" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="417" width="10" x="246" y="1456" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-244" edge="1" parent="1" source="X2ql7rGoPxpTexpDeyX1-325" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.4;exitY=0.074;exitDx=0;exitDy=0;exitPerimeter=0;" value="1.Pulsa &quot;Generar Etiqueta QR&quot;">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-146" y="1478.25" as="sourcePoint" />
+            <mxPoint x="245.70000000000005" y="1478.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-245" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="318" width="10" x="800" y="1490" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-246" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="67" width="10" x="1374" y="1504" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-247" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="X2ql7rGoPxpTexpDeyX1-250" value="2. GET/api/equipos/108/qr/label">
+          <mxGeometry relative="1" x="-0.623" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="307" y="1499" />
+            </Array>
+            <mxPoint x="257" y="1499" as="sourcePoint" />
+            <mxPoint x="724" y="1499.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-248" edge="1" parent="1" source="X2ql7rGoPxpTexpDeyX1-249" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontColor=#393C56;fillColor=#F2CC8F;dashed=1;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1584" y="1762" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-249" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_QRcodegenerator" vertex="1">
+          <mxGeometry height="40" width="168" x="1500" y="1379" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-250" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3.Select asset_tag, serial_number, model From asset&amp;nbsp; WHERE id = 108 AND status = &#39;ACTIVO&#39;" vertex="1">
+          <mxGeometry height="30" width="549" x="801" y="1492" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-251" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4.Retorna { asset_tag: &#39;EQ-CLIN-00108&#39;, model: &#39; Monitor Multiparametro&#39;}" vertex="1">
+          <mxGeometry height="30" width="566" x="811" y="1537" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-252" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="X2ql7rGoPxpTexpDeyX1-246" value="">
+          <mxGeometry relative="1" x="-0.623" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="861" y="1521" />
+            </Array>
+            <mxPoint x="811" y="1521" as="sourcePoint" />
+            <mxPoint x="1360" y="1517.67" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-253" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#393C56;" value="6. Error: QR_ENCODE_ERROR (Fallo al procesar buffer grafico de imagen png)" vertex="1">
+          <mxGeometry height="30" width="538" x="858" y="1653" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-254" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="96" width="10" x="1578" y="1593" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-255" edge="1" parent="1" source="X2ql7rGoPxpTexpDeyX1-251" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.982;exitY=0.939;exitDx=0;exitDy=0;entryX=0.931;entryY=0.819;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" value="">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1353.000000000001" y="1571" as="sourcePoint" />
+            <mxPoint x="813" y="1568" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-260" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#393C56;" value="5.generateLabel({ur;: &#39; [https://sistema.clinica.cl/activos/108](https://sistema.clinica.cl/activos/108&#39;),dpi:203})" vertex="1">
+          <mxGeometry height="30" width="586" x="845" y="1587" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-267" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="">
+          <mxGeometry relative="1" x="-0.623" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="861" y="1615" />
+            </Array>
+            <mxPoint x="811" y="1615" as="sourcePoint" />
+            <mxPoint x="1567" y="1615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-268" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.982;exitY=0.939;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1576" y="1675" as="sourcePoint" />
+            <mxPoint x="824" y="1678.08" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-273" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#393C56;" value="7.Captura excepcion (.catch) y registra traza en log del sistema" vertex="1">
+          <mxGeometry height="30" width="272" x="805" y="1694" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-274" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="">
+          <mxGeometry relative="1" x="-0.7185" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="860" y="1716" />
+              <mxPoint x="860" y="1738" />
+            </Array>
+            <mxPoint x="810" y="1716" as="sourcePoint" />
+            <mxPoint x="810" y="1738" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-275" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#393C56;" value="8.500 Interal Server Error {success: false,error:&quot;Error interno al codificar la imagen del codigo QR&quot;}" vertex="1">
+          <mxGeometry height="30" width="543" x="258" y="1757" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-276" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.982;exitY=0.939;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="799" y="1786" as="sourcePoint" />
+            <mxPoint x="260.88" y="1786" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-277" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#393C56;" value="9.Despliega notificacion &quot;Fallo al generar el archivo grafico del codigo QR. Intente nuevamente.&quot;" vertex="1">
+          <mxGeometry height="30" width="409" x="-162" y="1801" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-278" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.982;exitY=0.939;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="X2ql7rGoPxpTexpDeyX1-277" value="">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="245" y="1831" as="sourcePoint" />
+            <mxPoint x="-146.18" y="1831" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-279" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="tecnico" vertex="1">
+          <mxGeometry height="60" width="30" x="-211" y="2069" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-281" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_detalleEquipo" vertex="1">
+          <mxGeometry height="40" width="159" x="112" y="2088" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-282" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="2128" as="sourcePoint" />
+            <mxPoint x="190.91000000000003" y="2603.82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-283" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_QRcodeController" vertex="1">
+          <mxGeometry height="40" width="152" x="685" y="2090" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-284" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="759" y="2132" as="sourcePoint" />
+            <mxPoint x="759" y="2478" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-285" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="896" y="2088" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-286" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="986" y="2128" as="sourcePoint" />
+            <mxPoint x="986" y="2487" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-288" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="417" width="10" x="186" y="2170" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-289" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" value="1.Previsualiza la etiqueta QR y pulsa &quot;Imprimir en Termica&quot;">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-192" y="2192.25" as="sourcePoint" />
+            <mxPoint x="182.06" y="2192.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-293" edge="1" parent="1" source="X2ql7rGoPxpTexpDeyX1-294" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fontColor=#393C56;fillColor=#F2CC8F;dashed=1;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1191" y="2474" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-294" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_QRcodegenerator" vertex="1">
+          <mxGeometry height="40" width="168" x="1107" y="2091" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-295" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3. Captura excepcion: Print_Device_OFFLINE / SpoolerTimeout( Sin respuestade impresora termina)" vertex="1">
+          <mxGeometry height="30" width="553" x="198" y="2262" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-306" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="">
+          <mxGeometry relative="1" x="-0.623" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="247" y="2368" />
+              <mxPoint x="247" y="2390" />
+            </Array>
+            <mxPoint x="197" y="2368" as="sourcePoint" />
+            <mxPoint x="197" y="2390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-313" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#393C56;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 11px; text-align: left; white-space: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;2.Envia payload de impresion termina al spooler local/ navigator.print()&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="329" x="202" y="2200" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-314" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="">
+          <mxGeometry relative="1" x="-0.623" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="246" y="2224" />
+              <mxPoint x="246" y="2246" />
+            </Array>
+            <mxPoint x="196" y="2224" as="sourcePoint" />
+            <mxPoint x="196" y="2246" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-315" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="">
+          <mxGeometry relative="1" x="-0.623" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="246" y="2289" />
+              <mxPoint x="246" y="2311" />
+            </Array>
+            <mxPoint x="196" y="2289" as="sourcePoint" />
+            <mxPoint x="196" y="2311" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-316" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#393C56;" value="4.Habilita boton de contingencia &#39;descargar imagen PNG para impresion manual&quot;" vertex="1">
+          <mxGeometry height="30" width="552" x="149" y="2343" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-317" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.982;exitY=0.939;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="188" y="2485" as="sourcePoint" />
+            <mxPoint x="-201.29" y="2485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-318" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#393C56;" value="Despliega alerta : &quot;impresora termica&amp;nbsp; no detectada o fuera de linea.Puede descargar el archibo PNG directamente&quot;." vertex="1">
+          <mxGeometry height="30" width="394" x="-196" y="2453" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-322" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-207" y="2150" as="sourcePoint" />
+            <mxPoint x="-206.08999999999997" y="2625.82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-323" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="417" width="10" x="-211" y="2153" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-325" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="417" width="10" x="-172" y="1447" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-326" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-167" y="1429" as="sourcePoint" />
+            <mxPoint x="-166.08999999999992" y="1904.8200000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-329" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-172" y="859" as="sourcePoint" />
+            <mxPoint x="-171.09" y="1201.33" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-330" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="320" width="10" x="-178" y="874" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-331" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-95" y="230" as="sourcePoint" />
+            <mxPoint x="-94.08999999999997" y="705.82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-332" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="417" width="10" x="-101" y="244" as="geometry" />
+        </mxCell>
+        <mxCell id="X2ql7rGoPxpTexpDeyX1-334" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°48— Excepción 3" vertex="1">
+          <mxGeometry height="30" width="723" x="444" y="1945" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

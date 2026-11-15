@@ -1,0 +1,467 @@
+<mxfile host="Electron">
+  <diagram id="seq" name="Página-1">
+    <mxGraphModel dx="2537" dy="1250" grid="0" gridSize="10" guides="0" tooltips="0" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1700" pageHeight="2200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d0_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°47- caso de éxito" vertex="1">
+          <mxGeometry height="30" width="723" x="38" y="3" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°47— Excepción 3" vertex="1">
+          <mxGeometry height="30" width="723" x="213" y="1781" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-135" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°47— Excepción 2" vertex="1">
+          <mxGeometry height="30" width="723" x="85" y="1204" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-136" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Sistema" vertex="1">
+          <mxGeometry height="60" width="31" x="1" y="1888" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-137" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="16" y="1978" as="sourcePoint" />
+            <mxPoint x="16" y="2263.65" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-139" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="1927" as="sourcePoint" />
+            <mxPoint x="535" y="2252.28" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-141" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1066" y="1928" as="sourcePoint" />
+            <mxPoint x="1066" y="2255.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-142" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1264" y="1886" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-143" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1348" y="1926" as="sourcePoint" />
+            <mxPoint x="1348" y="2255.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-144" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="264" width="10" x="11" y="1982" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-146" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.04;exitY=0.027;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.053;entryY=0.041;entryDx=0;entryDy=0;entryPerimeter=0;" target="wFOkH16AzG85qfpYjNFM-14" value="1. Inicia requerimiento de interoperabilidad: validateExternalMedicalData({ ticketId: 2115, patientRun: &#39;12345678-9&#39; })">
+          <mxGeometry relative="1" x="0.0005" y="6" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="19.40000000000009" y="1996.3860000000004" as="sourcePoint" />
+            <mxPoint x="527.96" y="1997.208" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-150" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="44" width="10" x="1061" y="2004" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-20" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Sistema" vertex="1">
+          <mxGeometry height="60" width="30" x="30" y="849" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-21" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="939" as="sourcePoint" />
+            <mxPoint x="45.79" y="1196.42" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-23" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="900" as="sourcePoint" />
+            <mxPoint x="690" y="1186.39" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_APIMedicaExterna" vertex="1">
+          <mxGeometry height="40" width="143" x="1132" y="859" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-25" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1215" y="899" as="sourcePoint" />
+            <mxPoint x="1213.41" y="1213.98" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1669" y="858" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-27" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1752" y="898" as="sourcePoint" />
+            <mxPoint x="1752" y="1203.65" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="247" width="10" x="40" y="943" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="232" width="10" x="686" y="942" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-30" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.072;entryY=0.084;entryDx=0;entryDy=0;entryPerimeter=0;" value="1. Inicia consulta de interoperabilidad: validateExternalMedicalData({ ticketId: 2105, patientRun: &#39;12345678-9&#39; })">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="49.39999999999998" y="958.8499999999999" as="sourcePoint" />
+            <mxPoint x="684.2800000000002" y="956.1960000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-32" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="5. Captura excepción (.catch), calcula latencia (5000ms) y asigna código HTTP 504 / NETWORK_TIMEOUT">
+          <mxGeometry relative="1" x="-0.623" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="746" y="1049" />
+              <mxPoint x="746" y="1071" />
+            </Array>
+            <mxPoint x="696" y="1049" as="sourcePoint" />
+            <mxPoint x="696" y="1071" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-33" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="2. Registra timestamp inicial (t0) y configura socket timeout en 5000ms">
+          <mxGeometry relative="1" x="-0.623" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="746" y="965" />
+              <mxPoint x="746" y="987" />
+            </Array>
+            <mxPoint x="696" y="965" as="sourcePoint" />
+            <mxPoint x="696" y="987" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-54" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Sistema" vertex="1">
+          <mxGeometry height="60" width="30" x="-104" y="153" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-55" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-89" y="243" as="sourcePoint" />
+            <mxPoint x="-88.21" y="539.1" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_IntegracionExterna" vertex="1">
+          <mxGeometry height="40" width="159" x="235" y="169" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-57" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="313" y="209" as="sourcePoint" />
+            <mxPoint x="313.91" y="540.01" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_APIMedicaExterna" vertex="1">
+          <mxGeometry height="40" width="152" x="720" y="171" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-59" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="794" y="213" as="sourcePoint" />
+            <mxPoint x="794" y="534.56" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="915" y="171" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-61" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="999" y="211" as="sourcePoint" />
+            <mxPoint x="999" y="531.07" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="277" width="10" x="-94" y="247" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="271" width="10" x="309" y="251" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-64" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-62" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.13;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.005;exitY=0.113;exitDx=0;exitDy=0;exitPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-63" value="1. Inicia requerimiento de interoperabilidad: validateExternalMedicalData&lt;div&gt;({ ticketId: 2104, patientRun: &#39;12345678-9&#39; })&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-83.99999999999979" y="275.0010000000001" as="sourcePoint" />
+            <mxPoint x="234.45000000000005" y="275.19499999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-65" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.884;entryY=0.947;entryDx=0;entryDy=0;entryPerimeter=0;" value="8. Retorna { success: true, verified: true, recordId: &#39;REC-9941&#39;, latency: 142 }">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="304.91" y="518" as="sourcePoint" />
+            <mxPoint x="-84.99999999999986" y="515.839" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="47" width="10" x="789" y="339" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="43" width="10" x="994" y="454" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-74" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_IntegracionExterna" vertex="1">
+          <mxGeometry height="40" width="132" x="625" y="859" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-96" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_IntegracionExterna" vertex="1">
+          <mxGeometry height="40" width="132" x="471" y="1887" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-107" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Sistema" vertex="1">
+          <mxGeometry height="60" width="30" x="59" y="1315" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-108" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="74" y="1405" as="sourcePoint" />
+            <mxPoint x="74.79" y="1694.23" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-109" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="656" y="1367" as="sourcePoint" />
+            <mxPoint x="657.2" y="1692.57" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-114" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="259" width="10" x="69" y="1409" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-115" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="244" width="10" x="652" y="1409" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-116" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.023;entryY=0.057;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-115" value="1. Inicia requerimiento de interoperabilidad: validateExternalMedicalData({ ticketId: 2110, patientRun: &#39;12345678-9&#39; })">
+          <mxGeometry relative="1" x="-0.0047" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="79.40000000000009" y="1424.85" as="sourcePoint" />
+            <mxPoint x="613.42" y="1422.85" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_APIMedicaExterna" vertex="1">
+          <mxGeometry height="40" width="147" x="1150" y="1324" as="geometry" />
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-41" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1223" y="1364" as="sourcePoint" />
+            <mxPoint x="1222.11" y="1655.48" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1625" y="1331" as="geometry" />
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-43" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1709" y="1371" as="sourcePoint" />
+            <mxPoint x="1709" y="1661.99" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="115" width="10" x="1218" y="1443" as="geometry" />
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="54" width="10" x="1703" y="1571" as="geometry" />
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-59" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.094;entryY=0.439;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.002;exitY=0.529;exitDx=0;exitDy=0;exitPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-115" value="4. 500 Internal Server Error { error: &quot;DatabaseConnectionError&quot;, message: &quot;Servicio clínico no disponible&quot; }">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1217.0200000000004" y="1518.0049999999997" as="sourcePoint" />
+            <mxPoint x="661.9999999999999" y="1520.7299999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_IntegracionExterna" vertex="1">
+          <mxGeometry height="40" width="132" x="591" y="1327" as="geometry" />
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-67" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="84" width="10" x="1343" y="2114" as="geometry" />
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_APIMedicaExterna" vertex="1">
+          <mxGeometry height="40" width="147" x="992" y="1887" as="geometry" />
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-9" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.23;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" target="3BWQC0XcRVjewWSFNIE1-50" value="3. POST [https://api.imer.cl/v1/clinical/validate](https://api.imer.cl/v1/clinical/validate) { run: &#39;12345678-9&#39; }">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="664" y="1489" as="sourcePoint" />
+            <mxPoint x="1137.88" y="1491.7300000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-12" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="2. Registra marca temporal t0 = Date.now()">
+          <mxGeometry relative="1" x="-0.9552" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="713" y="1437" />
+              <mxPoint x="713" y="1459" />
+            </Array>
+            <mxPoint x="663" y="1437" as="sourcePoint" />
+            <mxPoint x="663" y="1459" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-13" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-115" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1.164;entryY=0.962;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-114" value="8. Retorna { success: false, httpStatus: 500, latency: 3850, error: &quot;Fallo en respuesta de servidor IMER&quot; }">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="616.0200000000004" y="1623" as="sourcePoint" />
+            <mxPoint x="86.27" y="1625.88" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="251" width="10" x="530" y="1987" as="geometry" />
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-15" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.043;entryY=0.148;entryDx=0;entryDy=0;entryPerimeter=0;" value="2. POST [https://api.imer.cl/v1/clinical/validate](https://api.imer.cl/v1/clinical/validate) { run: &#39;12345678-9&#39; }">
+          <mxGeometry relative="1" x="-0.0057" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="538" y="2012" as="sourcePoint" />
+            <mxPoint x="1059.5700000000002" y="2013.2600000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-23" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="7. Captura excepción (.catch), escribe traza de rescate en log local de contingencia (stderr)">
+          <mxGeometry relative="1" x="-0.7185" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="592" y="2183" />
+              <mxPoint x="592" y="2205" />
+            </Array>
+            <mxPoint x="542" y="2183" as="sourcePoint" />
+            <mxPoint x="542" y="2205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-25" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.053;exitY=0.978;exitDx=0;exitDy=0;entryX=1.175;entryY=0.826;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" value="8. Retorna { success: false, error: &quot;AUDIT_LOG_PERSISTENCE_FAILED&quot;, detail: &quot;Validación externa&amp;nbsp;&lt;div&gt;completada pero fallo el guardado de la auditoría regulatoria&quot; }&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0001" y="-1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="528.4700000000003" y="2229.002" as="sourcePoint" />
+            <mxPoint x="20" y="2231.518" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-26" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="2. Registra timestamp inicial (t0 = Date.now()) y estructura headers con API Key de entorno">
+          <mxGeometry relative="1" x="-0.623" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="370" y="290" />
+              <mxPoint x="370" y="312" />
+            </Array>
+            <mxPoint x="320" y="290" as="sourcePoint" />
+            <mxPoint x="320" y="312" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-27" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.135;entryY=0.074;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.001;exitY=0.053;exitDx=0;exitDy=0;exitPerimeter=0;" value="3. POST [https://api.imer.cl/v1/clinical/validate](https://api.imer.cl/v1/clinical/validate)&amp;nbsp;&lt;div&gt;{ run: &#39;12345678-9&#39;, service: &#39;URGENCIA&#39; }&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="318.0000000000002" y="345.0010000000001" as="sourcePoint" />
+            <mxPoint x="779.6500000000001" y="346.236" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-28" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.048;exitY=0.759;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.931;entryY=0.819;entryDx=0;entryDy=0;entryPerimeter=0;" value="4. 200 OK { valid: true, medicalRecordId: &#39;REC-9941&#39;, status: &#39;ACTIVE&#39; }">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="782.21" y="379.15000000000015" as="sourcePoint" />
+            <mxPoint x="318.99999999999994" y="379.00499999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-29" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="5. Registra timestamp final (t1), calcula latencia&amp;nbsp;&lt;div&gt;(latencyMs = t1 - t0: 142ms) y valida HTTP 200&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.1298" y="4" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="369" y="404" />
+              <mxPoint x="369" y="426" />
+            </Array>
+            <mxPoint x="319" y="404" as="sourcePoint" />
+            <mxPoint x="319" y="426" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-30" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.001;exitY=0.053;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.038;entryY=0.316;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-72" value="6. INSERT INTO integration_audit_log (system_target, endpoint, method, http_status, latency_ms, response_summary, created_at)&lt;div&gt;&amp;nbsp;VALUES (&#39;IMER&#39;, &#39;/v1/clinical/validate&#39;, &#39;POST&#39;, 200, 142, &#39;VALID_RECORD&#39;, NOW())&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="321.0000000000002" y="460.0010000000001" as="sourcePoint" />
+            <mxPoint x="984.08" y="466.97" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-31" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-72" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.059;exitY=0.695;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.06;entryY=0.862;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-63" value="7. Confirma inserción de bitácora de integración { insertId: 8520 }">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="784.21" y="497.15000000000015" as="sourcePoint" />
+            <mxPoint x="320.99999999999994" y="497.00499999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="29" width="10" x="1210" y="1004" as="geometry" />
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-35" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.04;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.041;exitY=0.379;exitDx=0;exitDy=0;exitPerimeter=0;" value="3. POST [https://api.imer.cl/v1/clinical/validate](https://api.imer.cl/v1/clinical/validate) { run: &#39;12345678-9&#39; }">
+          <mxGeometry relative="1" x="0.0024" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="695.4099999999999" y="1009.0009999999997" as="sourcePoint" />
+            <mxPoint x="1208.6" y="1008" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="87" width="10" x="1747" y="1085" as="geometry" />
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-40" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.062;exitY=0.582;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.075;entryY=0.953;entryDx=0;entryDy=0;entryPerimeter=0;" value="4. Error de red: ETIMEDOUT / ECONNREFUSED (Sin respuesta del servidor externo tras 5000ms)">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1209.62" y="1027.358" as="sourcePoint" />
+            <mxPoint x="695" y="1031" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-41" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.041;exitY=0.379;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.102;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" target="wFOkH16AzG85qfpYjNFM-37" value="6. INSERT INTO integration_audit_log (system_target, endpoint, method, http_status, latency_ms, error_detail, created_at)&amp;nbsp;&lt;div&gt;VALUES (&#39;IMER&#39;, &#39;/v1/clinical/validate&#39;, &#39;POST&#39;, 504, 5000, &#39;ETIMEDOUT: Gateway Timeout&#39;, NOW())&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0024" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="695.9999999999999" y="1096.0009999999997" as="sourcePoint" />
+            <mxPoint x="1743.42" y="1092.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-42" edge="1" parent="1" source="wFOkH16AzG85qfpYjNFM-37" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.12;exitY=0.394;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.075;entryY=0.953;entryDx=0;entryDy=0;entryPerimeter=0;" value="7. Confirma registro de auditoría de integración fallida">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1210.62" y="1121.998" as="sourcePoint" />
+            <mxPoint x="696" y="1125.64" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-45" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.04;exitY=0.968;exitDx=0;exitDy=0;exitPerimeter=0;" value="8. Retorna { success: false, reachable: false, error: &quot;Servicio externo IMER no disponible temporalmente&quot;, latency: 5000 }">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="658.1599999999999" y="1163.0020000000002" as="sourcePoint" />
+            <mxPoint x="49" y="1166.77" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-46" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="5. Registra t1, calcula latencia (latencyMs = 3850ms) y clasifica respuesta como HTTP_ERROR">
+          <mxGeometry relative="1" x="-0.9552" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="712" y="1549" />
+              <mxPoint x="712" y="1571" />
+            </Array>
+            <mxPoint x="662" y="1549" as="sourcePoint" />
+            <mxPoint x="662" y="1571" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-48" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.011;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" value="6. INSERT INTO integration_audit_log (system_target, endpoint, method, http_status, latency_ms, error_detail, created_at)&amp;nbsp;&lt;div&gt;VALUES (&#39;IMER&#39;, &#39;/v1/clinical/validate&#39;, &#39;POST&#39;, 500, 3850, &#39;DatabaseConnectionError&#39;, NOW())&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="668" y="1596.2" as="sourcePoint" />
+            <mxPoint x="1704.1099999999997" y="1592.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-50" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.094;entryY=0.439;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" value="7. Confirma inserción de log de auditoría con error HTTP">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1703" y="1618" as="sourcePoint" />
+            <mxPoint x="663" y="1627" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-51" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.103;entryY=0.9;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" value="3. 200 OK { valid: true, medicalRecordId: &#39;REC-9988&#39; }">
+          <mxGeometry relative="1" x="-0.0001" y="-1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1060" y="2038.25" as="sourcePoint" />
+            <mxPoint x="537" y="2040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-52" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="4. Registra latencia (110ms) y estructura registro para auditoría">
+          <mxGeometry relative="1" x="-0.7185" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="591" y="2067" />
+              <mxPoint x="591" y="2089" />
+            </Array>
+            <mxPoint x="541" y="2067" as="sourcePoint" />
+            <mxPoint x="541" y="2089" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-53" edge="1" parent="1" source="wFOkH16AzG85qfpYjNFM-14" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.016;entryY=0.051;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.9;exitY=0.537;exitDx=0;exitDy=0;exitPerimeter=0;" target="3BWQC0XcRVjewWSFNIE1-67" value="5. INSERT INTO integration_audit_log (system_target, endpoint, method, http_status, latency_ms, response_summary, created_at)&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;VALUES&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;(&#39;IMER&#39;, &#39;/v1/clinical/validate&#39;, &#39;POST&#39;, 200, 110, &#39;VALID_RECORD&#39;, NOW())&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0057" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="539" y="2116" as="sourcePoint" />
+            <mxPoint x="1613.09" y="2117.26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wFOkH16AzG85qfpYjNFM-56" edge="1" parent="1" source="3BWQC0XcRVjewWSFNIE1-67" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.287;entryY=0.53;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.101;exitY=0.431;exitDx=0;exitDy=0;exitPerimeter=0;" value="6. Error: PROTOCOL_CONNECTION_LOST / ER_OUT_OF_RESOURCES (Fallo al escribir en base de datos)">
+          <mxGeometry relative="1" x="-0.0001" y="-1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1340.2399999999998" y="2150.624" as="sourcePoint" />
+            <mxPoint x="539.9999999999999" y="2156.07" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

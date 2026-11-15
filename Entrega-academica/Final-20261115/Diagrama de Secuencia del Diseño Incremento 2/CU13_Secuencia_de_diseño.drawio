@@ -1,0 +1,568 @@
+<mxfile host="Electron">
+  <diagram id="seq" name="Página-1">
+    <mxGraphModel dx="2135" dy="875" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1700" pageHeight="2200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d0_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°13- caso de éxito" vertex="1">
+          <mxGeometry height="30" width="723" x="38" y="3" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_a" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Administrador" vertex="1">
+          <mxGeometry height="60" width="30" x="45" y="59" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_ll_a" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="148" as="sourcePoint" />
+            <mxPoint x="60" y="592" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0_v" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_Reportes" vertex="1">
+          <mxGeometry height="40" width="120" x="614" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_ll_v" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="674" y="108" as="sourcePoint" />
+            <mxPoint x="674" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0_s" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_Servidor" vertex="1">
+          <mxGeometry height="40" width="120" x="1205" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_ll_s" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1265" y="105" as="sourcePoint" />
+            <mxPoint x="1265" y="587" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0_db" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1781" y="63" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_ll_db" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1865" y="103" as="sourcePoint" />
+            <mxPoint x="1865" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0_bar_a" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="371" width="10" x="55" y="152" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_bar_v" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="365" width="10" x="669" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_bar_s" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="227" width="10" x="1260" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_bar_db" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="86" width="10" x="1860" y="319" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_m0" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.129;entryY=0.095;entryDx=0;entryDy=0;entryPerimeter=0;" target="d0_bar_v" value="1. Hace clic en el botón &quot;Exportar&quot; y selecciona el formato deseado (&quot;Excel&quot;)">
+          <mxGeometry relative="1" x="-0.0028" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="64" y="184.62" as="sourcePoint" />
+            <mxPoint x="500.8600000000001" y="182.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0_m1" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.186;exitY=0.465;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.007;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" target="d0_bar_s" value="">
+          <mxGeometry relative="1" x="0.0035" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="680.0000000000001" y="243.79500000000002" as="sourcePoint" />
+            <mxPoint x="1258.82" y="242.99899999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-115" connectable="0" parent="d0_m1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2. GET /api/reportes/exportar?formato=xlsx&amp;amp;startDate=2026-08-01&amp;amp;endDate=2026-08-31" vertex="1">
+          <mxGeometry relative="1" x="-0.1812" y="3" as="geometry">
+            <mxPoint x="41" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0_m8" edge="1" parent="1" source="d0_bar_v" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.035;exitY=0.981;exitDx=0;exitDy=0;exitPerimeter=0;" value="8. Descarga automáticamente el archivo &quot;reporte_kpi.xlsx&quot; en el navegador">
+          <mxGeometry relative="1" x="-0.0007" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="408.19" y="511" as="sourcePoint" />
+            <mxPoint x="66" y="511" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d0_src" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#000000;" value="Fuente: Elaborado por el estudiante de acuerdo con el proyecto." vertex="1">
+          <mxGeometry height="24" width="723" x="40" y="602" as="geometry" />
+        </mxCell>
+        <mxCell id="d1_a" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Administrador" vertex="1">
+          <mxGeometry height="60" width="30" x="62" y="1261" as="geometry" />
+        </mxCell>
+        <mxCell id="d1_ll_a" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="77" y="1347" as="sourcePoint" />
+            <mxPoint x="77" y="1513.48" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d1_v" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_Reportes" vertex="1">
+          <mxGeometry height="40" width="120" x="529" y="1266" as="geometry" />
+        </mxCell>
+        <mxCell id="d1_ll_v" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="589" y="1306" as="sourcePoint" />
+            <mxPoint x="590.55" y="1505.28" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d1_s" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_Servidor" vertex="1">
+          <mxGeometry height="40" width="120" x="1062" y="1265" as="geometry" />
+        </mxCell>
+        <mxCell id="d1_ll_s" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1122" y="1305" as="sourcePoint" />
+            <mxPoint x="1122" y="1556" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d1_db" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1309" y="1262" as="geometry" />
+        </mxCell>
+        <mxCell id="d1_ll_db" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1393" y="1302" as="sourcePoint" />
+            <mxPoint x="1393" y="1546.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d1_bar_a" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="151" width="10" x="72" y="1351" as="geometry" />
+        </mxCell>
+        <mxCell id="d1_bar_v" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="145" width="10" x="584" y="1348" as="geometry" />
+        </mxCell>
+        <mxCell id="d1_bar_s" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="75" width="10" x="1117" y="1393" as="geometry" />
+        </mxCell>
+        <mxCell id="d1_m0" edge="1" parent="1" source="d1_bar_a" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.033;exitY=0.075;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.1;entryY=0.086;entryDx=0;entryDy=0;entryPerimeter=0;" target="d1_bar_v" value="1. Solicita exportación con un formato no admitido o alterado en parámetros (e.g., formato: &quot;docx&quot;)">
+          <mxGeometry relative="1" x="0.0032" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="82" y="1357" as="sourcePoint" />
+            <mxPoint x="577" y="1362.33" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d1_m1" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.065;entryY=0.068;entryDx=0;entryDy=0;entryPerimeter=0;" target="d1_bar_s" value="2. GET /api/reportes/exportar?formato=docx&amp;amp;startDate=2026-08-01&amp;amp;endDate=2026-08-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="594" y="1400" as="sourcePoint" />
+            <mxPoint x="1082.24" y="1399.45" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d1_m5" edge="1" parent="1" source="d1_bar_s" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.005;exitY=0.906;exitDx=0;exitDy=0;exitPerimeter=0;" value="4. 400 Bad Request { success: false, error: &quot;Formato no compatible. Opciones válidas: Excel, CSV, PDF&quot; }">
+          <mxGeometry relative="1" x="0.002" y="-5" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1103.17" y="1460.996" as="sourcePoint" />
+            <mxPoint x="594" y="1461" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d1_m6" edge="1" parent="1" source="d1_bar_v" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.053;exitY=0.951;exitDx=0;exitDy=0;exitPerimeter=0;" value="5. Despliega alerta: &quot;Formato de exportación no soportado. Seleccione Excel, CSV o PDF&quot;">
+          <mxGeometry relative="1" x="0.0009" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="528.6699999999996" y="1487.922" as="sourcePoint" />
+            <mxPoint x="82" y="1487" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d1_src" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#000000;" value="Fuente: Elaborado por el estudiante de acuerdo con el proyecto." vertex="1">
+          <mxGeometry height="24" width="723" x="57" y="1709" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°13 — Excepción 3" vertex="1">
+          <mxGeometry height="30" width="723" x="56" y="1799" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_a" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Administrador" vertex="1">
+          <mxGeometry height="60" width="30" x="31" y="764" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_ll_a" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="46" y="854" as="sourcePoint" />
+            <mxPoint x="46" y="1028.4" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_v" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_Reportes" vertex="1">
+          <mxGeometry height="40" width="120" x="455" y="775" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_ll_v" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="815" as="sourcePoint" />
+            <mxPoint x="515" y="1025.67" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_s" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_Servidor" vertex="1">
+          <mxGeometry height="40" width="120" x="939" y="776" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_ll_s" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="999" y="816" as="sourcePoint" />
+            <mxPoint x="999" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_db" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1063" y="776" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_ll_db" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1147" y="817" as="sourcePoint" />
+            <mxPoint x="1147" y="1018.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_bar_a" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="163" width="10" x="41" y="858" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_bar_v" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="159" width="10" x="510" y="857" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_m0" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.04;exitY=0.027;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.045;entryY=0.106;entryDx=0;entryDy=0;entryPerimeter=0;" target="d2_bar_v" value="1. Hace clic en el botón &quot;Exportar&quot; sin haber generado previamente un reporte en pantalla">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="51.40000000000009" y="872.3860000000002" as="sourcePoint" />
+            <mxPoint x="460.54" y="872.95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_m6" edge="1" parent="1" source="d2_bar_v" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.05;exitY=0.957;exitDx=0;exitDy=0;exitPerimeter=0;" value="4. Despliega alerta: &quot;No hay datos disponibles para exportar. Genere un reporte primero&quot;">
+          <mxGeometry relative="1" x="-0.0014" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="463.23" y="1008.31" as="sourcePoint" />
+            <mxPoint x="50" y="1008.69" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JEtMcAzZIOUV0icg1I2A-29" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="3. Bloquea el despliegue de opciones de exportación (preventDefault)">
+          <mxGeometry relative="1" x="-0.4399" y="-2" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="572" y="958" />
+              <mxPoint x="572" y="980" />
+            </Array>
+            <mxPoint x="522" y="958" as="sourcePoint" />
+            <mxPoint x="522" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-6" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.156;entryY=0.203;entryDx=0;entryDy=0;entryPerimeter=0;" target="d0_bar_v" value="2. Selecciona rango de fechas (startDate, endDate) y métricas (resolución, tickets cerrados) y pulsa &quot;Generar Reporte&quot;">
+          <mxGeometry relative="1" x="-0.0001" y="7" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="66" y="224.97" as="sourcePoint" />
+            <mxPoint x="584.7100000000003" y="223.99999999999986" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-7" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="5. Compila libro de cálculo con formatos de celda, estilos institucionales y metadatos (exceljs)">
+          <mxGeometry relative="1" x="-0.4918" y="2" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1321" y="405" />
+              <mxPoint x="1321" y="427" />
+            </Array>
+            <mxPoint x="1271" y="405" as="sourcePoint" />
+            <mxPoint x="1271" y="427" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-10" edge="1" parent="1" source="d0_bar_db" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.05;exitY=0.617;exitDx=0;exitDy=0;exitPerimeter=0;" value="4. Retorna conjunto de datos consolidados para exportación">
+          <mxGeometry relative="1" x="-0.0025" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1812.67" y="372" as="sourcePoint" />
+            <mxPoint x="1271" y="372" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-11" edge="1" parent="1" source="d0_bar_s" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0;exitY=0.888;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.074;entryY=0.82;entryDx=0;entryDy=0;entryPerimeter=0;" value="6. 200 OK [Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,&amp;nbsp;&lt;div&gt;Content-Disposition: attachment; filename=&quot;reporte_kpi.xlsx&quot;]&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1258.26" y="436.995" as="sourcePoint" />
+            <mxPoint x="678" y="439.05000000000007" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-15" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="3. Valida formato permitido: ![&#39;xlsx&#39;, &#39;csv&#39;, &#39;pdf&#39;].&lt;div&gt;includes(formato) → true (Formato inválido)&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.4793" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1177" y="1418" />
+              <mxPoint x="1177" y="1440" />
+            </Array>
+            <mxPoint x="1127" y="1418" as="sourcePoint" />
+            <mxPoint x="1127" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-19" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°12 — Excepción 4" vertex="1">
+          <mxGeometry height="30" width="723" x="135" y="2348" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-20" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Administrador" vertex="1">
+          <mxGeometry height="60" width="30" x="28" y="2415" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-21" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="43" y="2505" as="sourcePoint" />
+            <mxPoint x="43" y="2753.72" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_Reportes" vertex="1">
+          <mxGeometry height="40" width="120" x="430" y="2423" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-23" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="2463" as="sourcePoint" />
+            <mxPoint x="490" y="2755.1" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_Servidor" vertex="1">
+          <mxGeometry height="40" width="120" x="977" y="2422" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-25" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1037" y="2462" as="sourcePoint" />
+            <mxPoint x="1037" y="2745.83" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1305" y="2418" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-27" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1389" y="2458" as="sourcePoint" />
+            <mxPoint x="1389" y="2735.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="233" width="10" x="38" y="2509" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="235" width="10" x="485" y="2505" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-30" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.04;exitY=0.027;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.033;entryY=0.072;entryDx=0;entryDy=0;entryPerimeter=0;" target="c90vbPPHIPy1liW-Zpxw-29" value="1. Solicita exportación en formato &quot;Excel&quot;">
+          <mxGeometry relative="1" x="-0.0031" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="48.40000000000009" y="2523.3860000000004" as="sourcePoint" />
+            <mxPoint x="518.21" y="2521.85" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-31" edge="1" parent="1" source="c90vbPPHIPy1liW-Zpxw-29" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.029;exitY=0.966;exitDx=0;exitDy=0;exitPerimeter=0;" value="8. Despliega notificación con botón manual:&amp;nbsp;&lt;div&gt;&quot;La descarga fue bloqueada por el navegador. Haga clic aquí para descargar el archivo&quot;&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0014" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="521.13" y="2732" as="sourcePoint" />
+            <mxPoint x="48" y="2734.53" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-32" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="5. Compila libro de cálculo exitosamente en buffer binario">
+          <mxGeometry relative="1" x="-0.4399" y="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1093" y="2612" />
+              <mxPoint x="1093" y="2634" />
+            </Array>
+            <mxPoint x="1043" y="2612" as="sourcePoint" />
+            <mxPoint x="1043" y="2634" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-116" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.186;exitY=0.465;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.079;entryY=0.22;entryDx=0;entryDy=0;entryPerimeter=0;" target="d0_bar_db" value="">
+          <mxGeometry relative="1" x="0.0035" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1271" y="339.795" as="sourcePoint" />
+            <mxPoint x="1694" y="339" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-117" connectable="0" parent="c90vbPPHIPy1liW-Zpxw-116" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3. SELECT t.ticket_id, t.title, c.name AS categoria, u.first_name AS tecnico, t.status, t.created_at, t.closed_at&amp;nbsp;&lt;div&gt;FROM ticket t JOIN category c ON t.category_id = c.category_id LEFT JOIN user u ON&amp;nbsp;&lt;/div&gt;&lt;div&gt;t.assigned_to = u.user_id WHERE t.created_at BETWEEN ? AND ?&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1812" y="3" as="geometry">
+            <mxPoint x="85" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-118" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="4. Valida rango de fechas: new Date(startDate) &amp;lt;= new Date(endDate) (true)">
+          <mxGeometry relative="1" x="-0.4809" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1322" y="272" />
+              <mxPoint x="1322" y="294" />
+            </Array>
+            <mxPoint x="1272" y="272" as="sourcePoint" />
+            <mxPoint x="1272" y="294" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-119" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="7. Genera URL de objeto temporal (Blob URL) y desencadena evento de descarga nativo">
+          <mxGeometry relative="1" x="-0.4941" y="2" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="730" y="469" />
+              <mxPoint x="730" y="491" />
+            </Array>
+            <mxPoint x="680" y="469" as="sourcePoint" />
+            <mxPoint x="680" y="491" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-123" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="2. Valida precondición en Alpine.js: !currentReportData || currentReportData.length === 0">
+          <mxGeometry relative="1" x="-0.4426" y="-2" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="572" y="904" />
+              <mxPoint x="572" y="926" />
+            </Array>
+            <mxPoint x="522" y="904" as="sourcePoint" />
+            <mxPoint x="522" y="926" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-124" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.04;exitY=0.027;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.051;entryY=0.058;entryDx=0;entryDy=0;entryPerimeter=0;" target="c90vbPPHIPy1liW-Zpxw-125" value="2. GET /api/reportes/exportar?formato=xlsx&amp;amp;startDate=2026-08-01&amp;amp;endDate=2026-08-31">
+          <mxGeometry relative="1" x="-0.0031" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="495.0000000000001" y="2543.3860000000004" as="sourcePoint" />
+            <mxPoint x="973.96" y="2541.91" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-125" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="135" width="10" x="1032" y="2533" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-126" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="51" width="10" x="1384" y="2541" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-127" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.04;exitY=0.027;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.119;entryY=0.216;entryDx=0;entryDy=0;entryPerimeter=0;" target="c90vbPPHIPy1liW-Zpxw-126" value="3. SELECT * FROM ticket WHERE created_at BETWEEN ? AND ?">
+          <mxGeometry relative="1" x="0.001" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1042" y="2551.4760000000006" as="sourcePoint" />
+            <mxPoint x="1520.96" y="2550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-128" edge="1" parent="1" source="c90vbPPHIPy1liW-Zpxw-126" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.042;exitY=0.841;exitDx=0;exitDy=0;exitPerimeter=0;" value="4. Retorna filas del reporte">
+          <mxGeometry relative="1" x="0.0014" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1517" y="2581" as="sourcePoint" />
+            <mxPoint x="1042" y="2583.69" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-129" edge="1" parent="1" source="c90vbPPHIPy1liW-Zpxw-125" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.07;exitY=0.919;exitDx=0;exitDy=0;exitPerimeter=0;" value="6. 200 OK (Stream binario del archivo generado)">
+          <mxGeometry relative="1" x="0.0021" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="974" y="2658" as="sourcePoint" />
+            <mxPoint x="499" y="2660.69" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-130" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="7. Intenta disparo automático (createObjectURL + click) → navegador bloquea la descarga automática">
+          <mxGeometry relative="1" x="-0.4426" y="-1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="546" y="2686" />
+              <mxPoint x="546" y="2708" />
+            </Array>
+            <mxPoint x="496" y="2686" as="sourcePoint" />
+            <mxPoint x="496" y="2708" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-134" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°13— Excepción 1" vertex="1">
+          <mxGeometry height="30" width="723" x="105" y="678" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-135" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°13— Excepción 2" vertex="1">
+          <mxGeometry height="30" width="723" x="85" y="1204" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-136" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Administrador" vertex="1">
+          <mxGeometry height="60" width="31" x="1" y="1888" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-137" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="16" y="1978" as="sourcePoint" />
+            <mxPoint x="16" y="2278" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-138" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_Reportes" vertex="1">
+          <mxGeometry height="40" width="120" x="456" y="1893" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-139" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="516" y="1933" as="sourcePoint" />
+            <mxPoint x="516" y="2275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-140" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_Servidor" vertex="1">
+          <mxGeometry height="40" width="120" x="977" y="1893" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-141" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1037" y="1933" as="sourcePoint" />
+            <mxPoint x="1037" y="2216.83" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-142" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1399" y="1887" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-143" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1483" y="1927" as="sourcePoint" />
+            <mxPoint x="1483" y="2204.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-144" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="278" width="10" x="11" y="1982" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-145" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="276" width="10" x="511" y="1975" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-146" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.04;exitY=0.027;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.033;entryY=0.072;entryDx=0;entryDy=0;entryPerimeter=0;" target="c90vbPPHIPy1liW-Zpxw-145" value="1. Selecciona formato &quot;PDF&quot; y pulsa &quot;Descargar&quot;">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="21.40000000000009" y="1996.3860000000004" as="sourcePoint" />
+            <mxPoint x="491.21000000000004" y="1994.85" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-147" edge="1" parent="1" source="c90vbPPHIPy1liW-Zpxw-145" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.1;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.04;entryY=0.968;entryDx=0;entryDy=0;entryPerimeter=0;" target="c90vbPPHIPy1liW-Zpxw-144" value="9. Despliega alerta: &quot;Error al generar el archivo. Ocurrió un problema durante el procesamiento&quot;">
+          <mxGeometry relative="1" x="0.0014" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="494.1300000000001" y="2205" as="sourcePoint" />
+            <mxPoint x="21" y="2207.53" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-148" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="5. Error en compilación de stream/buffer (Heap limit allocation / Malformed layout)">
+          <mxGeometry relative="1" x="-0.4426" y="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1093" y="2088" />
+              <mxPoint x="1093" y="2110" />
+            </Array>
+            <mxPoint x="1043" y="2088" as="sourcePoint" />
+            <mxPoint x="1043" y="2110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-149" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.04;exitY=0.027;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.051;entryY=0.058;entryDx=0;entryDy=0;entryPerimeter=0;" target="c90vbPPHIPy1liW-Zpxw-150" value="2. GET /api/reportes/exportar?formato=pdf&amp;amp;startDate=2026-08-01&amp;amp;endDate=2026-08-31">
+          <mxGeometry relative="1" x="-0.0031" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="521" y="2013.3860000000004" as="sourcePoint" />
+            <mxPoint x="999.96" y="2011.9099999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-150" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="182" width="10" x="1032" y="2004" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-151" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="51" width="10" x="1478" y="2010" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-152" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.04;exitY=0.027;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.119;entryY=0.216;entryDx=0;entryDy=0;entryPerimeter=0;" target="c90vbPPHIPy1liW-Zpxw-151" value="3. SELECT * FROM ticket WHERE created_at BETWEEN ? AND ?">
+          <mxGeometry relative="1" x="0.001" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1042" y="2022.4760000000006" as="sourcePoint" />
+            <mxPoint x="1520.96" y="2021" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-153" edge="1" parent="1" source="c90vbPPHIPy1liW-Zpxw-151" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.042;exitY=0.841;exitDx=0;exitDy=0;exitPerimeter=0;" value="4. Retorna filas del reporte consolidado">
+          <mxGeometry relative="1" x="0.0031" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1517" y="2052" as="sourcePoint" />
+            <mxPoint x="1042" y="2054.69" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-154" edge="1" parent="1" source="c90vbPPHIPy1liW-Zpxw-150" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.095;exitY=0.943;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.098;entryY=0.735;entryDx=0;entryDy=0;entryPerimeter=0;" target="c90vbPPHIPy1liW-Zpxw-145" value="7. 500 Internal Server Error { success: false, error: &quot;Fallo al compilar y generar el archivo exportable&quot; }">
+          <mxGeometry relative="1" x="0.0029" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="997.4299999999998" y="2170.9999999999995" as="sourcePoint" />
+            <mxPoint x="521" y="2173.02" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-155" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="8. Detiene indicador de carga y anula la generación de descarga">
+          <mxGeometry relative="1" x="-0.7323" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="571" y="2212" />
+              <mxPoint x="571" y="2234" />
+            </Array>
+            <mxPoint x="521" y="2212" as="sourcePoint" />
+            <mxPoint x="521" y="2234" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-156" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="6. Captura excepción (.catch) y registra incidente crítico en bitácora">
+          <mxGeometry relative="1" x="-0.4347" y="-2" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1093" y="2135" />
+              <mxPoint x="1093" y="2157" />
+            </Array>
+            <mxPoint x="1043" y="2135" as="sourcePoint" />
+            <mxPoint x="1043" y="2157" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

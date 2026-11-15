@@ -1,0 +1,634 @@
+<mxfile host="Electron">
+  <diagram id="seq" name="Página-1">
+    <mxGraphModel dx="2537" dy="1650" grid="0" gridSize="10" guides="0" tooltips="0" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1700" pageHeight="2200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-121" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="24" width="10" x="831" y="2212" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-151" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_WebSocketService" vertex="1">
+          <mxGeometry height="40" width="159" x="758" y="1956" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-152" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="836" y="2001" as="sourcePoint" />
+            <mxPoint x="836.91" y="2422.74" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-148" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_WebSocketService" vertex="1">
+          <mxGeometry height="40" width="159" x="689" y="1268" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-149" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="767" y="1313" as="sourcePoint" />
+            <mxPoint x="767.91" y="1671.22" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d2_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°58— Excepción 3" vertex="1">
+          <mxGeometry height="30" width="723" x="237" y="1838" as="geometry" />
+        </mxCell>
+        <mxCell id="_GTyyC4WrynW7VN_rIGC-75" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="8. Alpine.js captura evento y actualiza variable reactiva del semáforo a amarillo/naranja">
+          <mxGeometry relative="1" x="-0.623" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="2005" y="340" />
+              <mxPoint x="2005" y="362" />
+            </Array>
+            <mxPoint x="1955" y="340" as="sourcePoint" />
+            <mxPoint x="1955" y="362" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_CronScheduler" vertex="1">
+          <mxGeometry height="40" width="159" x="43" y="92" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-2" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="121" y="132" as="sourcePoint" />
+            <mxPoint x="123.26" y="449.95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="218" width="10" x="117" y="174" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-5" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Técnico&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="30" x="2419" y="81" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-6" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2434" y="171" as="sourcePoint" />
+            <mxPoint x="2434" y="447.73" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="2429" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_SLAMonitorController" vertex="1">
+          <mxGeometry height="40" width="159" x="404" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-15" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="482" y="125" as="sourcePoint" />
+            <mxPoint x="482.91" y="446.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="257" width="10" x="478" y="167" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="159" x="1412" y="77" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-18" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1490" y="117" as="sourcePoint" />
+            <mxPoint x="1490.9099999999999" y="443.21" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="119" width="10" x="1486" y="188" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_EmailSMTP" vertex="1">
+          <mxGeometry height="40" width="159" x="1601" y="74" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-21" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1679" y="114" as="sourcePoint" />
+            <mxPoint x="1679.91" y="447.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="26" width="10" x="1233" y="331" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_PanelTecnico" vertex="1">
+          <mxGeometry height="40" width="159" x="1871" y="73" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-24" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1949" y="113" as="sourcePoint" />
+            <mxPoint x="1949.91" y="433.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="67" width="10" x="1945" y="327" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-26" edge="1" parent="1" source="2aE4dNO33-y5Mpuiygdt-3" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.245;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.983;exitY=0.075;exitDx=0;exitDy=0;exitPerimeter=0;" target="2aE4dNO33-y5Mpuiygdt-16" value="1. Disparo de tarea programada: checkSLAPreventiveThresholds()">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-68.00000000000003" y="186.55999999999995" as="sourcePoint" />
+            <mxPoint x="462.6" y="184.99800000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-27" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.036;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;" target="2aE4dNO33-y5Mpuiygdt-19" value="2. SELECT t.id, t.assigned_user_id, u.email, t.created_at, s.max_resolution_time FROM ticket t INNER&amp;nbsp;&lt;div&gt;JOIN sla_policy s ON t.sla_id = s.id INNER JOIN user u ON t.assigned_user_id = u.id&amp;nbsp;&lt;/div&gt;&lt;div&gt;WHERE t.status IN (&#39;EN_PROCESO&#39;, &#39;ASIGNADO&#39;) AND t.sla_warning_sent = 0;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0123" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="491" y="198.55999999999995" as="sourcePoint" />
+            <mxPoint x="1008.18" y="196.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-29" edge="1" parent="1" source="2aE4dNO33-y5Mpuiygdt-19" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.958;entryY=0.78;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.036;exitY=0.266;exitDx=0;exitDy=0;exitPerimeter=0;" value="3. Retorna tickets con consumo &amp;gt;= 75% (Ticket #3204: 78% del límite SLA transcurrido)">
+          <mxGeometry relative="1" x="-0.0009" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1006.92" y="223.98" as="sourcePoint" />
+            <mxPoint x="488.9999999999999" y="226.55999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-30" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.049;entryY=0.653;entryDx=0;entryDy=0;entryPerimeter=0;" target="2aE4dNO33-y5Mpuiygdt-19" value="4. UPDATE ticket SET sla_status = &#39;WARNING&#39;, sla_warning_sent = 1 WHERE id = 3204; INSERT INTO&amp;nbsp;&lt;div&gt;ticket_alert_log (ticket_id, alert_type, created_at) VALUES (3204, &#39;SLA_75_PERCENT&#39;, NOW());&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0123" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="488" y="271.55999999999995" as="sourcePoint" />
+            <mxPoint x="1007.13" y="269.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-31" edge="1" parent="1" source="2aE4dNO33-y5Mpuiygdt-19" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.958;entryY=0.78;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.134;exitY=0.952;exitDx=0;exitDy=0;exitPerimeter=0;" value="5. Confirma actualización de estado y registro de alerta">
+          <mxGeometry relative="1" x="-0.0009" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1006.07" y="306" as="sourcePoint" />
+            <mxPoint x="486.9999999999999" y="305.99999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-32" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.093;entryY=0.099;entryDx=0;entryDy=0;entryPerimeter=0;" target="2aE4dNO33-y5Mpuiygdt-22" value="6. emitToUser(12, &#39;ticket_sla_warning&#39;, { ticketId: 3204, status: &#39;WARNING&#39;, color: &#39;AMARILLO_NARANJA&#39; })">
+          <mxGeometry relative="1" x="-0.0123" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="492" y="339.37" as="sourcePoint" />
+            <mxPoint x="758.4600000000002" y="338.7020000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-35" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.02;entryY=0.181;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.001;exitY=0.206;exitDx=0;exitDy=0;exitPerimeter=0;" value="7. Push Event por socket abierto: &#39;ticket_sla_warning&#39; con payload de actualización">
+          <mxGeometry relative="1" x="-0.0123" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1243.0100000000002" y="345.3939999999999" as="sourcePoint" />
+            <mxPoint x="1946.2000000000003" y="339.12699999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-36" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.125;entryY=0.179;entryDx=0;entryDy=0;entryPerimeter=0;" target="2aE4dNO33-y5Mpuiygdt-7" value="9. Muestra cambio de color de semáforo e indicador de advertencia en pantalla">
+          <mxGeometry relative="1" x="-0.0123" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1956" y="387.55999999999995" as="sourcePoint" />
+            <mxPoint x="2422.66" y="387.56" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-38" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.012;entryY=0.134;entryDx=0;entryDy=0;entryPerimeter=0;" target="2aE4dNO33-y5Mpuiygdt-140" value="10. sendWarningEmail({ to: &#39;tecnico@clinica.cl&#39;, subject: &#39;Aviso Preventivo SLA Ticket #3204&#39;, body: &#39;...&#39; })">
+          <mxGeometry relative="1" x="-0.0123" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="488" y="405.99999999999994" as="sourcePoint" />
+            <mxPoint x="755.5499999999997" y="405.725" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-40" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="2aE4dNO33-y5Mpuiygdt-7" value="11. Entrega correo electrónico preventivo en la bandeja de entrada">
+          <mxGeometry relative="1" x="-0.0123" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1686" y="419.55999999999995" as="sourcePoint" />
+            <mxPoint x="2422.66" y="418.02" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-41" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="4. Evalúa tickets.length === 0:&amp;nbsp;&lt;div&gt;no se requiere cambio visual ni disparo de alertas&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.9446" y="5" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1531" y="826" />
+              <mxPoint x="1531" y="848" />
+            </Array>
+            <mxPoint x="1481" y="826" as="sourcePoint" />
+            <mxPoint x="1481" y="848" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_CronScheduler" vertex="1">
+          <mxGeometry height="40" width="159" x="58" y="696" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-43" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="136" y="736" as="sourcePoint" />
+            <mxPoint x="138.26" y="1053.95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="96" width="10" x="132" y="778" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-45" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Técnico&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="30" x="1879" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-46" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1894" y="770" as="sourcePoint" />
+            <mxPoint x="1894" y="1046.73" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_SLAMonitorController" vertex="1">
+          <mxGeometry height="40" width="159" x="419" y="689" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-49" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="497" y="729" as="sourcePoint" />
+            <mxPoint x="497.9100000000001" y="1050.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="45" width="10" x="493" y="771" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="159" x="952" y="685" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-52" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1030" y="725" as="sourcePoint" />
+            <mxPoint x="1030.9099999999999" y="1051.21" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="28" width="10" x="1026" y="796" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_EmailSMTP" vertex="1">
+          <mxGeometry height="40" width="159" x="1398" y="681" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-55" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1476" y="721" as="sourcePoint" />
+            <mxPoint x="1476.91" y="1054.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="58" width="10" x="1471" y="803" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_PanelTecnico" vertex="1">
+          <mxGeometry height="40" width="159" x="1687" y="683" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-58" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1765" y="723" as="sourcePoint" />
+            <mxPoint x="1765.91" y="1043.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-60" edge="1" parent="1" source="2aE4dNO33-y5Mpuiygdt-44" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.149;entryY=0.366;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.108;exitY=0.124;exitDx=0;exitDy=0;exitPerimeter=0;" target="2aE4dNO33-y5Mpuiygdt-50" value="1. Dispara verificación programada: evaluateSLAMilestones()">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-53" y="790.56" as="sourcePoint" />
+            <mxPoint x="477.6" y="788.998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-70" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.089;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" target="2aE4dNO33-y5Mpuiygdt-56" value="3. Retorna Empty set (Ningún ticket en curso supera o iguala el 75% de su plazo SLA)">
+          <mxGeometry relative="1" x="-0.0123" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1038" y="813.56" as="sourcePoint" />
+            <mxPoint x="1210.2" y="813.56" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-73" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_CronScheduler" vertex="1">
+          <mxGeometry height="40" width="159" x="64" y="1275" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-74" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="142" y="1315" as="sourcePoint" />
+            <mxPoint x="144.26" y="1632.95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-75" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="218" width="10" x="138" y="1357" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-76" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Técnico&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="30" x="1494" y="1262" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-77" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1509" y="1352" as="sourcePoint" />
+            <mxPoint x="1509" y="1628.73" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-78" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_SLAMonitorController" vertex="1">
+          <mxGeometry height="40" width="159" x="425" y="1268" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-79" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="503" y="1308" as="sourcePoint" />
+            <mxPoint x="503.91" y="1675.1" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-80" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="291" width="10" x="499" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-81" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="159" x="958" y="1264" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-82" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1036" y="1304" as="sourcePoint" />
+            <mxPoint x="1036.9099999999999" y="1630.21" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-83" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="98" width="10" x="1032" y="1375" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-84" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_EmailSMTP" vertex="1">
+          <mxGeometry height="40" width="159" x="1134" y="1265" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-85" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1212" y="1305" as="sourcePoint" />
+            <mxPoint x="1212.91" y="1643.64" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-86" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="58" width="10" x="1207" y="1480" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-87" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_PanelTecnico" vertex="1">
+          <mxGeometry height="40" width="159" x="1302" y="1265" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-88" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1380" y="1305" as="sourcePoint" />
+            <mxPoint x="1380.91" y="1625.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-89" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1.098;exitY=0.061;exitDx=0;exitDy=0;exitPerimeter=0;" value="1. Dispara verificación programada: evaluateSLAMilestones()">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="147.98000000000002" y="1370.298" as="sourcePoint" />
+            <mxPoint x="498" y="1368" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-90" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.002;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" target="2aE4dNO33-y5Mpuiygdt-83" value="2. SELECT t.id, t.created_at, s.max_resolution_time FROM ticket t INNER JOIN sla_policy s ON t.sla_id = s.id&amp;nbsp;&lt;div&gt;WHERE t.status = &#39;EN_PROCESO&#39; AND&amp;nbsp;&lt;/div&gt;&lt;div&gt;(TIMESTAMPDIFF(MINUTE, t.created_at, NOW()) / s.max_resolution_time) &amp;gt;= 0.75 AND t.sla_warning_sent = 0;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0123" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="512" y="1381.56" as="sourcePoint" />
+            <mxPoint x="1029.1799999999998" y="1379.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-93" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0;exitY=1;exitDx=0;exitDy=0;" value="3. Retorna ticket #3204 al 79% del SLA (userId: 12, email: &#39;tecnico@clinica.cl&#39;)">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1032.25" y="1412" as="sourcePoint" />
+            <mxPoint x="514.93" y="1412.21" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-95" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.002;entryY=0.096;entryDx=0;entryDy=0;entryPerimeter=0;" value="4. UPDATE ticket SET sla_status = &#39;WARNING&#39;, sla_warning_sent = 1 WHERE id = 3204;">
+          <mxGeometry relative="1" x="-0.0123" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="511" y="1441.56" as="sourcePoint" />
+            <mxPoint x="1031" y="1439" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-96" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0;exitY=1;exitDx=0;exitDy=0;" value="5. Confirma actualización en base de datos">
+          <mxGeometry relative="1" x="-0.0024" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1032.32" y="1467" as="sourcePoint" />
+            <mxPoint x="511.38" y="1476.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-97" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="2aE4dNO33-y5Mpuiygdt-86" value="6. emitToUser(12, &#39;ticket_sla_warning&#39;, { ticketId: 3204, color: &#39;AMARILLO_NARANJA&#39; })">
+          <mxGeometry relative="1" x="-0.0123" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="510" y="1496.56" as="sourcePoint" />
+            <mxPoint x="1030" y="1494" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-98" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0;exitY=1;exitDx=0;exitDy=0;" value="7. Retorna { delivered: false, reason: &#39;SOCKET_NOT_FOUND_USER_OFFLINE&#39; }">
+          <mxGeometry relative="1" x="-0.0024" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1206.32" y="1523" as="sourcePoint" />
+            <mxPoint x="510.36" y="1528.08" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-101" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="42" width="10" x="1032" y="1555" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-102" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.06;entryY=0.346;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.98;exitY=0.826;exitDx=0;exitDy=0;exitPerimeter=0;" value="8. INSERT INTO system_event_log (user_id, event_type, payload, status)&amp;nbsp;&lt;div&gt;VALUES (12, &#39;PENDING_VISUAL_SLA_ALERT&#39;, &#39;{&quot;ticketId&quot;: 3204}&#39;, &#39;QUEUED_FOR_LOGIN&#39;);&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0123" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="508.7999999999997" y="1564.9400000000003" as="sourcePoint" />
+            <mxPoint x="1031.4" y="1564.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-103" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.98;entryY=0.725;entryDx=0;entryDy=0;entryPerimeter=0;" value="9. Confirma registro de evento visual en cola diferida">
+          <mxGeometry relative="1" x="-0.0024" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1030.36" y="1585.23" as="sourcePoint" />
+            <mxPoint x="510" y="1589" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-104" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;" value="10. sendWarningEmail({ to: &#39;tecnico@clinica.cl&#39;, subject: &#39;Aviso Preventivo SLA Ticket #3204 (79% de plazo)&#39;, body: &#39;...&#39; })">
+          <mxGeometry relative="1" x="-0.0123" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="508" y="1622.56" as="sourcePoint" />
+            <mxPoint x="1205" y="1615.36" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-105" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="26" width="10" x="1207" y="1608" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-106" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="8. Alpine.js muta estado reactivo: pinta badge/semáforo a color amarillo/naranja">
+          <mxGeometry relative="1" x="-0.623" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1495" y="2219" />
+              <mxPoint x="1495" y="2241" />
+            </Array>
+            <mxPoint x="1445" y="2219" as="sourcePoint" />
+            <mxPoint x="1445" y="2241" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-107" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_CronScheduler" vertex="1">
+          <mxGeometry height="40" width="159" x="-57" y="1966" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-108" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="21" y="2006" as="sourcePoint" />
+            <mxPoint x="21" y="2435.62" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-109" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="17" y="2048" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-110" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Técnico&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="30" x="1909" y="1960" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-111" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1924" y="2050" as="sourcePoint" />
+            <mxPoint x="1924" y="2326.73" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-112" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="1919" y="2259" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-113" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_SLAMonitorController" vertex="1">
+          <mxGeometry height="40" width="159" x="304" y="1959" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-114" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="382" y="1999" as="sourcePoint" />
+            <mxPoint x="382.91" y="2444.62" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-115" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="359" width="10" x="378" y="2041" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-116" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="159" x="1031" y="1953" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-117" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1109" y="1993" as="sourcePoint" />
+            <mxPoint x="1109.9099999999999" y="2425.45" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-118" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="119" width="10" x="1105" y="2064" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-119" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_EmailSMTP" vertex="1">
+          <mxGeometry height="40" width="159" x="1199" y="1952" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-120" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1277" y="1992" as="sourcePoint" />
+            <mxPoint x="1277.91" y="2346.98" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-122" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_PanelTecnico" vertex="1">
+          <mxGeometry height="40" width="159" x="1361" y="1952" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-123" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1439" y="1992" as="sourcePoint" />
+            <mxPoint x="1439.91" y="2312.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-124" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="67" width="10" x="1435" y="2206" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-125" edge="1" parent="1" source="2aE4dNO33-y5Mpuiygdt-109" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.245;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="2aE4dNO33-y5Mpuiygdt-115" value="1. Disparo de tarea programada: checkSLAPreventiveThresholds()">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-168" y="2060.56" as="sourcePoint" />
+            <mxPoint x="362.6" y="2058.998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-126" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.036;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;" target="2aE4dNO33-y5Mpuiygdt-118" value="2. SELECT t.id, t.assigned_user_id, u.email, t.created_at, s.max_resolution_time FROM ticket t INNER&amp;nbsp;&lt;div&gt;JOIN sla_policy s ON t.sla_id = s.id INNER JOIN user u ON t.assigned_user_id = u.id&amp;nbsp;&lt;/div&gt;&lt;div&gt;WHERE t.status IN (&#39;EN_PROCESO&#39;, &#39;ASIGNADO&#39;) AND t.sla_warning_sent = 0;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0123" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="391" y="2072.56" as="sourcePoint" />
+            <mxPoint x="908.1799999999998" y="2070.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-127" edge="1" parent="1" source="2aE4dNO33-y5Mpuiygdt-118" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.958;entryY=0.78;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.036;exitY=0.266;exitDx=0;exitDy=0;exitPerimeter=0;" value="3. Retorna tickets con consumo &amp;gt;= 75% (Ticket #3204: 78% del límite SLA transcurrido)">
+          <mxGeometry relative="1" x="-0.0009" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="906.9200000000001" y="2097.98" as="sourcePoint" />
+            <mxPoint x="388.9999999999999" y="2100.56" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-128" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.049;entryY=0.653;entryDx=0;entryDy=0;entryPerimeter=0;" target="2aE4dNO33-y5Mpuiygdt-118" value="4. UPDATE ticket SET sla_status = &#39;WARNING&#39;, sla_warning_sent = 1 WHERE id = 3204;">
+          <mxGeometry relative="1" x="-0.0123" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="388" y="2145.56" as="sourcePoint" />
+            <mxPoint x="907.1300000000001" y="2143.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-129" edge="1" parent="1" source="2aE4dNO33-y5Mpuiygdt-118" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.958;entryY=0.78;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.134;exitY=0.952;exitDx=0;exitDy=0;exitPerimeter=0;" value="5. Confirma actualización exitosa del estado de SLA">
+          <mxGeometry relative="1" x="-0.0009" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="906.0700000000002" y="2180" as="sourcePoint" />
+            <mxPoint x="386.9999999999999" y="2180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-130" edge="1" parent="1" source="2aE4dNO33-y5Mpuiygdt-115" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.995;exitY=0.506;exitDx=0;exitDy=0;exitPerimeter=0;" target="2aE4dNO33-y5Mpuiygdt-121" value="6. emitToUser(12, &#39;ticket_sla_warning&#39;, { ticketId: 3204, color: &#39;AMARILLO_NARANJA&#39; })">
+          <mxGeometry relative="1" x="-0.0123" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="410.72" y="2223.84" as="sourcePoint" />
+            <mxPoint x="1098.93" y="2209.61" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-131" edge="1" parent="1" source="2aE4dNO33-y5Mpuiygdt-121" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="2aE4dNO33-y5Mpuiygdt-124" value="7. Push Event por canal abierto: &#39;ticket_sla_warning&#39;">
+          <mxGeometry relative="1" x="-0.0123" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1305" y="2212.56" as="sourcePoint" />
+            <mxPoint x="1561.3" y="2210.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-132" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.125;entryY=0.179;entryDx=0;entryDy=0;entryPerimeter=0;" target="2aE4dNO33-y5Mpuiygdt-112" value="9. Muestra alerta visual preventiva en la fila correspondiente del panel">
+          <mxGeometry relative="1" x="-0.0123" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1446" y="2266.56" as="sourcePoint" />
+            <mxPoint x="1912.6599999999999" y="2266.56" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-133" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.046;entryY=0.143;entryDx=0;entryDy=0;entryPerimeter=0;" target="2aE4dNO33-y5Mpuiygdt-155" value="10. sendWarningEmail({ to: &#39;tecnico@clinica.cl&#39;, subject: &#39;Aviso Preventivo: Ticket #3204 al 78% de SLA&#39; })">
+          <mxGeometry relative="1" x="-0.0123" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="390.39" y="2292.28" as="sourcePoint" />
+            <mxPoint x="1099.97" y="2283.93" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-136" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_WebSocketService" vertex="1">
+          <mxGeometry height="40" width="159" x="1159" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-137" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1237" y="115" as="sourcePoint" />
+            <mxPoint x="1237.9099999999999" y="441.21" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-140" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="26" width="10" x="1675" y="396" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-146" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_WebSocketService" vertex="1">
+          <mxGeometry height="40" width="159" x="666" y="689" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-147" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="744" y="734" as="sourcePoint" />
+            <mxPoint x="744.9099999999999" y="1060.21" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-61" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="2aE4dNO33-y5Mpuiygdt-53" value="2. SELECT t.id, t.created_at, s.max_resolution_time FROM ticket t INNER JOIN sla_policy s ON t.sla_id = s.id&amp;nbsp;&lt;div&gt;WHERE t.status = &#39;EN_PROCESO&#39; AND&amp;nbsp;&lt;/div&gt;&lt;div&gt;(TIMESTAMPDIFF(MINUTE, t.created_at, NOW()) / s.max_resolution_time) &amp;gt;= 0.75 AND t.sla_warning_sent = 0;&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0123" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="506" y="802.56" as="sourcePoint" />
+            <mxPoint x="1023.1799999999998" y="800.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-71" edge="1" parent="1" source="2aE4dNO33-y5Mpuiygdt-56" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.849;entryY=0.865;entryDx=0;entryDy=0;entryPerimeter=0;" target="2aE4dNO33-y5Mpuiygdt-44" value="5. Retorna { status: &#39;OK&#39;, evaluated: 14, triggered: 0 } y finaliza ciclo de evaluación">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1214.3000000000004" y="859.55" as="sourcePoint" />
+            <mxPoint x="146.72" y="861" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-155" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="48" width="10" x="1273" y="2284" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-156" edge="1" parent="1" source="2aE4dNO33-y5Mpuiygdt-155" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.054;exitY=0.869;exitDx=0;exitDy=0;exitPerimeter=0;" value="11. Error: ETIMEDOUT / SMTP 550 (No fue posible conectar con el servidor de correo o dirección inválida)">
+          <mxGeometry relative="1" x="-0.0009" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="910" y="2321" as="sourcePoint" />
+            <mxPoint x="390.69" y="2330.19" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-157" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="43" width="10" x="1105" y="2355" as="geometry" />
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-158" edge="1" parent="1" source="2aE4dNO33-y5Mpuiygdt-115" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.04;entryY=0.113;entryDx=0;entryDy=0;exitX=1.147;exitY=0.903;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" target="2aE4dNO33-y5Mpuiygdt-157" value="12. INSERT INTO system_error_log (scope, message, ref_id, retry_pending, created_at) VALUES&amp;nbsp;&lt;div&gt;(&#39;SLA_EMAIL_DISPATCH&#39;, &#39;Fallo al entregar correo de aviso preventivo&#39;, 3204, 1, NOW());&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0123" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="389" y="2349.28" as="sourcePoint" />
+            <mxPoint x="1098.61" y="2348" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2aE4dNO33-y5Mpuiygdt-160" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.958;entryY=0.78;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.134;exitY=0.952;exitDx=0;exitDy=0;exitPerimeter=0;" value="13. Confirma registro de auditoría de correo pendiente para posterior reintento">
+          <mxGeometry relative="1" x="-0.0014" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="911" y="2399" as="sourcePoint" />
+            <mxPoint x="387.9999999999999" y="2400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ilX0FFHZhIKzcA05dexA-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°58— Excepción 2" vertex="1">
+          <mxGeometry height="30" width="723" x="329" y="1184" as="geometry" />
+        </mxCell>
+        <mxCell id="ilX0FFHZhIKzcA05dexA-2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°58— Excepción 1" vertex="1">
+          <mxGeometry height="30" width="723" x="475" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="ilX0FFHZhIKzcA05dexA-3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°58— Exito" vertex="1">
+          <mxGeometry height="30" width="723" x="497" y="-91" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

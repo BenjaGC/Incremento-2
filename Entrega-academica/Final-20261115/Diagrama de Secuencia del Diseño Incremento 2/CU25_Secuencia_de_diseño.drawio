@@ -1,0 +1,428 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="seq" name="Página-1">
+    <mxGraphModel dx="3051" dy="1256" grid="0" gridSize="10" guides="0" tooltips="0" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1700" pageHeight="2200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d0_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°24- caso de éxito" vertex="1">
+          <mxGeometry height="30" width="723" x="38" y="3" as="geometry" />
+        </mxCell>
+        <mxCell id="d0_src" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=2;fontColor=#000000;" value="Fuente: Elaborado por el estudiante de acuerdo con el proyecto." vertex="1">
+          <mxGeometry height="24" width="723" x="40" y="602" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°24— Excepción 3" vertex="1">
+          <mxGeometry height="30" width="723" x="213" y="1796" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-134" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°24— Excepción 1" vertex="1">
+          <mxGeometry height="30" width="723" x="105" y="678" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-135" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°24— Excepción 2" vertex="1">
+          <mxGeometry height="30" width="723" x="85" y="1204" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-136" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Administrador" vertex="1">
+          <mxGeometry height="60" width="31" x="1" y="1888" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-137" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="16" y="1978" as="sourcePoint" />
+            <mxPoint x="16" y="2225.55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-139" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="895" y="1931" as="sourcePoint" />
+            <mxPoint x="895" y="2290.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-140" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_Servidor" vertex="1">
+          <mxGeometry height="40" width="120" x="1614" y="1889" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-141" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1674" y="1929" as="sourcePoint" />
+            <mxPoint x="1674" y="2216.59" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-142" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="2186" y="1888" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-143" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2270" y="1928" as="sourcePoint" />
+            <mxPoint x="2270" y="2178.07" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-144" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="229" width="10" x="11" y="1982" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-145" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="191" width="10" x="890" y="1973" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-146" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.04;exitY=0.027;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.068;entryY=0.11;entryDx=0;entryDy=0;entryPerimeter=0;" target="c90vbPPHIPy1liW-Zpxw-145" value="1. Selecciona rango masivo (&quot;01/01/2026 - 31/12/2026&quot;) y pulsa &quot;Generar Reporte&quot;">
+          <mxGeometry relative="1" x="-0.0077" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="20.40000000000009" y="1996.3860000000004" as="sourcePoint" />
+            <mxPoint x="885.09" y="1993.4" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-147" edge="1" parent="1" source="c90vbPPHIPy1liW-Zpxw-145" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.089;exitY=0.935;exitDx=0;exitDy=0;exitPerimeter=0;" value="7. Despliega notificación de error: &quot;No fue posible desplegar el consolidado en pantalla debido al tamaño de la consulta. Por favor seleccione un rango de fechas más acotado&quot;">
+          <mxGeometry relative="1" x="0.0038" y="-2" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="886.57" y="2150.9" as="sourcePoint" />
+            <mxPoint x="23" y="2155.1600000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-149" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.017;entryY=0.088;entryDx=0;entryDy=0;entryPerimeter=0;" target="c90vbPPHIPy1liW-Zpxw-150" value="2. GET /api/finanzas/consolidado-materiales?startDate=2026-01-01&amp;amp;endDate=2026-12-31">
+          <mxGeometry relative="1" x="-0.0065" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="900.09" y="2011.44" as="sourcePoint" />
+            <mxPoint x="1521.5300000000002" y="2012.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-150" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="130" width="10" x="1669" y="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-154" edge="1" parent="1" source="c90vbPPHIPy1liW-Zpxw-186" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.052;entryY=0.426;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.03;exitY=0.853;exitDx=0;exitDy=0;exitPerimeter=0;" target="c90vbPPHIPy1liW-Zpxw-150" value="4. Retorna volumen masivo de datos sin paginar / Ejecución excede umbral de timeout">
+          <mxGeometry relative="1" x="0.0037" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2329.23" y="2052.47" as="sourcePoint" />
+            <mxPoint x="1680.58" y="2055.1879999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-156" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="6. Captura excepción (.catch), cancela renderizado del DOM en Alpine.js y oculta spinner">
+          <mxGeometry relative="1" x="-0.4298" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="951" y="2114" />
+              <mxPoint x="951" y="2136" />
+            </Array>
+            <mxPoint x="901" y="2114" as="sourcePoint" />
+            <mxPoint x="901" y="2136" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-186" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="45" width="10" x="2265" y="2014" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-187" edge="1" parent="1" source="c90vbPPHIPy1liW-Zpxw-150" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.035;exitY=0.195;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.051;entryY=0.223;entryDx=0;entryDy=0;entryPerimeter=0;" target="c90vbPPHIPy1liW-Zpxw-186" value="3. SELECT cs.name, im.name, SUM(tmu.quantity), SUM(...) FROM ticket_material_usage ... GROUP BY cs.id, im.id">
+          <mxGeometry relative="1" x="-0.0112" y="3" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1680.4599999999998" y="2025.326" as="sourcePoint" />
+            <mxPoint x="2331.06" y="2023.88" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-189" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.042;exitY=0.939;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.033;entryY=0.644;entryDx=0;entryDy=0;entryPerimeter=0;" value="5. 504 Gateway Timeout (o 413 Payload Too Large) { success: false, error: &quot;El volumen de datos solicitado supera el límite de procesamiento permitido&quot; }">
+          <mxGeometry relative="1" x="-0.0001" y="-1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1672.25" y="2079" as="sourcePoint" />
+            <mxPoint x="904.0000000000003" y="2081.9139999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-20" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Administrador" vertex="1">
+          <mxGeometry height="60" width="30" x="33" y="787" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-21" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="48" y="877" as="sourcePoint" />
+            <mxPoint x="48.79000000000002" y="1062.57" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-23" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="839" as="sourcePoint" />
+            <mxPoint x="595" y="1062.05" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_Servidor" vertex="1">
+          <mxGeometry height="40" width="120" x="1078" y="799" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-25" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1138" y="839" as="sourcePoint" />
+            <mxPoint x="1138" y="1038.3" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1205" y="799" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-27" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1289" y="839" as="sourcePoint" />
+            <mxPoint x="1289" y="1036.14" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="172" width="10" x="43" y="881" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="169" width="10" x="591" y="881" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-30" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.072;entryY=0.084;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-29" value="1. Ingresa fecha inicio posterior a fecha fin (e.g., 15/09/2026 &amp;gt; 01/09/2026) y pulsa &quot;Generar Reporte&quot;">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="53.39999999999998" y="896.8499999999999" as="sourcePoint" />
+            <mxPoint x="506.12" y="894.22" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-31" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-29" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.04;exitY=0.968;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.075;entryY=0.953;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-28" value="4. Despliega alerta: &quot;Rango de fechas no válido: la fecha de inicio no puede ser posterior a la de término&quot;">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="510.4699999999998" y="1043.5149999999999" as="sourcePoint" />
+            <mxPoint x="52" y="1043" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-32" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="3. Cancela el envío de la consulta (preventDefault) y resalta selectores en rojo">
+          <mxGeometry relative="1" x="-0.623" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="652" y="989" />
+              <mxPoint x="652" y="1011" />
+            </Array>
+            <mxPoint x="602" y="989" as="sourcePoint" />
+            <mxPoint x="602" y="1011" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-33" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="2. Valida rango en Alpine.js: !startDate || !endDate || startDate &amp;gt; endDate (true)">
+          <mxGeometry relative="1" x="-0.623" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="652" y="924" />
+              <mxPoint x="652" y="946" />
+            </Array>
+            <mxPoint x="602" y="924" as="sourcePoint" />
+            <mxPoint x="602" y="946" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-54" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Administrador" vertex="1">
+          <mxGeometry height="60" width="30" x="-104" y="153" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-55" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-89" y="243" as="sourcePoint" />
+            <mxPoint x="-88.21000000000004" y="428.56999999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_FinanzasReportes" vertex="1">
+          <mxGeometry height="40" width="132" x="458" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-57" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="524" y="205" as="sourcePoint" />
+            <mxPoint x="524" y="428.04999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_Servidor" vertex="1">
+          <mxGeometry height="40" width="120" x="1092" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-59" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1152" y="205" as="sourcePoint" />
+            <mxPoint x="1152" y="424.01" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="2017" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-61" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2101" y="205" as="sourcePoint" />
+            <mxPoint x="2101" y="423" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="172" width="10" x="-94" y="247" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="169" width="10" x="520" y="247" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-64" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.072;entryY=0.084;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-63" value="1. Accede a &quot;Módulo de Finanzas&quot;, selecciona rango de fechas (&quot;01/08/2026 - 31/08/2026&quot;) y pulsa &quot;Generar Reporte&quot;">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-83.60000000000002" y="262.85" as="sourcePoint" />
+            <mxPoint x="369.12" y="260.22" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-65" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-63" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.04;exitY=0.968;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.039;entryY=0.948;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-62" value="8. Despliega consolidado financiero en pantalla con métricas de consumo y totales discriminados">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="373.4699999999998" y="409.5149999999999" as="sourcePoint" />
+            <mxPoint x="-85" y="409" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-66" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.043;entryY=0.057;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-71" value="2. GET /api/finanzas/consolidado-materiales?startDate=2026-08-01&amp;amp;endDate=2026-08-31">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="529" y="277.8499999999999" as="sourcePoint" />
+            <mxPoint x="986" y="274.99" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-67" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-71" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.003;entryY=0.122;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.162;exitY=0.098;exitDx=0;exitDy=0;exitPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-72" value="3. SELECT cs.name AS departamento, im.name AS material, SUM(tmu.quantity) AS total_qty, im.unit_cost, SUM(tmu.quantity * im.unit_cost) AS total_cost FROM ticket_material_usage tmu&amp;nbsp;&lt;div&gt;JOIN inventory_material im ON tmu.material_id = im.id JOIN ticket t ON tmu.ticket_id = t.ticket_id JOIN clinical_service cs ON t.service_id = cs.id WHERE tmu.assigned_at&amp;nbsp;&lt;/div&gt;&lt;div&gt;BETWEEN &#39;2026-08-01 00:00:00&#39; AND &#39;2026-08-31 23:59:59&#39; GROUP BY cs.id, im.id ORDER BY cs.name ASC&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1159.8400000000001" y="283.44000000000005" as="sourcePoint" />
+            <mxPoint x="1634.4700000000003" y="281.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-68" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-72" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.043;exitY=0.797;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" value="4. Retorna filas con agregación de costos por servicio clínico y material">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2095.75" y="312.0039999999999" as="sourcePoint" />
+            <mxPoint x="1156" y="321.52" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-69" edge="1" parent="1" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.094;exitY=0.884;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.078;entryY=0.628;entryDx=0;entryDy=0;entryPerimeter=0;" value="6. 200 OK { success: true, period: { start: &quot;2026-08-01&quot;, end: &quot;2026-08-31&quot; }, totalGeneralCost: 1450000, departments: [...] }">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1146.06" y="367.00200000000007" as="sourcePoint" />
+            <mxPoint x="532.9999999999998" y="369.2020000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-70" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="7. Procesa datos en Alpine.js: renderiza tabla dinámica por departamento y gráficos resumen">
+          <mxGeometry relative="1" x="-0.0674" y="-1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="580" y="382" />
+              <mxPoint x="580" y="404" />
+            </Array>
+            <mxPoint x="530" y="382" as="sourcePoint" />
+            <mxPoint x="530" y="404" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="113" width="10" x="1146" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="53" width="10" x="2096" y="276" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-73" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="5. Calcula sumatoria global del período y estructura matriz de datos consolidada">
+          <mxGeometry relative="1" x="-0.0674" y="-1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1206" y="335" />
+              <mxPoint x="1206" y="357" />
+            </Array>
+            <mxPoint x="1156" y="335" as="sourcePoint" />
+            <mxPoint x="1156" y="357" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-74" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_FinanzasReportes" vertex="1">
+          <mxGeometry height="40" width="132" x="530" y="798" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-75" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Administrador" vertex="1">
+          <mxGeometry height="60" width="31" x="-15" y="1307" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-76" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="1397" as="sourcePoint" />
+            <mxPoint y="1644.5500000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-78" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_Servidor" vertex="1">
+          <mxGeometry height="40" width="120" x="1286" y="1308" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-79" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1346" y="1348" as="sourcePoint" />
+            <mxPoint x="1346" y="1635.5900000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-80" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="2212" y="1307" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-81" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2296" y="1347" as="sourcePoint" />
+            <mxPoint x="2296" y="1597.0700000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-82" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="229" width="10" x="-5" y="1401" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-83" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="236" width="10" x="735" y="1392" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-84" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.04;exitY=0.027;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.053;entryY=0.098;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-83" value="1. Define rango de fechas y pulsa &quot;Generar Reporte&quot;">
+          <mxGeometry relative="1" x="-0.0077" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="4.400000000000091" y="1415.3860000000004" as="sourcePoint" />
+            <mxPoint x="627.2" y="1416.112" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-85" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-83" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.011;exitY=0.954;exitDx=0;exitDy=0;exitPerimeter=0;" value="8. Despliega alerta: &quot;No se pudo generar el consolidado: se detectaron registros con departamentos o costos unitarios no definidos en el catálogo&quot;">
+          <mxGeometry relative="1" x="0.0014" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="627.9" y="1618.004" as="sourcePoint" />
+            <mxPoint x="5" y="1620.3000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-86" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="5. Valida consistencia contable: detecta registros huérfanos de departamento o costos unitarios no definidos">
+          <mxGeometry relative="1" x="-0.4426" y="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1401" y="1500" />
+              <mxPoint x="1401" y="1522" />
+            </Array>
+            <mxPoint x="1351" y="1500" as="sourcePoint" />
+            <mxPoint x="1351" y="1522" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-87" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.017;entryY=0.088;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-88" value="2. GET /api/finanzas/consolidado-materiales?startDate=2026-08-01&amp;amp;endDate=2026-08-31">
+          <mxGeometry relative="1" x="-0.0065" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="745.09" y="1430.44" as="sourcePoint" />
+            <mxPoint x="1366.5300000000002" y="1431.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-88" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="130" width="10" x="1341" y="1419" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-89" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-91" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.052;entryY=0.426;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.03;exitY=0.853;exitDx=0;exitDy=0;exitPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-88" value="4. Retorna filas conteniendo registros con cs.id IS NULL o im.unit_cost IS NULL">
+          <mxGeometry relative="1" x="0.0037" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2001.23" y="1471.4699999999998" as="sourcePoint" />
+            <mxPoint x="1352.58" y="1474.1879999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-90" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="7. Cancela renderizado de la tabla dinámica y activa banner de alerta">
+          <mxGeometry relative="1" x="-0.4298" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="795" y="1573" />
+              <mxPoint x="795" y="1595" />
+            </Array>
+            <mxPoint x="745" y="1573" as="sourcePoint" />
+            <mxPoint x="745" y="1595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-91" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="45" width="10" x="2291" y="1433" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-93" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-88" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.042;exitY=0.939;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.033;entryY=0.644;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-83" value="6. 422 Unprocessable Entity { success: false, error:&amp;nbsp;&lt;div&gt;&quot;Inconsistencia de datos: existen consumos sin departamento asignado o materiales sin costo unitario parametrizado&quot; }&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0001" y="-1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1366.0299999999995" y="1541.9999999999995" as="sourcePoint" />
+            <mxPoint x="746.33" y="1544.06" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-94" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.019;entryY=0.264;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.162;exitY=0.098;exitDx=0;exitDy=0;exitPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-91" value="3. SELECT cs.name AS departamento, im.name AS material, SUM(tmu.quantity) AS total_qty, im.unit_cost, SUM(tmu.quantity * im.unit_cost) AS total_cost FROM ticket_material_usage tmu&amp;nbsp;&lt;div&gt;JOIN inventory_material im ON tmu.material_id = im.id JOIN ticket t ON tmu.ticket_id = t.ticket_id JOIN clinical_service cs ON t.service_id = cs.id WHERE tmu.assigned_at&amp;nbsp;&lt;/div&gt;&lt;div&gt;BETWEEN &#39;2026-08-01 00:00:00&#39; AND &#39;2026-08-31 23:59:59&#39; GROUP BY cs.id, im.id ORDER BY cs.name ASC&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1352" y="1444" as="sourcePoint" />
+            <mxPoint x="2290" y="1445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-95" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_FinanzasReportes" vertex="1">
+          <mxGeometry height="40" width="132" x="674" y="1326" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-96" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_FinanzasReportes" vertex="1">
+          <mxGeometry height="40" width="132" x="831" y="1889" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-97" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="1368" as="sourcePoint" />
+            <mxPoint x="740" y="1655.5900000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

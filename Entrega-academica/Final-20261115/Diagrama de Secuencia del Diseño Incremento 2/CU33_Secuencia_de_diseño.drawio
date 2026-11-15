@@ -1,0 +1,568 @@
+<mxfile host="Electron">
+  <diagram id="seq" name="Página-1">
+    <mxGraphModel dx="2879" dy="1250" grid="0" gridSize="10" guides="0" tooltips="0" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1700" pageHeight="2200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d0_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°24- caso de éxito" vertex="1">
+          <mxGeometry height="30" width="723" x="38" y="3" as="geometry" />
+        </mxCell>
+        <mxCell id="d2_title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°24— Excepción 3" vertex="1">
+          <mxGeometry height="30" width="723" x="213" y="1796" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-135" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=2;fontColor=#000000;fontFamily=Helvetica;" value="Caso de Uso N°24— Excepción 2" vertex="1">
+          <mxGeometry height="30" width="723" x="85" y="1204" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-136" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Administrador" vertex="1">
+          <mxGeometry height="60" width="31" x="1" y="1888" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-137" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="16" y="1978" as="sourcePoint" />
+            <mxPoint x="16" y="2225.55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-139" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="637" y="1931" as="sourcePoint" />
+            <mxPoint x="637" y="2290.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-140" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_ReportScheduler" vertex="1">
+          <mxGeometry height="40" width="120" x="899" y="1886" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-141" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="959" y="1929" as="sourcePoint" />
+            <mxPoint x="959" y="2289.7" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-142" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1591" y="1886" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-143" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1675" y="1926" as="sourcePoint" />
+            <mxPoint x="1675" y="2253.82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-144" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="229" width="10" x="11" y="1982" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-146" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.04;exitY=0.027;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.001;entryY=0.076;entryDx=0;entryDy=0;entryPerimeter=0;" target="c90vbPPHIPy1liW-Zpxw-150" value="1. Ejecución periódica de tarea programada: triggerScheduledReport(12)">
+          <mxGeometry relative="1" x="-0.0077" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="20.40000000000009" y="1996.3860000000004" as="sourcePoint" />
+            <mxPoint x="631.3199999999997" y="1994.0100000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-149" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.022;entryY=0.211;entryDx=0;entryDy=0;entryPerimeter=0;" target="3BWQC0XcRVjewWSFNIE1-67" value="2. SELECT * FROM kpi_metrics WHERE period = &#39;2026-08&#39;">
+          <mxGeometry relative="1" x="-0.0065" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="965" y="2011.44" as="sourcePoint" />
+            <mxPoint x="1164.85" y="2010.73" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-150" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="293" width="10" x="954" y="1978" as="geometry" />
+        </mxCell>
+        <mxCell id="c90vbPPHIPy1liW-Zpxw-189" edge="1" parent="1" source="3BWQC0XcRVjewWSFNIE1-67" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.033;entryY=0.644;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.058;exitY=0.923;exitDx=0;exitDy=0;exitPerimeter=0;" value="3. Retorna métricas consolidadas">
+          <mxGeometry relative="1" x="-0.0001" y="-1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1165.22" y="2036.23" as="sourcePoint" />
+            <mxPoint x="963.0000000000003" y="2035.8739999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-20" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Administrador" vertex="1">
+          <mxGeometry height="60" width="30" x="30" y="849" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-21" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="939" as="sourcePoint" />
+            <mxPoint x="45.79000000000002" y="1124.57" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-23" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="628" y="901" as="sourcePoint" />
+            <mxPoint x="628" y="1124.05" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_ReportScheduler" vertex="1">
+          <mxGeometry height="40" width="120" x="988" y="857" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-25" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1048" y="897" as="sourcePoint" />
+            <mxPoint x="1048" y="1137.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1115" y="857" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-27" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1199" y="897" as="sourcePoint" />
+            <mxPoint x="1199" y="1137.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="172" width="10" x="40" y="943" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="169" width="10" x="624" y="943" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-30" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.072;entryY=0.084;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-29" value="1. Omite periodicidad o ingresa correo inválido (e.g., &quot;gerencia@&quot;) y pulsa &quot;Guardar Programación&quot;">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="50.39999999999998" y="958.8499999999999" as="sourcePoint" />
+            <mxPoint x="503.12" y="956.22" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-31" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-29" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.04;exitY=0.968;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.075;entryY=0.953;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-28" value="4. Despliega alerta: &quot;Debe seleccionar una periodicidad válida e ingresar correos electrónicos con formato correcto&quot;">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="507.4699999999998" y="1105.5149999999999" as="sourcePoint" />
+            <mxPoint x="49" y="1105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-32" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="3. Cancela el envío (preventDefault) y resalta inputs defectuosos en rojo">
+          <mxGeometry relative="1" x="-0.623" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="685" y="1051" />
+              <mxPoint x="685" y="1073" />
+            </Array>
+            <mxPoint x="635" y="1051" as="sourcePoint" />
+            <mxPoint x="635" y="1073" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-33" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="2. Valida formulario en Alpine.js: !periodicity || !validateEmails(recipients) (true)">
+          <mxGeometry relative="1" x="-0.623" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="685" y="986" />
+              <mxPoint x="685" y="1008" />
+            </Array>
+            <mxPoint x="635" y="986" as="sourcePoint" />
+            <mxPoint x="635" y="1008" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-54" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Administrador" vertex="1">
+          <mxGeometry height="60" width="30" x="-104" y="153" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-55" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-89" y="243" as="sourcePoint" />
+            <mxPoint x="-88.21" y="729.97" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_TareasProgramadas" vertex="1">
+          <mxGeometry height="40" width="159" x="264" y="166" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-57" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="342" y="206" as="sourcePoint" />
+            <mxPoint x="342.90999999999997" y="726.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_ReportScheduler" vertex="1">
+          <mxGeometry height="40" width="120" x="714" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-59" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="774" y="209" as="sourcePoint" />
+            <mxPoint x="774" y="721.21" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1587" y="163" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-61" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1671" y="203" as="sourcePoint" />
+            <mxPoint x="1671" y="716.6258272879464" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="307" width="10" x="-94" y="247" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="296" width="10" x="338" y="248" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-64" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-62" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.037;entryY=0.055;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.001;exitY=0.053;exitDx=0;exitDy=0;exitPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-63" value="1. Configura reporte &quot;Desempeño mensual&quot;, añade destinatarios&amp;nbsp;&lt;div&gt;(&quot;gerencia@clinica.cl&quot;) y selecciona periodicidad&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-81.03" y="262.85" as="sourcePoint" />
+            <mxPoint x="518.2799999999997" y="261.196" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-65" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-63" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.019;exitY=0.976;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.884;entryY=0.947;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-62" value="11. Actualiza estado reactivo de la tabla y remueve marca de edición pendiente">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="516.2099999999999" y="535.5319999999999" as="sourcePoint" />
+            <mxPoint x="-81.03" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-67" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-71" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.984;exitY=0.156;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.09;entryY=0.136;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-72" value="3. INSERT INTO scheduled_report (report_type, cron_expr, recipients, is_active, created_at) VALUES&amp;nbsp;&lt;div&gt;(&#39;MONTHLY_PERFORMANCE&#39;, &#39;0 8 1 * *&#39;, &#39;gerencia@clinica.cl&#39;, 1, NOW())&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0009" y="7" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="979" y="367.00399999999996" as="sourcePoint" />
+            <mxPoint x="1754.62" y="367.48" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-68" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-72" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.064;exitY=0.299;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.984;entryY=0.219;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-71" value="4. Retorna { insertId: 12, status: &#39;SUCCESS&#39; }">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1754.210000000001" y="395.1719999999999" as="sourcePoint" />
+            <mxPoint x="983.66" y="392.28" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-69" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-71" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.913;entryY=0.543;entryDx=0;entryDy=0;exitX=-0.068;exitY=0.251;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-63" value="5. 201 Created { success: true, taskId: 12, message: &quot;Tarea programada con éxito&quot; }">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="965.39" y="405" as="sourcePoint" />
+            <mxPoint x="530" y="407.92" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="398" width="10" x="769" y="308" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="138" width="10" x="1666" y="352" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-74" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_TareasProgramadas" vertex="1">
+          <mxGeometry height="40" width="132" x="563" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-96" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_ConfigSLA" vertex="1">
+          <mxGeometry height="40" width="132" x="573" y="1889" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-101" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-63" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.001;entryY=0.024;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.783;exitY=0.235;exitDx=0;exitDy=0;exitPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-71" value="2. POST /api/reportes/programar { type: &#39;MONTHLY_PERFORMANCE&#39;,&amp;nbsp;&lt;div&gt;cronExpr: &#39;0 8 1 * *&#39;, recipients: [&#39;gerencia@clinica.cl&#39;] }&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="529" y="316.85" as="sourcePoint" />
+            <mxPoint x="966.07" y="314.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-105" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="7. Cronjob interno activa triggerScheduledReport(12) al cumplirse la fecha/hora programada">
+          <mxGeometry relative="1" x="-0.0674" y="-1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="830" y="423" />
+              <mxPoint x="830" y="445" />
+            </Array>
+            <mxPoint x="780" y="423" as="sourcePoint" />
+            <mxPoint x="780" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-107" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="Administrador" vertex="1">
+          <mxGeometry height="60" width="30" x="59" y="1315" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-108" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="74" y="1405" as="sourcePoint" />
+            <mxPoint x="74.79" y="1652.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-109" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="621" y="1367" as="sourcePoint" />
+            <mxPoint x="622.2" y="1692.57" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-114" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="28" width="10" x="69" y="1409" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-115" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="244" width="10" x="617" y="1409" as="geometry" />
+        </mxCell>
+        <mxCell id="5ev1qbUODsz5gDep_e_I-116" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;" value="1. Ejecución periódica de tarea previamente programada: triggerScheduledReport(12)">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="79.40000000000009" y="1424.85" as="sourcePoint" />
+            <mxPoint x="613.42" y="1422.85" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_ReportEngine" vertex="1">
+          <mxGeometry height="40" width="168" x="1761" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-8" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1845" y="204" as="sourcePoint" />
+            <mxPoint x="1845" y="715.59" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="38" width="10" x="1840" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_EmailSMTP" vertex="1">
+          <mxGeometry height="40" width="168" x="1935" y="164" as="geometry" />
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-11" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2019" y="204" as="sourcePoint" />
+            <mxPoint x="2019" y="719.62" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="38" width="10" x="2014" y="584" as="geometry" />
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-14" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-63" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=0.09;exitY=0.603;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.02;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-62" value="6. Despliega confirmación en pantalla: &quot;Programación de reporte gerencial guardada&quot;">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="518.2099999999999" y="425.5319999999999" as="sourcePoint" />
+            <mxPoint x="-85.00000000000013" y="424.99599999999987" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-15" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-71" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.028;entryY=0.74;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.984;exitY=0.379;exitDx=0;exitDy=0;exitPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-72" value="8. SELECT * FROM kpi_metrics WHERE period = &#39;2026-08&#39; AND status = &#39;CONSOLIDATED&#39;">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="980.38" y="456.12" as="sourcePoint" />
+            <mxPoint x="1752.62" y="456.48" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-16" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-72" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.099;exitY=0.987;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.883;entryY=0.464;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-71" value="9. Retorna métricas consolidadas (cumplimiento SLA, costos y tickets cerrados)">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1757" y="490.72" as="sourcePoint" />
+            <mxPoint x="983.41" y="488.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-17" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-71" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.06;exitY=0.535;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.059;entryY=0.082;entryDx=0;entryDy=0;entryPerimeter=0;" target="3BWQC0XcRVjewWSFNIE1-9" value="10. compileReportPdf({ template: &#39;monthly_summary&#39;, data: metricsPayload })">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="985" y="518.0039999999999" as="sourcePoint" />
+            <mxPoint x="2078.34" y="518" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-18" edge="1" parent="1" source="3BWQC0XcRVjewWSFNIE1-9" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.071;exitY=0.939;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.161;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-71" value="11. Retorna Buffer binario: reporte_gerencial_2026_08.pdf">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2076.99" y="550.72" as="sourcePoint" />
+            <mxPoint x="984.55" y="550.72" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-19" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-71" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.06;exitY=0.707;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.008;entryY=0.091;entryDx=0;entryDy=0;entryPerimeter=0;" target="3BWQC0XcRVjewWSFNIE1-12" value="12. sendMail({ to: &#39;gerencia@clinica.cl&#39;, subject: &#39;Reporte Gerencial Mensual&#39;, attachments: [pdfBuffer] })">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="983" y="586.0039999999999" as="sourcePoint" />
+            <mxPoint x="2343.65" y="586.48" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-20" edge="1" parent="1" source="3BWQC0XcRVjewWSFNIE1-12" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.017;exitY=0.948;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.161;entryY=0.796;entryDx=0;entryDy=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-71" value="13. 250 OK (Correo despachado a la cola del servidor SMTP)">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2343.45" y="619" as="sourcePoint" />
+            <mxPoint x="984.55" y="621.98" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-23" edge="1" parent="1" source="5ev1qbUODsz5gDep_e_I-71" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=1.085;exitY=0.897;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.068;entryY=0.105;entryDx=0;entryDy=0;entryPerimeter=0;" target="3BWQC0XcRVjewWSFNIE1-27" value="14. UPDATE scheduled_report SET last_run = NOW(), last_status = &#39;SENT&#39; WHERE id = 12;&amp;nbsp;&lt;div&gt;INSERT INTO scheduled_report_log (report_id, sent_at) VALUES (12, NOW());&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="986" y="663.0039999999999" as="sourcePoint" />
+            <mxPoint x="1752.77" y="663.48" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-24" edge="1" parent="1" source="3BWQC0XcRVjewWSFNIE1-27" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.13;entryY=0.983;entryDx=0;entryDy=0;exitX=-0.112;exitY=0.88;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-71" value="15. Confirma registro de ejecución y cierre de ciclo">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1750.7" y="697.72" as="sourcePoint" />
+            <mxPoint x="987" y="696" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="44" width="10" x="1666" y="657" as="geometry" />
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_ReportEngine" vertex="1">
+          <mxGeometry height="40" width="168" x="1291" y="857" as="geometry" />
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-34" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1375" y="897" as="sourcePoint" />
+            <mxPoint x="1375" y="1136.59" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_EmailSMTP" vertex="1">
+          <mxGeometry height="40" width="168" x="1465" y="857" as="geometry" />
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-37" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1549" y="897" as="sourcePoint" />
+            <mxPoint x="1549" y="1140.87" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-39" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.041;entryY=0.221;entryDx=0;entryDy=0;entryPerimeter=0;" target="3BWQC0XcRVjewWSFNIE1-50" value="2. SELECT * FROM kpi_metrics WHERE period = &#39;2026-08&#39; AND status = &#39;CONSOLIDATED&#39;">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="627.0000000000001" y="1453.85" as="sourcePoint" />
+            <mxPoint x="1182.78" y="1452.48" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="C_ReportScheduler" vertex="1">
+          <mxGeometry height="40" width="120" x="1222" y="1324" as="geometry" />
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-41" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1282" y="1364" as="sourcePoint" />
+            <mxPoint x="1281.11" y="1655.48" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="DB_MySQL" vertex="1">
+          <mxGeometry height="40" width="168" x="1349" y="1324" as="geometry" />
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-43" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1433" y="1364" as="sourcePoint" />
+            <mxPoint x="1433" y="1604.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_ReportEngine" vertex="1">
+          <mxGeometry height="40" width="168" x="1765" y="1887" as="geometry" />
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-45" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1849" y="1927" as="sourcePoint" />
+            <mxPoint x="1849" y="2166.59" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="S_EmailSMTP" vertex="1">
+          <mxGeometry height="40" width="168" x="1939" y="1887" as="geometry" />
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-47" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=6 6;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2023" y="1927" as="sourcePoint" />
+            <mxPoint x="2023" y="2170.87" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-48" edge="1" parent="1" source="3BWQC0XcRVjewWSFNIE1-50" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.075;entryY=0.953;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.007;exitY=0.874;exitDx=0;exitDy=0;exitPerimeter=0;" value="3. Retorna datos y métricas consolidadas">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1181.37" y="1474.7" as="sourcePoint" />
+            <mxPoint x="629" y="1475.74" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-49" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.034;entryY=0.139;entryDx=0;entryDy=0;entryPerimeter=0;" target="3BWQC0XcRVjewWSFNIE1-51" value="4. compileReportPdf({ template: &#39;monthly_summary&#39;, data: metricsPayload })">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="629.0000000000001" y="1495.59" as="sourcePoint" />
+            <mxPoint x="1334.84" y="1492.2" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="34" width="10" x="1277" y="1443" as="geometry" />
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="41" width="10" x="1428" y="1485" as="geometry" />
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-53" edge="1" parent="1" source="3BWQC0XcRVjewWSFNIE1-51" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;exitX=-0.03;exitY=0.869;exitDx=0;exitDy=0;exitPerimeter=0;" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(236, 236, 236);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20edge%3D%221%22%20parent%3D%221%22%20style%3D%22html%3D1%3BendArrow%3Dopen%3BendFill%3D0%3Bdashed%3D1%3BstrokeColor%3D%23000000%3BfontColor%3D%23000000%3BfontSize%3D11%3BverticalAlign%3Dbottom%3BentryX%3D1.075%3BentryY%3D0.953%3BentryDx%3D0%3BentryDy%3D0%3BentryPerimeter%3D0%3BexitX%3D-0.007%3BexitY%3D0.874%3BexitDx%3D0%3BexitDy%3D0%3BexitPerimeter%3D0%3B%22%20value%3D%223.%20Retorna%20datos%20y%20m%C3%A9tricas%20consolidadas%22%3E%3CmxGeometry%20relative%3D%221%22%20x%3D%22-0.2402%22%20y%3D%2225%22%20as%3D%22geometry%22%3E%3CmxPoint%20as%3D%22offset%22%2F%3E%3CmxPoint%20x%3D%221195%22%20y%3D%221485%22%20as%3D%22sourcePoint%22%2F%3E%3CmxPoint%20x%3D%22639%22%20y%3D%221485.74%22%20as%3D%22targetPoint%22%2F%3E%3C%2FmxGeometry%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1334" y="1518" as="sourcePoint" />
+            <mxPoint x="629.7" y="1524.37" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-54" connectable="0" parent="3BWQC0XcRVjewWSFNIE1-53" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5. Error: PDF_RENDER_FAILED (Fallo en motor de renderizado / Timeout al compilar plantilla)" vertex="1">
+          <mxGeometry relative="1" x="0.0222" y="-2" as="geometry">
+            <mxPoint y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-55" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="6. Captura excepción (.catch) y cancela solicitud de despacho a S_EmailSMTP">
+          <mxGeometry relative="1" x="-0.623" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="677" y="1546" />
+              <mxPoint x="677" y="1568" />
+            </Array>
+            <mxPoint x="627" y="1546" as="sourcePoint" />
+            <mxPoint x="627" y="1568" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-57" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.003;entryY=0.124;entryDx=0;entryDy=0;entryPerimeter=0;" target="3BWQC0XcRVjewWSFNIE1-58" value="7. UPDATE scheduled_report SET last_run = NOW(), last_status = &#39;FAILED&#39; WHERE id = 12; INSERT INTO system_error_log&amp;nbsp;&lt;div&gt;(scope, message, ref_id, created_at) VALUES (&#39;REPORT_COMPILE&#39;, &#39;Error al compilar PDF mensual&#39;, 12, NOW());&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0039" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="628.0000000000001" y="1607.73" as="sourcePoint" />
+            <mxPoint x="1275.5800000000004" y="1605.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="1276" y="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-59" edge="1" parent="1" source="3BWQC0XcRVjewWSFNIE1-58" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.033;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.065;exitY=0.948;exitDx=0;exitDy=0;exitPerimeter=0;" target="5ev1qbUODsz5gDep_e_I-115" value="8. Confirma actualización de estado con error y registro en bitácora">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1183" y="1638" as="sourcePoint" />
+            <mxPoint x="627" y="1638.74" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;fontSize=12;" value="V_TareasProgramadas" vertex="1">
+          <mxGeometry height="40" width="132" x="556" y="1327" as="geometry" />
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-66" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=-0.024;entryY=0.198;entryDx=0;entryDy=0;entryPerimeter=0;" target="3BWQC0XcRVjewWSFNIE1-68" value="4. compileReportPdf({ template: &#39;monthly_summary&#39;, data: metricsPayload })">
+          <mxGeometry relative="1" x="-0.0065" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="964" y="2063" as="sourcePoint" />
+            <mxPoint x="1346.79" y="2063" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-67" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="1670" y="2004" as="geometry" />
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-68" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="1844" y="2058" as="geometry" />
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-69" edge="1" parent="1" source="3BWQC0XcRVjewWSFNIE1-68" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.033;entryY=0.644;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" value="5. Retorna Buffer binario: reporte_gerencial_2026_08.pdf">
+          <mxGeometry relative="1" x="-0.0001" y="-1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1168" y="2085.13" as="sourcePoint" />
+            <mxPoint x="964.0000000000003" y="2085.004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="2018" y="2107" as="geometry" />
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-71" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="3BWQC0XcRVjewWSFNIE1-70" value="6. sendMail({ to: &#39;gerencia@clinica.cl&#39;, subject: &#39;Reporte Gerencial Mensual&#39;, attachments: [pdfBuffer] })">
+          <mxGeometry relative="1" x="-0.0065" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="966" y="2116" as="sourcePoint" />
+            <mxPoint x="1348.79" y="2116" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-72" edge="1" parent="1" source="3BWQC0XcRVjewWSFNIE1-70" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.033;entryY=0.644;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.034;exitY=0.87;exitDx=0;exitDy=0;exitPerimeter=0;" value="7. Error: ECONNREFUSED / SMTP 535 (Fallo de conexión o autenticación rechazada por el servidor de correo)">
+          <mxGeometry relative="1" x="-0.0019" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1348" y="2138" as="sourcePoint" />
+            <mxPoint x="965.0000000000003" y="2140.004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-73" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;align=left;" value="8. Captura excepción (.catch): detecta fallo en capa de transporte de correo">
+          <mxGeometry relative="1" x="-0.623" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1011" y="2161" />
+              <mxPoint x="1011" y="2183" />
+            </Array>
+            <mxPoint x="961" y="2161" as="sourcePoint" />
+            <mxPoint x="961" y="2183" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-74" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="1670" y="2211" as="geometry" />
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-75" edge="1" parent="1" source="c90vbPPHIPy1liW-Zpxw-150" style="html=1;endArrow=block;endFill=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=0.001;entryY=0.12;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.176;exitY=0.814;exitDx=0;exitDy=0;exitPerimeter=0;" target="3BWQC0XcRVjewWSFNIE1-74" value="9. UPDATE scheduled_report SET last_run = NOW(), last_status = &#39;FAILED_DELIVERY&#39; WHERE id = 12; INSERT INTO system_error_log&amp;nbsp;&lt;div&gt;(scope, message, ref_id, created_at) VALUES (&#39;SMTP_DISPATCH&#39;, &#39;Fallo al entregar reporte vía correo&#39;, 12, NOW());&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0065" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="964" y="2203.44" as="sourcePoint" />
+            <mxPoint x="1167" y="2203" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3BWQC0XcRVjewWSFNIE1-78" edge="1" parent="1" source="3BWQC0XcRVjewWSFNIE1-74" style="html=1;endArrow=open;endFill=0;dashed=1;strokeColor=#000000;fontColor=#000000;fontSize=11;verticalAlign=bottom;entryX=1.103;entryY=0.9;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" target="c90vbPPHIPy1liW-Zpxw-150" value="10. Confirma actualización de estado con error y persistencia en log de auditoría">
+          <mxGeometry relative="1" x="-0.0001" y="-1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1345" y="2224" as="sourcePoint" />
+            <mxPoint x="962.0000000000003" y="2226.004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
